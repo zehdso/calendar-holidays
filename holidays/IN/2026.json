@@ -1,0 +1,733 @@
+[
+  {
+    "name": "New Year's Day",
+    "description": "New Year's Day is celebrated many countries such as in India on the January 1 in the Gregorian calendar.",
+    "date": {
+      "iso": "2026-01-01"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Hazarat Ali's Birthday",
+    "description": "Hazarat Ali's Birthday is a restricted holiday in India",
+    "date": {
+      "iso": "2026-01-03"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Pongal",
+    "description": "Many southern states in India, particularly Tamil Nadu, celebrate Pongal as a thanksgiving for the good harvest season in mid-January every year.",
+    "date": {
+      "iso": "2026-01-14"
+    },
+    "type": [
+      "Hinduism",
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Makar Sankranti",
+    "description": "Makar Sankranti is a restricted holiday in India",
+    "date": {
+      "iso": "2026-01-14"
+    },
+    "type": [
+      "Hinduism",
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Vasant Panchami",
+    "description": "Vasant Panchami, or India's spring festival, is a Hindu event that includes special rituals and highlights the start of spring.",
+    "date": {
+      "iso": "2026-01-23"
+    },
+    "type": [
+      "Hinduism",
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Republic Day",
+    "description": "India's Republic Day marks the anniversary of the adoption of the Indian constitution. It is an annual gazetted holiday in India on January 26.",
+    "date": {
+      "iso": "2026-01-26"
+    },
+    "type": [
+      "National holiday"
+    ]
+  },
+  {
+    "name": "Guru Ravidas Jayanti",
+    "description": "Guru Ravidas Jayanti is a restricted holiday in India",
+    "date": {
+      "iso": "2026-02-01"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Maharishi Dayanand Saraswati Jayanti",
+    "description": "Maharishi Dayanand Saraswati Jayanti is a restricted holiday in India",
+    "date": {
+      "iso": "2026-02-12"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Valentine's Day",
+    "description": "Valentine's Day is celebrated in many places worldwide, including in India, on February 14 each year.",
+    "date": {
+      "iso": "2026-02-14"
+    },
+    "type": [
+      "Observance"
+    ]
+  },
+  {
+    "name": "Maha Shivaratri",
+    "description": "Maha Shivratri is an annual festival dedicated to Shiva, the Hindu God of destruction. For devotees, is a day of reflection and meditation.",
+    "date": {
+      "iso": "2026-02-15"
+    },
+    "type": [
+      "Hinduism",
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Lunar New Year",
+    "description": "Lunar New year is an annual global celebration in many countries including India.",
+    "date": {
+      "iso": "2026-02-17"
+    },
+    "type": [
+      "Observance"
+    ]
+  },
+  {
+    "name": "Ramadan Start",
+    "description": "Ramadan is a period of prayer, reflection and fasting for many Muslims worldwide. It is the ninth month in the Islamic calendar.",
+    "date": {
+      "iso": "2026-02-19"
+    },
+    "type": [
+      "Observance"
+    ]
+  },
+  {
+    "name": "Shivaji Jayanti",
+    "description": "Shivaji Jayanti is a restricted holiday in India",
+    "date": {
+      "iso": "2026-02-19"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Holika Dahana",
+    "description": "Holika Dahana is a restricted holiday in India",
+    "date": {
+      "iso": "2026-03-03"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Holi",
+    "description": "Holi is a spring festival of colors celebrated by Hindus, Sikhs and others. It celebrates the triumph of good over evil and the upcoming season of spring. The festival can last up to sixteen days.",
+    "date": {
+      "iso": "2026-03-04"
+    },
+    "type": [
+      "National holiday",
+      "Hinduism"
+    ]
+  },
+  {
+    "name": "Ugadi",
+    "description": "Ugadi is a restricted holiday in India",
+    "date": {
+      "iso": "2026-03-19"
+    },
+    "type": [
+      "Hinduism",
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Gudi Padwa",
+    "description": "Gudi Padwa is a restricted holiday in India",
+    "date": {
+      "iso": "2026-03-19"
+    },
+    "type": [
+      "Hinduism",
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Jamat Ul-Vida",
+    "description": "Jamat Ul-Vida is a restricted holiday in India",
+    "date": {
+      "iso": "2026-03-20"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "March Equinox",
+    "description": "March Equinox in India (New Delhi)",
+    "date": {
+      "iso": "2026-03-20"
+    },
+    "type": [
+      "Season"
+    ]
+  },
+  {
+    "name": "Ramzan Id",
+    "description": "One day of Eid-ul-Fitar, which marks the end of Ramadan, is a gazetted holiday in India.",
+    "date": {
+      "iso": "2026-03-21"
+    },
+    "type": [
+      "National holiday"
+    ]
+  },
+  {
+    "name": "Rama Navami",
+    "description": "Rama Navami is a Hindu festival that celebrates the birth of Rama, the first son of King Dasaratha of Ayodhya.",
+    "date": {
+      "iso": "2026-03-26"
+    },
+    "type": [
+      "National holiday",
+      "Hinduism"
+    ]
+  },
+  {
+    "name": "Mahavir Jayanti",
+    "description": "Mahavir Jayanti is a gazetted holiday in India",
+    "date": {
+      "iso": "2026-03-31"
+    },
+    "type": [
+      "National holiday"
+    ]
+  },
+  {
+    "name": "First day of Passover",
+    "description": "During Passover, the Jewish people remember the liberation of the Israelites from slavery, their exodus from Egypt, and that their first-born children were spared during the 10th plague, as told in the Haggadah.",
+    "date": {
+      "iso": "2026-04-02"
+    },
+    "type": [
+      "Observance"
+    ]
+  },
+  {
+    "name": "Maundy Thursday",
+    "description": "Maundy Thursday is a Christian observance on the Thursday during Holy Week. It is the day before Good Friday.",
+    "date": {
+      "iso": "2026-04-02"
+    },
+    "type": [
+      "Observance",
+      "Christian"
+    ]
+  },
+  {
+    "name": "Good Friday",
+    "description": "Many Christians commemorate Jesus Christ's crucifixion and death on Good Friday. It is a gazetted holiday in India.",
+    "date": {
+      "iso": "2026-04-03"
+    },
+    "type": [
+      "National holiday"
+    ]
+  },
+  {
+    "name": "Easter Day",
+    "description": "Easter Sunday commemorates Jesus Christ's resurrection, according to Christian belief.",
+    "date": {
+      "iso": "2026-04-05"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Vaisakhi",
+    "description": "Vaisakhi, also known as Baisakhi, is a harvest celebration on either April 13 or April 14 in the Gregorian calendar. It is one of India's most notable celebrations.",
+    "date": {
+      "iso": "2026-04-14"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Mesadi",
+    "description": "Mesadi is a restricted holiday in India",
+    "date": {
+      "iso": "2026-04-14"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Ambedkar Jayanti",
+    "description": "Ambedkar Jayanti is a observance in India",
+    "date": {
+      "iso": "2026-04-14"
+    },
+    "type": [
+      "Observance"
+    ]
+  },
+  {
+    "name": "Bahag Bihu",
+    "description": "Bahag Bihu is a restricted holiday in India",
+    "date": {
+      "iso": "2026-04-15"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "International Worker's Day",
+    "description": "",
+    "date": {
+      "iso": "2026-05-01"
+    },
+    "type": [
+      "Observance"
+    ]
+  },
+  {
+    "name": "Buddha Purnima",
+    "description": "Vesak, also known as Buddha Purnima, celebrates of Gautama Buddha's birth, enlightenment and death.",
+    "date": {
+      "iso": "2026-05-01"
+    },
+    "type": [
+      "National holiday"
+    ]
+  },
+  {
+    "name": "Birthday of Rabindranath",
+    "description": "Birthday of Rabindranath is a restricted holiday in India",
+    "date": {
+      "iso": "2026-05-09"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Mother's Day",
+    "description": "Mother's Day celebrates the achievements and efforts of mothers and mother figures.",
+    "date": {
+      "iso": "2026-05-10"
+    },
+    "type": [
+      "Observance"
+    ]
+  },
+  {
+    "name": "Bakrid",
+    "description": "For India's more than 200 million Muslims, Bakrid, the Festival of Sacrifice, is one of the holiest days of the year.",
+    "date": {
+      "iso": "2026-05-27"
+    },
+    "type": [
+      "National holiday"
+    ]
+  },
+  {
+    "name": "Father's Day",
+    "description": "Father's Day celebrates fatherhood and male parenting on different dates worldwide.",
+    "date": {
+      "iso": "2026-06-21"
+    },
+    "type": [
+      "Observance"
+    ]
+  },
+  {
+    "name": "June Solstice",
+    "description": "June Solstice in India (New Delhi)",
+    "date": {
+      "iso": "2026-06-21"
+    },
+    "type": [
+      "Season"
+    ]
+  },
+  {
+    "name": "Muharram/Ashura",
+    "description": "Muharram, or the Islamic New Year, is a public holiday in India.",
+    "date": {
+      "iso": "2026-06-26"
+    },
+    "type": [
+      "National holiday"
+    ]
+  },
+  {
+    "name": "Rath Yatra",
+    "description": "Rath Yatra is a restricted holiday in India",
+    "date": {
+      "iso": "2026-07-16"
+    },
+    "type": [
+      "Hinduism",
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Friendship Day",
+    "description": "For many Indian people, the first Sunday of August is dedicated to celebrating their best friends.",
+    "date": {
+      "iso": "2026-08-02"
+    },
+    "type": [
+      "Observance"
+    ]
+  },
+  {
+    "name": "Independence Day",
+    "description": "India's Independence Day is an annual gazetted holiday on August 15 to commemorate the day India became an independent nation.",
+    "date": {
+      "iso": "2026-08-15"
+    },
+    "type": [
+      "National holiday"
+    ]
+  },
+  {
+    "name": "Milad un-Nabi",
+    "description": "Milad un-Nabi is a gazetted holiday in India and marks the Prophet Muhammad's birthday.",
+    "date": {
+      "iso": "2026-08-26"
+    },
+    "type": [
+      "National holiday"
+    ]
+  },
+  {
+    "name": "Onam",
+    "description": "Onam is a restricted holiday in India",
+    "date": {
+      "iso": "2026-08-26"
+    },
+    "type": [
+      "Hinduism",
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Raksha Bandhan",
+    "description": "Raksha Bandhan is a Hindu festival that is celebrated on the full moon of the Hindu month of Shravana (Shravan Poornima). The day is also sometimes referred to as Brother and Sister Day because it honors the relationship between brother and sister.",
+    "date": {
+      "iso": "2026-08-28"
+    },
+    "type": [
+      "Hinduism",
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Janmashtami",
+    "description": "Krishna Janmashtami is a Hindu festival that celebrates the birth of Krishna, the eighth incarnation of the god Vishnu. It is celebrated on the eighth day of the Hindu month of Bhadrava (Bhadrapada), which is usually in August or September.",
+    "date": {
+      "iso": "2026-09-04"
+    },
+    "type": [
+      "National holiday",
+      "Hinduism"
+    ]
+  },
+  {
+    "name": "Janmashtami (Smarta)",
+    "description": "Janmashtami (Smarta) is a observance in India",
+    "date": {
+      "iso": "2026-09-04"
+    },
+    "type": [
+      "Observance"
+    ]
+  },
+  {
+    "name": "Ganesh Chaturthi",
+    "description": "Ganesh Chaturthi is the great Ganesha festival that celebrates the birthday of Lord Ganesha during the Hindu Month of Bhadra, which usually falls between mid-August and mid-September. It is also known as Vinayaka Chaturthi and can last up to 10 days.",
+    "date": {
+      "iso": "2026-09-14"
+    },
+    "type": [
+      "Hinduism",
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "September Equinox",
+    "description": "September Equinox in India (New Delhi)",
+    "date": {
+      "iso": "2026-09-23"
+    },
+    "type": [
+      "Season"
+    ]
+  },
+  {
+    "name": "Mahatma Gandhi Jayanti",
+    "description": "Mahatma Gandhi's birthday is an annual gazetted holiday in India on October 2.",
+    "date": {
+      "iso": "2026-10-02"
+    },
+    "type": [
+      "National holiday"
+    ]
+  },
+  {
+    "name": "First Day of Sharad Navratri",
+    "description": "First Day of Sharad Navratri is a observance and Hindu holiday in India",
+    "date": {
+      "iso": "2026-10-11"
+    },
+    "type": [
+      "Observance",
+      "Hinduism"
+    ]
+  },
+  {
+    "name": "First Day of Durga Puja Festivities",
+    "description": "First Day of Durga Puja Festivities is a observance and Hindu holiday in India",
+    "date": {
+      "iso": "2026-10-17"
+    },
+    "type": [
+      "Observance",
+      "Hinduism"
+    ]
+  },
+  {
+    "name": "Maha Saptami",
+    "description": "Maha Saptami is a restricted holiday in India",
+    "date": {
+      "iso": "2026-10-18"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Maha Ashtami",
+    "description": "Maha Ashtami is a restricted holiday in India",
+    "date": {
+      "iso": "2026-10-19"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Dussehra",
+    "description": "Dussehra, also known as Vijaya Dashami, is an Indian festival that celebrates good forces over evil forces. It spans for 10 days and is celebrated in varied traditions across India.",
+    "date": {
+      "iso": "2026-10-20"
+    },
+    "type": [
+      "National holiday",
+      "Hinduism"
+    ]
+  },
+  {
+    "name": "Maharishi Valmiki Jayanti",
+    "description": "Maharishi Valmiki Jayanti is a restricted holiday in India",
+    "date": {
+      "iso": "2026-10-26"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Karaka Chaturthi",
+    "description": "Karwa Chauth is an annual one-day festival that honors the Hindu god Shiva and goddess Parvati. It is celebrated by all married Hindu women on the fourth day after the full moon in the Hindu month of Kartik, which is usually in October.",
+    "date": {
+      "iso": "2026-10-29"
+    },
+    "type": [
+      "Hinduism",
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Halloween",
+    "description": "Halloween is a festive occasion that is celebrated in many countries on October 31 each year.",
+    "date": {
+      "iso": "2026-10-31"
+    },
+    "type": [
+      "Observance"
+    ]
+  },
+  {
+    "name": "Naraka Chaturdasi",
+    "description": "Naraka Chaturdasi is a restricted holiday in India",
+    "date": {
+      "iso": "2026-11-08"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Diwali/Deepavali",
+    "description": "Diwali is a festival of physical and spiritual light celebrated in October or November each year.",
+    "date": {
+      "iso": "2026-11-08"
+    },
+    "type": [
+      "National holiday",
+      "Hinduism"
+    ]
+  },
+  {
+    "name": "Govardhan Puja",
+    "description": "Govardhan Puja is a restricted holiday in India",
+    "date": {
+      "iso": "2026-11-09"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Bhai Duj",
+    "description": "Bhai Duj is a Hindu festival that celebrates the relationship between a brother and a sister on the second day after the new moon in the Hindu month of Kartika.",
+    "date": {
+      "iso": "2026-11-11"
+    },
+    "type": [
+      "Hinduism",
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Chhat Puja (Pratihar Sashthi/Surya Sashthi)",
+    "description": "Chhat Puja (Pratihar Sashthi/Surya Sashthi) is a restricted holiday in India",
+    "date": {
+      "iso": "2026-11-15"
+    },
+    "type": [
+      "Hinduism",
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Guru Nanak Jayanti",
+    "description": "Guru Nanak Jayanti is a gazetted holiday in India",
+    "date": {
+      "iso": "2026-11-24"
+    },
+    "type": [
+      "National holiday"
+    ]
+  },
+  {
+    "name": "Guru Tegh Bahadur's Martyrdom Day",
+    "description": "Guru Tegh Bahadur's Martyrdom Day is a restricted holiday in India",
+    "date": {
+      "iso": "2026-11-24"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "First Day of Hanukkah",
+    "description": "Hanukkah, also known as Chanukah or the Festival of Lights, is celebrated for 8 days between the 25th day of the month of Kislev to the second day of Tevet in the Hebrew calendar.",
+    "date": {
+      "iso": "2026-12-05"
+    },
+    "type": [
+      "Observance"
+    ]
+  },
+  {
+    "name": "Last day of Hanukkah",
+    "description": "Hanukkah, also known as Chanukah or the Festival of Lights, is celebrated for eight days between the 25th day of the month of Kislev to the second day of Tevet in the Hebrew calendar.",
+    "date": {
+      "iso": "2026-12-12"
+    },
+    "type": [
+      "Observance"
+    ]
+  },
+  {
+    "name": "December Solstice",
+    "description": "December Solstice in India (New Delhi)",
+    "date": {
+      "iso": "2026-12-22"
+    },
+    "type": [
+      "Season"
+    ]
+  },
+  {
+    "name": "Hazarat Ali's Birthday",
+    "description": "Hazarat Ali's Birthday is a restricted holiday in India",
+    "date": {
+      "iso": "2026-12-23"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Christmas Eve",
+    "description": "Christmas Eve is the day before Christmas Day and falls on December 24 in the Gregorian calendar.",
+    "date": {
+      "iso": "2026-12-24"
+    },
+    "type": [
+      "Optional holiday"
+    ]
+  },
+  {
+    "name": "Christmas",
+    "description": "Many Christians celebrate Christmas Day, which is a gazetted holiday in India, on December 25 each year.",
+    "date": {
+      "iso": "2026-12-25"
+    },
+    "type": [
+      "National holiday"
+    ]
+  },
+  {
+    "name": "New Year's Eve",
+    "description": "New Year's Eve is the last day of the year, December 31, in the Gregorian calendar.",
+    "date": {
+      "iso": "2026-12-31"
+    },
+    "type": [
+      "Observance"
+    ]
+  }
+]
