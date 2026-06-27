@@ -17,7 +17,8 @@ jobs:
       - name: Setup JQ
         run: |
           if ! command -v jq &> /dev/null; then
-            sudo apt-get update && sudo apt-get install -y jq
+            sudo apt-get update
+            sudo apt-get install -y jq
           fi
 
       - name: Fetch and Validate Indian Holidays
@@ -25,80 +26,96 @@ jobs:
           CALENDARIFIC_API_KEY: ${{ secrets.CALENDARIFIC_API_KEY }}
         run: |
           mkdir -p holidays/IN
-          
+
           if [ -z "$CALENDARIFIC_API_KEY" ]; then
             echo "::error::CALENDARIFIC_API_KEY secret is not set!"
             exit 1
           fi
 
           echo "Fetching Indian holidays for 2026..."
-          
-          # Fetch with curl, incorporating retry options
+
           HTTP_CODE=$(curl -s -w "%{http_code}" -o temp_response.json \
             --retry 3 --retry-delay 5 \
             "https://calendarific.com/api/v2/holidays?api_key=${CALENDARIFIC_API_KEY}&country=IN&year=2026")
 
-          if [ "$HTTP_CODE" -ne 200 ]; then
+          if [ "$HTTP_CODE" != "200" ]; then
             echo "::error::API request failed with HTTP status code $HTTP_CODE"
-            if [ -f temp_response.json ]; then
-              cat temp_response.json >&2
-              rm -f temp_response.json
-            fi
+            cat temp_response.json
             exit 1
           fi
 
-          # Verify that it is a valid JSON document
-          if ! jq empty temp_response.json 2>/dev/null; then
-            echo "::error::Received response is not a valid JSON document!"
-            rm -f temp_response.json
+          if ! jq empty temp_response.json >/dev/null 2>&1; then
+            echo "::error::Invalid JSON returned from Calendarific."
+            cat temp_response.json
             exit 1
           fi
 
-          # Verify meta.code
           META_CODE=$(jq -r '.meta.code // empty' temp_response.json)
+
           if [ "$META_CODE" != "200" ]; then
-            ERROR_MSG=$(jq -r '.meta.error_detail // "No error detail"' temp_response.json)
-            echo "::error::API returned error status: $META_CODE. Detail: $ERROR_MSG"
-            cat temp_response.json >&2
-            rm -f temp_response.json
+            ERROR_MSG=$(jq -r '.meta.error_detail // "Unknown error"' temp_response.json)
+            echo "::error::$ERROR_MSG"
+            cat temp_response.json
             exit 1
           fi
 
-          # Verify holidays exists and is an array
-          HAS_HOLIDAYS=$(jq '.response.holidays | isarray' temp_response.json)
-          if [ "$HAS_HOLIDAYS" != "true" ]; then
-            echo "::error::API response is missing holidays array or is malformed."
-            cat temp_response.json >&2
-            rm -f temp_response.json
-            exit 1
-          fi
-
-          # Verify list is not empty
           HOLIDAYS_COUNT=$(jq '.response.holidays | length' temp_response.json)
+
           if [ "$HOLIDAYS_COUNT" -eq 0 ]; then
-            echo "::error::API returned an empty holidays array."
-            rm -f temp_response.json
+            echo "::error::No holidays returned."
             exit 1
           fi
 
-          echo "Successfully fetched and validated $HOLIDAYS_COUNT holidays for India."
-          
-          # Format JSON and save to final location
-          jq '.' temp_response.json > holidays/IN/2026.json
-          rm -f temp_response.json
+          echo "Fetched $HOLIDAYS_COUNT holidays."
+
+          jq '[.response.holidays[] | {
+            name,
+            description,
+            date: {iso: .date.iso},
+            type
+          }]' temp_response.json > temp_filtered.json
+
+          if [ -f holidays/IN/2026.json ] && cmp -s holidays/IN/2026.json temp_filtered.json; then
+            echo "No changes."
+            rm temp_filtered.json temp_response.json
+            exit 0
+          fi
+
+          mv temp_filtered.json holidays/IN/2026.json
+
+          mkdir -p holidays
+
+          UPDATED=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+
+          jq -n \
+            --arg updated "$UPDATED" \
+            --argjson count "$HOLIDAYS_COUNT" \
+            '{
+              version:1,
+              updated:$updated,
+              countries:{
+                IN:{
+                  "2026":{
+                    lastUpdated:$updated,
+                    holidayCount:$count
+                  }
+                }
+              }
+            }' > holidays/metadata.json
+
+          rm temp_response.json
 
       - name: Commit and Push Changes
         run: |
-          # Configure Git
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Check if the file changed
-          if git diff --quiet holidays/IN/2026.json; then
-            echo "No changes detected in holidays/IN/2026.json. Skipping commit."
-          else
-            echo "Changes detected. Committing and pushing updated holidays..."
-            git add holidays/IN/2026.json
-            git commit -m "Update Indian holidays for 2026 [skip ci]"
-            git push
+          git add holidays/
+
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+            exit 0
           fi
+
+          git commit -m "Update Indian holidays [skip ci]"
+          git push
