@@ -10,30 +10,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-01-01",
+      "iso": "2029-01-01",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 1,
         "day": 1
-      }
-    }
-  },
-  {
-    "name": "Hazarat Ali's Birthday",
-    "description": "Hazarat Ali's Birthday is a restricted holiday in India",
-    "type": [
-      "Optional holiday"
-    ],
-    "primary_type": "Restricted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/harazart-ali-birthday",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-01-03",
-      "datetime": {
-        "year": 2026,
-        "month": 1,
-        "day": 3
       }
     }
   },
@@ -49,9 +30,9 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-01-14",
+      "iso": "2029-01-14",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 1,
         "day": 14
       }
@@ -69,11 +50,30 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-01-14",
+      "iso": "2029-01-14",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 1,
         "day": 14
+      }
+    }
+  },
+  {
+    "name": "Ramadan Start",
+    "description": "Ramadan is a period of prayer, reflection and fasting for many Muslims worldwide. It is the ninth month in the Islamic calendar.",
+    "type": [
+      "Observance"
+    ],
+    "primary_type": "Observance",
+    "canonical_url": "https://calendarific.com/holiday/india/ramadan-begins",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2029-01-17",
+      "datetime": {
+        "year": 2029,
+        "month": 1,
+        "day": 17
       }
     }
   },
@@ -89,11 +89,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-01-23",
+      "iso": "2029-01-19",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 1,
-        "day": 23
+        "day": 19
       }
     }
   },
@@ -108,88 +108,31 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-01-26",
+      "iso": "2029-01-26",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 1,
         "day": 26
       }
     }
   },
   {
-    "name": "Guru Ravidas Jayanti",
-    "description": "Guru Ravidas Jayanti is a restricted holiday in India",
-    "type": [
-      "Optional holiday"
-    ],
-    "primary_type": "Restricted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/guru-ravidas-jayanti",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-02-01",
-      "datetime": {
-        "year": 2026,
-        "month": 2,
-        "day": 1
-      }
-    }
-  },
-  {
-    "name": "Maharishi Dayanand Saraswati Jayanti",
-    "description": "Maharishi Dayanand Saraswati Jayanti is a restricted holiday in India",
-    "type": [
-      "Optional holiday"
-    ],
-    "primary_type": "Restricted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/maharishi-dayanand-saraswati-jayanti",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-02-12",
-      "datetime": {
-        "year": 2026,
-        "month": 2,
-        "day": 12
-      }
-    }
-  },
-  {
-    "name": "Valentine's Day",
-    "description": "Valentine's Day is celebrated in many places worldwide, including in India, on February 14 each year.",
-    "type": [
-      "Observance"
-    ],
-    "primary_type": "Observance",
-    "canonical_url": "https://calendarific.com/holiday/india/valentine-day",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-02-14",
-      "datetime": {
-        "year": 2026,
-        "month": 2,
-        "day": 14
-      }
-    }
-  },
-  {
-    "name": "Maha Shivaratri",
+    "name": "Maha Shivaratri/Shivaratri",
     "description": "Maha Shivratri is an annual festival dedicated to Shiva, the Hindu God of destruction. For devotees, is a day of reflection and meditation.",
     "type": [
-      "Hinduism",
-      "Optional holiday"
+      "National holiday",
+      "Hinduism"
     ],
-    "primary_type": "Restricted Holiday",
+    "primary_type": "Gazetted Holiday",
     "canonical_url": "https://calendarific.com/holiday/india/maha-shivaratri-shivaratri",
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-02-15",
+      "iso": "2029-02-11",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 2,
-        "day": 15
+        "day": 11
       }
     }
   },
@@ -204,30 +147,49 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-02-17",
+      "iso": "2029-02-13",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 2,
-        "day": 17
+        "day": 13
       }
     }
   },
   {
-    "name": "Ramadan Start",
-    "description": "Ramadan is a period of prayer, reflection and fasting for many Muslims worldwide. It is the ninth month in the Islamic calendar.",
+    "name": "Valentine's Day",
+    "description": "Valentine's Day is celebrated in many places worldwide, including in India, on February 14 each year.",
     "type": [
       "Observance"
     ],
     "primary_type": "Observance",
-    "canonical_url": "https://calendarific.com/holiday/india/ramadan-begins",
+    "canonical_url": "https://calendarific.com/holiday/india/valentine-day",
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-02-19",
+      "iso": "2029-02-14",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 2,
-        "day": 19
+        "day": 14
+      }
+    }
+  },
+  {
+    "name": "Ramzan Id",
+    "description": "One day of Eid-ul-Fitar, which marks the end of Ramadan, is a gazetted holiday in India.",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "Gazetted Holiday",
+    "canonical_url": "https://calendarific.com/holiday/india/eid-ul-fitar",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2029-02-15",
+      "datetime": {
+        "year": 2029,
+        "month": 2,
+        "day": 15
       }
     }
   },
@@ -242,30 +204,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-02-19",
+      "iso": "2029-02-19",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 2,
         "day": 19
-      }
-    }
-  },
-  {
-    "name": "Holika Dahana",
-    "description": "Holika Dahana is a restricted holiday in India",
-    "type": [
-      "Optional holiday"
-    ],
-    "primary_type": "Restricted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/holika-dahana",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-03-03",
-      "datetime": {
-        "year": 2026,
-        "month": 3,
-        "day": 3
       }
     }
   },
@@ -281,70 +224,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-03-04",
+      "iso": "2029-03-01",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 3,
-        "day": 4
-      }
-    }
-  },
-  {
-    "name": "Ugadi",
-    "description": "Ugadi is a restricted holiday in India",
-    "type": [
-      "Hinduism",
-      "Optional holiday"
-    ],
-    "primary_type": "Restricted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/ugadi",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-03-19",
-      "datetime": {
-        "year": 2026,
-        "month": 3,
-        "day": 19
-      }
-    }
-  },
-  {
-    "name": "Gudi Padwa",
-    "description": "Gudi Padwa is a restricted holiday in India",
-    "type": [
-      "Hinduism",
-      "Optional holiday"
-    ],
-    "primary_type": "Restricted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/gudi-padwa",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-03-19",
-      "datetime": {
-        "year": 2026,
-        "month": 3,
-        "day": 19
-      }
-    }
-  },
-  {
-    "name": "Jamat Ul-Vida",
-    "description": "Jamat Ul-Vida is a restricted holiday in India",
-    "type": [
-      "Optional holiday"
-    ],
-    "primary_type": "Restricted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/jamat-ul-vida",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-03-20",
-      "datetime": {
-        "year": 2026,
-        "month": 3,
-        "day": 20
+        "day": 1
       }
     }
   },
@@ -359,91 +243,14 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-03-20",
+      "iso": "2029-03-20",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 3,
         "day": 20,
-        "hour": 20,
-        "minute": 16,
-        "second": 0
-      }
-    }
-  },
-  {
-    "name": "Ramzan Id",
-    "description": "One day of Eid-ul-Fitar, which marks the end of Ramadan, is a gazetted holiday in India.",
-    "type": [
-      "National holiday"
-    ],
-    "primary_type": "Gazetted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/eid-ul-fitar",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-03-21",
-      "datetime": {
-        "year": 2026,
-        "month": 3,
-        "day": 21
-      }
-    }
-  },
-  {
-    "name": "Rama Navami",
-    "description": "Rama Navami is a Hindu festival that celebrates the birth of Rama, the first son of King Dasaratha of Ayodhya.",
-    "type": [
-      "National holiday",
-      "Hinduism"
-    ],
-    "primary_type": "Gazetted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/rama-navami",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-03-26",
-      "datetime": {
-        "year": 2026,
-        "month": 3,
-        "day": 26
-      }
-    }
-  },
-  {
-    "name": "Mahavir Jayanti",
-    "description": "Mahavir Jayanti is a gazetted holiday in India",
-    "type": [
-      "National holiday"
-    ],
-    "primary_type": "Gazetted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/mahavir-jayanti",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-03-31",
-      "datetime": {
-        "year": 2026,
-        "month": 3,
-        "day": 31
-      }
-    }
-  },
-  {
-    "name": "First day of Passover",
-    "description": "During Passover, the Jewish people remember the liberation of the Israelites from slavery, their exodus from Egypt, and that their first-born children were spared during the 10th plague, as told in the Haggadah.",
-    "type": [
-      "Observance"
-    ],
-    "primary_type": "Observance",
-    "canonical_url": "https://calendarific.com/holiday/india/passover",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-04-02",
-      "datetime": {
-        "year": 2026,
-        "month": 4,
-        "day": 2
+        "hour": 13,
+        "minute": 32,
+        "second": 2
       }
     }
   },
@@ -459,11 +266,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-04-02",
+      "iso": "2029-03-29",
       "datetime": {
-        "year": 2026,
-        "month": 4,
-        "day": 2
+        "year": 2029,
+        "month": 3,
+        "day": 29
       }
     }
   },
@@ -478,11 +285,30 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-04-03",
+      "iso": "2029-03-30",
       "datetime": {
-        "year": 2026,
-        "month": 4,
-        "day": 3
+        "year": 2029,
+        "month": 3,
+        "day": 30
+      }
+    }
+  },
+  {
+    "name": "First day of Passover",
+    "description": "During Passover, the Jewish people remember the liberation of the Israelites from slavery, their exodus from Egypt, and that their first-born children were spared during the 10th plague, as told in the Haggadah.",
+    "type": [
+      "Observance"
+    ],
+    "primary_type": "Observance",
+    "canonical_url": "https://calendarific.com/holiday/india/passover",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2029-03-31",
+      "datetime": {
+        "year": 2029,
+        "month": 3,
+        "day": 31
       }
     }
   },
@@ -497,47 +323,49 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-04-05",
+      "iso": "2029-04-01",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 4,
-        "day": 5
+        "day": 1
       }
     }
   },
   {
-    "name": "Vaisakhi",
-    "description": "Vaisakhi, also known as Baisakhi, is a harvest celebration on either April 13 or April 14 in the Gregorian calendar. It is one of India's most notable celebrations.",
+    "name": "Ugadi",
+    "description": "Ugadi is a restricted holiday in India",
     "type": [
+      "Hinduism",
       "Optional holiday"
     ],
     "primary_type": "Restricted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/vaisakhi",
+    "canonical_url": "https://calendarific.com/holiday/india/ugadi",
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-04-14",
+      "iso": "2029-04-14",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 4,
         "day": 14
       }
     }
   },
   {
-    "name": "Mesadi",
-    "description": "Mesadi is a restricted holiday in India",
+    "name": "Gudi Padwa",
+    "description": "Gudi Padwa is a restricted holiday in India",
     "type": [
+      "Hinduism",
       "Optional holiday"
     ],
     "primary_type": "Restricted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/mesadi-vaisakhadi",
+    "canonical_url": "https://calendarific.com/holiday/india/gudi-padwa",
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-04-14",
+      "iso": "2029-04-14",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 4,
         "day": 14
       }
@@ -554,106 +382,31 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-04-14",
+      "iso": "2029-04-14",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 4,
         "day": 14
       }
     }
   },
   {
-    "name": "Bahag Bihu",
-    "description": "Bahag Bihu is a restricted holiday in India",
+    "name": "Rama Navami",
+    "description": "Rama Navami is a Hindu festival that celebrates the birth of Rama, the first son of King Dasaratha of Ayodhya.",
     "type": [
-      "Optional holiday"
-    ],
-    "primary_type": "Restricted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/mesadi-vaisakhadi",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-04-15",
-      "datetime": {
-        "year": 2026,
-        "month": 4,
-        "day": 15
-      }
-    }
-  },
-  {
-    "name": "International Worker's Day",
-    "description": "",
-    "type": [
-      "Observance"
-    ],
-    "primary_type": "Observance",
-    "canonical_url": "https://calendarific.com/holiday/india/may-day",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-05-01",
-      "datetime": {
-        "year": 2026,
-        "month": 5,
-        "day": 1
-      }
-    }
-  },
-  {
-    "name": "Buddha Purnima",
-    "description": "Vesak, also known as Buddha Purnima, celebrates of Gautama Buddha's birth, enlightenment and death.",
-    "type": [
-      "National holiday"
+      "National holiday",
+      "Hinduism"
     ],
     "primary_type": "Gazetted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/buddha-purnima",
+    "canonical_url": "https://calendarific.com/holiday/india/rama-navami",
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-05-01",
+      "iso": "2029-04-22",
       "datetime": {
-        "year": 2026,
-        "month": 5,
-        "day": 1
-      }
-    }
-  },
-  {
-    "name": "Birthday of Rabindranath",
-    "description": "Birthday of Rabindranath is a restricted holiday in India",
-    "type": [
-      "Optional holiday"
-    ],
-    "primary_type": "Restricted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/rabindranath-birthday",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-05-09",
-      "datetime": {
-        "year": 2026,
-        "month": 5,
-        "day": 9
-      }
-    }
-  },
-  {
-    "name": "Mother's Day",
-    "description": "Mother's Day celebrates the achievements and efforts of mothers and mother figures.",
-    "type": [
-      "Observance"
-    ],
-    "primary_type": "Observance",
-    "canonical_url": "https://calendarific.com/holiday/india/mother-day",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-05-10",
-      "datetime": {
-        "year": 2026,
-        "month": 5,
-        "day": 10
+        "year": 2029,
+        "month": 4,
+        "day": 22
       }
     }
   },
@@ -668,52 +421,49 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-05-27",
+      "iso": "2029-04-25",
       "datetime": {
-        "year": 2026,
-        "month": 5,
-        "day": 27
+        "year": 2029,
+        "month": 4,
+        "day": 25
       }
     }
   },
   {
-    "name": "Father's Day",
-    "description": "Father's Day celebrates fatherhood and male parenting on different dates worldwide.",
+    "name": "International Worker's Day",
+    "description": "",
     "type": [
       "Observance"
     ],
     "primary_type": "Observance",
-    "canonical_url": "https://calendarific.com/holiday/india/father-day",
+    "canonical_url": "https://calendarific.com/holiday/india/may-day",
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-06-21",
+      "iso": "2029-05-01",
       "datetime": {
-        "year": 2026,
-        "month": 6,
-        "day": 21
+        "year": 2029,
+        "month": 5,
+        "day": 1
       }
     }
   },
   {
-    "name": "June Solstice",
-    "description": "June Solstice in India (New Delhi)",
+    "name": "Mother's Day",
+    "description": "Mother's Day celebrates the achievements and efforts of mothers and mother figures.",
     "type": [
-      "Season"
+      "Observance"
     ],
-    "primary_type": "Season",
-    "canonical_url": "https://calendarific.com/holiday/seasons/june-solstice",
+    "primary_type": "Observance",
+    "canonical_url": "https://calendarific.com/holiday/india/mother-day",
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-06-21",
+      "iso": "2029-05-13",
       "datetime": {
-        "year": 2026,
-        "month": 6,
-        "day": 21,
-        "hour": 13,
-        "minute": 54,
-        "second": 30
+        "year": 2029,
+        "month": 5,
+        "day": 13
       }
     }
   },
@@ -728,11 +478,52 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-06-26",
+      "iso": "2029-05-25",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
+        "month": 5,
+        "day": 25
+      }
+    }
+  },
+  {
+    "name": "Father's Day",
+    "description": "Father's Day celebrates fatherhood and male parenting on different dates worldwide.",
+    "type": [
+      "Observance"
+    ],
+    "primary_type": "Observance",
+    "canonical_url": "https://calendarific.com/holiday/india/father-day",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2029-06-17",
+      "datetime": {
+        "year": 2029,
         "month": 6,
-        "day": 26
+        "day": 17
+      }
+    }
+  },
+  {
+    "name": "June Solstice",
+    "description": "June Solstice in India (New Delhi)",
+    "type": [
+      "Season"
+    ],
+    "primary_type": "Season",
+    "canonical_url": "https://calendarific.com/holiday/seasons/june-solstice",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2029-06-21",
+      "datetime": {
+        "year": 2029,
+        "month": 6,
+        "day": 21,
+        "hour": 7,
+        "minute": 18,
+        "second": 16
       }
     }
   },
@@ -748,11 +539,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-07-16",
+      "iso": "2029-07-13",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 7,
-        "day": 16
+        "day": 13
       }
     }
   },
@@ -767,11 +558,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-08-02",
+      "iso": "2029-08-05",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 8,
-        "day": 2
+        "day": 5
       }
     }
   },
@@ -786,30 +577,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-08-15",
+      "iso": "2029-08-15",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 8,
         "day": 15
-      }
-    }
-  },
-  {
-    "name": "Milad un-Nabi",
-    "description": "Milad un-Nabi is a gazetted holiday in India and marks the Prophet Muhammad's birthday.",
-    "type": [
-      "National holiday"
-    ],
-    "primary_type": "Gazetted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/milad-un-nabi",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-08-26",
-      "datetime": {
-        "year": 2026,
-        "month": 8,
-        "day": 26
       }
     }
   },
@@ -825,16 +597,16 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-08-26",
+      "iso": "2029-08-22",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 8,
-        "day": 26
+        "day": 22
       }
     }
   },
   {
-    "name": "Raksha Bandhan",
+    "name": "Raksha Bandhan (Rakhi)",
     "description": "Raksha Bandhan is a Hindu festival that is celebrated on the full moon of the Hindu month of Shravana (Shravan Poornima). The day is also sometimes referred to as Brother and Sister Day because it honors the relationship between brother and sister.",
     "type": [
       "Hinduism",
@@ -845,11 +617,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-08-28",
+      "iso": "2029-08-23",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 8,
-        "day": 28
+        "day": 23
       }
     }
   },
@@ -865,35 +637,36 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-09-04",
+      "iso": "2029-09-01",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 9,
-        "day": 4
+        "day": 1
       }
     }
   },
   {
     "name": "Janmashtami (Smarta)",
-    "description": "Janmashtami (Smarta) is a observance in India",
+    "description": "Janmashtami (Smarta) is a restricted holiday in India",
     "type": [
-      "Observance"
+      "Hinduism",
+      "Optional holiday"
     ],
-    "primary_type": "Observance",
+    "primary_type": "Restricted Holiday",
     "canonical_url": "https://calendarific.com/holiday/india/janmashtami-smarta",
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-09-04",
+      "iso": "2029-09-01",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 9,
-        "day": 4
+        "day": 1
       }
     }
   },
   {
-    "name": "Ganesh Chaturthi",
+    "name": "Ganesh Chaturthi/Vinayaka Chaturthi",
     "description": "Ganesh Chaturthi is the great Ganesha festival that celebrates the birthday of Lord Ganesha during the Hindu Month of Bhadra, which usually falls between mid-August and mid-September. It is also known as Vinayaka Chaturthi and can last up to 10 days.",
     "type": [
       "Hinduism",
@@ -904,11 +677,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-09-14",
+      "iso": "2029-09-11",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 9,
-        "day": 14
+        "day": 11
       }
     }
   },
@@ -923,14 +696,14 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-09-23",
+      "iso": "2029-09-22",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 9,
-        "day": 23,
-        "hour": 5,
-        "minute": 35,
-        "second": 13
+        "day": 22,
+        "hour": 23,
+        "minute": 8,
+        "second": 23
       }
     }
   },
@@ -945,9 +718,9 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-10-02",
+      "iso": "2029-10-02",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 10,
         "day": 2
       }
@@ -965,11 +738,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-10-11",
+      "iso": "2029-10-08",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 10,
-        "day": 11
+        "day": 8
       }
     }
   },
@@ -985,49 +758,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-10-17",
+      "iso": "2029-10-12",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 10,
-        "day": 17
-      }
-    }
-  },
-  {
-    "name": "Maha Saptami",
-    "description": "Maha Saptami is a restricted holiday in India",
-    "type": [
-      "Optional holiday"
-    ],
-    "primary_type": "Restricted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/maha-saptami",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-10-18",
-      "datetime": {
-        "year": 2026,
-        "month": 10,
-        "day": 18
-      }
-    }
-  },
-  {
-    "name": "Maha Ashtami",
-    "description": "Maha Ashtami is a restricted holiday in India",
-    "type": [
-      "Optional holiday"
-    ],
-    "primary_type": "Restricted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/maha-ashtami",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-10-19",
-      "datetime": {
-        "year": 2026,
-        "month": 10,
-        "day": 19
+        "day": 12
       }
     }
   },
@@ -1043,35 +778,16 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-10-20",
+      "iso": "2029-10-16",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 10,
-        "day": 20
+        "day": 16
       }
     }
   },
   {
-    "name": "Maharishi Valmiki Jayanti",
-    "description": "Maharishi Valmiki Jayanti is a restricted holiday in India",
-    "type": [
-      "Optional holiday"
-    ],
-    "primary_type": "Restricted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/maharishi-valmeki-jayanti",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-10-26",
-      "datetime": {
-        "year": 2026,
-        "month": 10,
-        "day": 26
-      }
-    }
-  },
-  {
-    "name": "Karaka Chaturthi",
+    "name": "Karaka Chaturthi (Karva Chauth)",
     "description": "Karwa Chauth is an annual one-day festival that honors the Hindu god Shiva and goddess Parvati. It is celebrated by all married Hindu women on the fourth day after the full moon in the Hindu month of Kartik, which is usually in October.",
     "type": [
       "Hinduism",
@@ -1082,11 +798,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-10-29",
+      "iso": "2029-10-26",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 10,
-        "day": 29
+        "day": 26
       }
     }
   },
@@ -1101,30 +817,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-10-31",
+      "iso": "2029-10-31",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 10,
         "day": 31
-      }
-    }
-  },
-  {
-    "name": "Naraka Chaturdasi",
-    "description": "Naraka Chaturdasi is a restricted holiday in India",
-    "type": [
-      "Optional holiday"
-    ],
-    "primary_type": "Restricted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/naraka-chaturdasi",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-11-08",
-      "datetime": {
-        "year": 2026,
-        "month": 11,
-        "day": 8
       }
     }
   },
@@ -1140,30 +837,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-11-08",
+      "iso": "2029-11-05",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 11,
-        "day": 8
-      }
-    }
-  },
-  {
-    "name": "Govardhan Puja",
-    "description": "Govardhan Puja is a restricted holiday in India",
-    "type": [
-      "Optional holiday"
-    ],
-    "primary_type": "Restricted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/govardhan-puja",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-11-09",
-      "datetime": {
-        "year": 2026,
-        "month": 11,
-        "day": 9
+        "day": 5
       }
     }
   },
@@ -1179,11 +857,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-11-11",
+      "iso": "2029-11-07",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 11,
-        "day": 11
+        "day": 7
       }
     }
   },
@@ -1199,30 +877,30 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-11-15",
+      "iso": "2029-11-11",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 11,
-        "day": 15
+        "day": 11
       }
     }
   },
   {
-    "name": "Guru Nanak Jayanti",
-    "description": "Guru Nanak Jayanti is a gazetted holiday in India",
+    "name": "Hazarat Ali's Birthday",
+    "description": "Hazarat Ali's Birthday is a restricted holiday in India",
     "type": [
-      "National holiday"
+      "Optional holiday"
     ],
-    "primary_type": "Gazetted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/guru-nanak-jayanti",
+    "primary_type": "Restricted Holiday",
+    "canonical_url": "https://calendarific.com/holiday/india/harazart-ali-birthday",
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-11-24",
+      "iso": "2029-11-20",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 11,
-        "day": 24
+        "day": 20
       }
     }
   },
@@ -1237,9 +915,9 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-11-24",
+      "iso": "2029-11-24",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 11,
         "day": 24
       }
@@ -1256,11 +934,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-12-05",
+      "iso": "2029-12-02",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 12,
-        "day": 5
+        "day": 2
       }
     }
   },
@@ -1275,11 +953,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-12-12",
+      "iso": "2029-12-09",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 12,
-        "day": 12
+        "day": 9
       }
     }
   },
@@ -1294,33 +972,14 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-12-22",
+      "iso": "2029-12-21",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 12,
-        "day": 22,
-        "hour": 2,
-        "minute": 20,
-        "second": 14
-      }
-    }
-  },
-  {
-    "name": "Hazarat Ali's Birthday",
-    "description": "Hazarat Ali's Birthday is a restricted holiday in India",
-    "type": [
-      "Optional holiday"
-    ],
-    "primary_type": "Restricted Holiday",
-    "canonical_url": "https://calendarific.com/holiday/india/harazart-ali-birthday",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-12-23",
-      "datetime": {
-        "year": 2026,
-        "month": 12,
-        "day": 23
+        "day": 21,
+        "hour": 19,
+        "minute": 44,
+        "second": 4
       }
     }
   },
@@ -1335,9 +994,9 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-12-24",
+      "iso": "2029-12-24",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 12,
         "day": 24
       }
@@ -1354,9 +1013,9 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-12-25",
+      "iso": "2029-12-25",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 12,
         "day": 25
       }
@@ -1373,9 +1032,9 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-12-31",
+      "iso": "2029-12-31",
       "datetime": {
-        "year": 2026,
+        "year": 2029,
         "month": 12,
         "day": 31
       }

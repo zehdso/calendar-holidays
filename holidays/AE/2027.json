@@ -1,0 +1,432 @@
+[
+  {
+    "name": "New Year's Day",
+    "description": "New Year's Day is the first day of the year, or January 1, in the Gregorian calendar.",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/new-year-day",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-01-01",
+      "datetime": {
+        "year": 2027,
+        "month": 1,
+        "day": 1
+      }
+    }
+  },
+  {
+    "name": "Leilat al-Meiraj",
+    "description": "Isra and Mi'raj (Isra Me'raj, Israa and Mi'raaj, Laylat Al-Isra wa Al-Miraj, Lailat al Miraj, Night Journey and Ascension to Heaven) marks the night that the Prophet Mohammad traveled from Mecca to Jerusalem, ascended to heaven and returned.",
+    "type": [
+      "Observance"
+    ],
+    "primary_type": "Observance",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/leilat-al-meiraj",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-01-06",
+      "datetime": {
+        "year": 2027,
+        "month": 1,
+        "day": 6
+      }
+    }
+  },
+  {
+    "name": "Ramadan Start",
+    "description": "Ramadan is a period of prayer, reflection and fasting for many Muslims worldwide. It is the ninth month in the Islamic calendar.",
+    "type": [
+      "Observance"
+    ],
+    "primary_type": "Observance",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/ramadan-begins",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-02-08",
+      "datetime": {
+        "year": 2027,
+        "month": 2,
+        "day": 8
+      }
+    }
+  },
+  {
+    "name": "Eid al-Fitr Holiday",
+    "description": "Eid al-Fitr Holiday is a national holiday in United Arab Emirates",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/eid-al-fitr-3",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-03-08",
+      "datetime": {
+        "year": 2027,
+        "month": 3,
+        "day": 8
+      }
+    }
+  },
+  {
+    "name": "Eid al-Fitr",
+    "description": "Eid al-Fitr is a holiday to mark the end of the Islamic month of Ramadan, during which Muslims fast during the hours of daylight.",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/eid-al-fitr",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-03-09",
+      "datetime": {
+        "year": 2027,
+        "month": 3,
+        "day": 9
+      }
+    }
+  },
+  {
+    "name": "Eid al-Fitr Holiday",
+    "description": "Eid al-Fitr Holiday is a national holiday in United Arab Emirates",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/eid-al-fitr-1",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-03-10",
+      "datetime": {
+        "year": 2027,
+        "month": 3,
+        "day": 10
+      }
+    }
+  },
+  {
+    "name": "Eid al-Fitr Holiday",
+    "description": "Eid al-Fitr Holiday is a national holiday in United Arab Emirates",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/eid-al-fitr-2",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-03-11",
+      "datetime": {
+        "year": 2027,
+        "month": 3,
+        "day": 11
+      }
+    }
+  },
+  {
+    "name": "March Equinox",
+    "description": "March Equinox in United Arab Emirates (Abu Dhabi)",
+    "type": [
+      "Season"
+    ],
+    "primary_type": "Season",
+    "canonical_url": "https://calendarific.com/holiday/seasons/vernal-equinox",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-03-21",
+      "datetime": {
+        "year": 2027,
+        "month": 3,
+        "day": 21,
+        "hour": 0,
+        "minute": 25,
+        "second": 0
+      }
+    }
+  },
+  {
+    "name": "Hajj season begins",
+    "description": "Hajj season begins is a observance in United Arab Emirates",
+    "type": [
+      "Observance"
+    ],
+    "primary_type": "Observance",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/hajj-season-begins",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-05-07",
+      "datetime": {
+        "year": 2027,
+        "month": 5,
+        "day": 7
+      }
+    }
+  },
+  {
+    "name": "Arafat (Hajj) Day",
+    "description": "Arafat (Hajj) Day is a national holiday in United Arab Emirates",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/arafat-haj-day",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-05-15",
+      "datetime": {
+        "year": 2027,
+        "month": 5,
+        "day": 15
+      }
+    }
+  },
+  {
+    "name": "Eid al-Adha (Feast of Sacrifice)",
+    "description": "Eid al-Adha (Id ul-Adha) is an Islamic festival falling on the 10th day of the month of Dhul Hijja (Thou al-Hijja) to commemorate the willingness of Ibrahim (Abraham) to sacrifice his son.",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/eid-al-adha",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-05-16",
+      "datetime": {
+        "year": 2027,
+        "month": 5,
+        "day": 16
+      }
+    }
+  },
+  {
+    "name": "Eid al-Adha Holiday",
+    "description": "Eid al-Adha Holiday is a national holiday in United Arab Emirates",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/eid-al-adha-1",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-05-17",
+      "datetime": {
+        "year": 2027,
+        "month": 5,
+        "day": 17
+      }
+    }
+  },
+  {
+    "name": "Eid al-Adha Holiday",
+    "description": "Eid al-Adha Holiday is a national holiday in United Arab Emirates",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/eid-al-adha-2",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-05-18",
+      "datetime": {
+        "year": 2027,
+        "month": 5,
+        "day": 18
+      }
+    }
+  },
+  {
+    "name": "Al-Hijra (Islamic New Year)",
+    "description": "Muharram is the first month of the Islamic calendar and a time of remembrance or mourning.",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/islamic-new-year",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-06-06",
+      "datetime": {
+        "year": 2027,
+        "month": 6,
+        "day": 6
+      }
+    }
+  },
+  {
+    "name": "June Solstice",
+    "description": "June Solstice in United Arab Emirates (Abu Dhabi)",
+    "type": [
+      "Season"
+    ],
+    "primary_type": "Season",
+    "canonical_url": "https://calendarific.com/holiday/seasons/june-solstice",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-06-21",
+      "datetime": {
+        "year": 2027,
+        "month": 6,
+        "day": 21,
+        "hour": 18,
+        "minute": 11,
+        "second": 0
+      }
+    }
+  },
+  {
+    "name": "Mouloud",
+    "description": "Mawlid, or Milad, marks the birth of the Islamic prophet Muhammed, or Mohamed, in the year 570 of the Gregorian calendar.",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/mouloud",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-08-14",
+      "datetime": {
+        "year": 2027,
+        "month": 8,
+        "day": 14
+      }
+    }
+  },
+  {
+    "name": "September Equinox",
+    "description": "September Equinox in United Arab Emirates (Abu Dhabi)",
+    "type": [
+      "Season"
+    ],
+    "primary_type": "Season",
+    "canonical_url": "https://calendarific.com/holiday/seasons/autumnal-equinox",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-09-23",
+      "datetime": {
+        "year": 2027,
+        "month": 9,
+        "day": 23,
+        "hour": 10,
+        "minute": 2,
+        "second": 0
+      }
+    }
+  },
+  {
+    "name": "Commemoration Day",
+    "description": "Commemoration Day is a observance in United Arab Emirates",
+    "type": [
+      "Observance"
+    ],
+    "primary_type": "Observance",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/martyrs-day",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-11-30",
+      "datetime": {
+        "year": 2027,
+        "month": 11,
+        "day": 30
+      }
+    }
+  },
+  {
+    "name": "National Day",
+    "description": "National Day is a national holiday in United Arab Emirates",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/national-day",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-12-02",
+      "datetime": {
+        "year": 2027,
+        "month": 12,
+        "day": 2
+      }
+    }
+  },
+  {
+    "name": "National Day Holiday",
+    "description": "National Day Holiday is a national holiday in United Arab Emirates",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/national-day-1",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-12-03",
+      "datetime": {
+        "year": 2027,
+        "month": 12,
+        "day": 3
+      }
+    }
+  },
+  {
+    "name": "December Solstice",
+    "description": "December Solstice in United Arab Emirates (Abu Dhabi)",
+    "type": [
+      "Season"
+    ],
+    "primary_type": "Season",
+    "canonical_url": "https://calendarific.com/holiday/seasons/december-solstice",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-12-22",
+      "datetime": {
+        "year": 2027,
+        "month": 12,
+        "day": 22,
+        "hour": 6,
+        "minute": 42,
+        "second": 0
+      }
+    }
+  },
+  {
+    "name": "New Year's Eve",
+    "description": "New Year's Eve is the last day of the year, December 31, in the Gregorian calendar.",
+    "type": [
+      "Observance"
+    ],
+    "primary_type": "Observance",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/new-year-eve",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2027-12-31",
+      "datetime": {
+        "year": 2027,
+        "month": 12,
+        "day": 31
+      }
+    }
+  }
+]
