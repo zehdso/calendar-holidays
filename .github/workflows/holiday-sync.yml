@@ -1,17 +1,18 @@
-name: Holiday Sync
+name: Holiday Sync v3
 
 on:
   workflow_dispatch:
 
   schedule:
-    # 1st day of every month at 02:00 UTC
     - cron: "0 2 1 * *"
-
-    # 15th day of every month at 02:00 UTC
     - cron: "0 2 15 * *"
 
 permissions:
   contents: write
+
+env:
+  COUNTRIES: "IN SA US AE IR"
+  FUTURE_YEARS: 4
 
 jobs:
   sync-holidays:
@@ -21,108 +22,289 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup JQ
+      - name: Install jq
         run: |
-          if ! command -v jq &> /dev/null; then
-            sudo apt-get update
-            sudo apt-get install -y jq
-          fi
+          sudo apt-get update
+          sudo apt-get install -y jq
 
-      - name: Fetch and Validate Indian Holidays
+      - name: Sync Holidays
         env:
           CALENDARIFIC_API_KEY: ${{ secrets.CALENDARIFIC_API_KEY }}
         run: |
-          mkdir -p holidays/IN
+
+          set -eo pipefail
 
           if [ -z "$CALENDARIFIC_API_KEY" ]; then
-            echo "::error::CALENDARIFIC_API_KEY secret is not set!"
+            echo "::error::Missing Calendarific API Key"
             exit 1
           fi
 
-          echo "Fetching Indian holidays for 2026..."
-
-          HTTP_CODE=$(curl -s -w "%{http_code}" -o temp_response.json \
-            --retry 3 --retry-delay 5 \
-            "https://calendarific.com/api/v2/holidays?api_key=${CALENDARIFIC_API_KEY}&country=IN&year=2026")
-
-          if [ "$HTTP_CODE" != "200" ]; then
-            echo "::error::API request failed with HTTP status code $HTTP_CODE"
-            cat temp_response.json
-            exit 1
-          fi
-
-          if ! jq empty temp_response.json >/dev/null 2>&1; then
-            echo "::error::Invalid JSON returned from Calendarific."
-            cat temp_response.json
-            exit 1
-          fi
-
-          META_CODE=$(jq -r '.meta.code // empty' temp_response.json)
-
-          if [ "$META_CODE" != "200" ]; then
-            ERROR_MSG=$(jq -r '.meta.error_detail // "Unknown error"' temp_response.json)
-            echo "::error::$ERROR_MSG"
-            cat temp_response.json
-            exit 1
-          fi
-
-          HOLIDAYS_COUNT=$(jq '.response.holidays | length' temp_response.json)
-
-          if [ "$HOLIDAYS_COUNT" -eq 0 ]; then
-            echo "::error::No holidays returned."
-            exit 1
-          fi
-
-          echo "Fetched $HOLIDAYS_COUNT holidays."
-
-          jq '[.response.holidays[] | {
-            name,
-            description,
-            date: {iso: .date.iso},
-            type
-          }]' temp_response.json > temp_filtered.json
-
-          if [ -f holidays/IN/2026.json ] && cmp -s holidays/IN/2026.json temp_filtered.json; then
-            echo "No changes."
-            rm temp_filtered.json temp_response.json
-            exit 0
-          fi
-
-          mv temp_filtered.json holidays/IN/2026.json
+          CURRENT_YEAR=$(date -u +%Y)
+          LAST_YEAR=$((CURRENT_YEAR + FUTURE_YEARS))
+          UPDATED=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 
           mkdir -p holidays
 
-          UPDATED=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          echo '{}' > metadata_tmp.json
 
-          jq -n \
-            --arg updated "$UPDATED" \
-            --argjson count "$HOLIDAYS_COUNT" \
-            '{
-              version:1,
-              updated:$updated,
-              countries:{
-                IN:{
-                  "2026":{
-                    lastUpdated:$updated,
-                    holidayCount:$count
+          for COUNTRY in $COUNTRIES
+          do
+
+            mkdir -p holidays/$COUNTRY
+
+            YEAR=$CURRENT_YEAR
+
+            while [ $YEAR -le $LAST_YEAR ]
+            do
+
+              echo "=================================="
+              echo "Country : $COUNTRY"
+              echo "Year    : $YEAR"
+              echo "=================================="
+
+              URL="https://calendarific.com/api/v2/holidays?api_key=${CALENDARIFIC_API_KEY}&country=${COUNTRY}&year=${YEAR}"
+
+              HTTP=$(curl \
+                --retry 3 \
+                --retry-delay 5 \
+                --connect-timeout 20 \
+                --max-time 60 \
+                -s \
+                -w "%{http_code}" \
+                -o response.json \
+                "$URL")
+
+              if [ "$HTTP" != "200" ]; then
+                echo "HTTP $HTTP"
+                YEAR=$((YEAR+1))
+                continue
+              fi
+
+              if ! jq empty response.json >/dev/null 2>&1; then
+                echo "Invalid JSON"
+                YEAR=$((YEAR+1))
+                continue
+              fi
+
+              META=$(jq -r '.meta.code // 0' response.json)
+
+              if [ "$META" != "200" ]; then
+                echo "Calendarific error"
+
+                jq .
+
+                YEAR=$((YEAR+1))
+
+                continue
+              fi
+
+              if ! jq -e '.response' response.json >/dev/null; then
+                echo "Missing response object"
+
+                YEAR=$((YEAR+1))
+
+                continue
+              fi
+
+              if ! jq -e '.response.holidays' response.json >/dev/null 2>&1; then
+                echo "Holiday array missing"
+
+                YEAR=$((YEAR+1))
+
+                continue
+              fi
+
+              TYPE=$(jq -r '.response.holidays|type' response.json)
+
+              if [ "$TYPE" != "array" ]; then
+                echo "Holiday data isn't array"
+
+                YEAR=$((YEAR+1))
+
+                continue
+              fi
+
+              COUNT=$(jq '.response.holidays|length' response.json)
+
+              if [ "$COUNT" -eq 0 ]; then
+
+                echo "No holidays"
+
+                YEAR=$((YEAR+1))
+
+                continue
+              fi
+
+              jq '
+              [
+                .response.holidays[]
+                |
+                {
+                  name,
+                  description,
+                  type,
+                  primary_type,
+                  canonical_url,
+                  locations,
+                  states,
+                  date:{
+                    iso:.date.iso,
+                    datetime:.date.datetime
                   }
                 }
-              }
+              ]
+              ' response.json > temp.json
+
+              TARGET="holidays/$COUNTRY/$YEAR.json"
+
+              if [ -f "$TARGET" ]; then
+
+                if cmp -s temp.json "$TARGET"; then
+
+                  echo "$COUNTRY $YEAR unchanged."
+
+                  rm temp.json
+
+                else
+
+                  mv temp.json "$TARGET"
+
+                  echo "$COUNTRY $YEAR updated."
+
+                fi
+
+              else
+
+                mv temp.json "$TARGET"
+
+                echo "$COUNTRY $YEAR created."
+
+              fi
+
+              jq \
+                --arg c "$COUNTRY" \
+                --arg y "$YEAR" \
+                --arg updated "$UPDATED" \
+                --argjson count "$COUNT" \
+                '
+                .[$c]|=(.//{})
+                |
+                .[$c][$y]={
+                  holidayCount:$count,
+                  lastUpdated:$updated
+                }
+                ' metadata_tmp.json > metadata_new.json
+
+              mv metadata_new.json metadata_tmp.json
+
+              rm -f response.json
+
+              YEAR=$((YEAR+1))
+
+            done
+
+          done
+
+
+                    jq -n \
+            --arg updated "$UPDATED" \
+            --slurpfile countries metadata_tmp.json \
+            '{
+              version:3,
+              updated:$updated,
+              countries:$countries[0]
             }' > holidays/metadata.json
 
-          rm temp_response.json
+          rm -f metadata_tmp.json
 
-      - name: Commit and Push Changes
+          echo "Cleaning old years..."
+
+          for COUNTRY in $COUNTRIES
+          do
+
+            mkdir -p holidays/$COUNTRY
+
+            for FILE in holidays/$COUNTRY/*.json
+            do
+
+              [ -e "$FILE" ] || continue
+
+              FILE_YEAR=$(basename "$FILE" .json)
+
+              if [ "$FILE_YEAR" -lt "$CURRENT_YEAR" ] || [ "$FILE_YEAR" -gt "$LAST_YEAR" ]; then
+
+                echo "Removing $FILE"
+
+                rm -f "$FILE"
+
+              fi
+
+            done
+
+          done
+
+          echo "Verifying generated files..."
+
+          for COUNTRY in $COUNTRIES
+          do
+
+            YEAR=$CURRENT_YEAR
+
+            while [ $YEAR -le $LAST_YEAR ]
+            do
+
+              FILE="holidays/$COUNTRY/$YEAR.json"
+
+              if [ ! -f "$FILE" ]; then
+
+                echo "::warning::$COUNTRY $YEAR missing."
+
+              fi
+
+              YEAR=$((YEAR+1))
+
+            done
+
+          done
+
+          find holidays -type f -name "*.json" -exec chmod 644 {} \;
+
+      - name: Commit Changes
+
         run: |
+
+          set -e
+
           git config user.name "github-actions[bot]"
+
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add holidays/
 
           if git diff --cached --quiet; then
-            echo "Nothing to commit."
+
+            echo "Nothing changed."
+
             exit 0
+
           fi
 
-          git commit -m "Update Indian holidays [skip ci]"
-          git push
+          git commit -m "Automatic holiday sync [skip ci]"
+
+          git push origin HEAD
+
+      - name: Summary
+
+        run: |
+
+          echo "========================"
+
+          echo "Holiday Sync Finished"
+
+          echo "Countries : $COUNTRIES"
+
+          echo "Current Year : $(date -u +%Y)"
+
+          echo "Future Years : $FUTURE_YEARS"
+
+          echo "========================"

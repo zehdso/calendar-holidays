@@ -1,0 +1,774 @@
+[
+  {
+    "name": "Birthday of Imam Ali and Father's Day",
+    "description": "Birthday of Imam Ali and Father's Day is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/birthday-of-imam-ali",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-01-02",
+      "datetime": {
+        "year": 2026,
+        "month": 1,
+        "day": 2
+      }
+    }
+  },
+  {
+    "name": "Prophet's Ascension",
+    "description": "Prophet's Ascension is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/prophet-11",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-01-17",
+      "datetime": {
+        "year": 2026,
+        "month": 1,
+        "day": 17
+      }
+    }
+  },
+  {
+    "name": "Imam Mahdi's birthday",
+    "description": "Imam Mahdi's birthday is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/imam-mahdi-birthday",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-02-03",
+      "datetime": {
+        "year": 2026,
+        "month": 2,
+        "day": 3
+      }
+    }
+  },
+  {
+    "name": "Revolution Day",
+    "description": "Revolution Day is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/national-day",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-02-11",
+      "datetime": {
+        "year": 2026,
+        "month": 2,
+        "day": 11
+      }
+    }
+  },
+  {
+    "name": "Ramadan Start",
+    "description": "Ramadan is a period of prayer, reflection and fasting for many Muslims worldwide. It is the ninth month in the Islamic calendar.",
+    "type": [
+      "Observance"
+    ],
+    "primary_type": "Observance",
+    "canonical_url": "https://calendarific.com/holiday/iran/ramadan-begins",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-02-19",
+      "datetime": {
+        "year": 2026,
+        "month": 2,
+        "day": 19
+      }
+    }
+  },
+  {
+    "name": "Public Mourning Day",
+    "description": "Public Mourning Day is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/mourning-day",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-03-01",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 1
+      }
+    }
+  },
+  {
+    "name": "Public Mourning Day",
+    "description": "Public Mourning Day is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/mourning-day-1",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-03-02",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 2
+      }
+    }
+  },
+  {
+    "name": "Public Mourning Day",
+    "description": "Public Mourning Day is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/mourning-day-2",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-03-03",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 3
+      }
+    }
+  },
+  {
+    "name": "Public Mourning Day",
+    "description": "Public Mourning Day is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/mourning-day-3",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-03-04",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 4
+      }
+    }
+  },
+  {
+    "name": "Public Mourning Day",
+    "description": "Public Mourning Day is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/mourning-day-4",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-03-05",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 5
+      }
+    }
+  },
+  {
+    "name": "Public Mourning Day",
+    "description": "Public Mourning Day is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/mourning-day-5",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-03-06",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 6
+      }
+    }
+  },
+  {
+    "name": "Public Mourning Day",
+    "description": "Public Mourning Day is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/mourning-day-6",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-03-07",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 7
+      }
+    }
+  },
+  {
+    "name": "Martyrdom of Imam Ali",
+    "description": "Martyrdom of Imam Ali is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/martyrdom-of-imam-ali",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-03-11",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 11
+      }
+    }
+  },
+  {
+    "name": "Oil Nationalization Day",
+    "description": "Oil Nationalization Day is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/oil-nationalization-day",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-03-19",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 19
+      }
+    }
+  },
+  {
+    "name": "March Equinox",
+    "description": "March Equinox in Iran (Tehran)",
+    "type": [
+      "Season"
+    ],
+    "primary_type": "Season",
+    "canonical_url": "https://calendarific.com/holiday/seasons/vernal-equinox",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-03-20",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 20,
+        "hour": 18,
+        "minute": 16,
+        "second": 0
+      }
+    }
+  },
+  {
+    "name": "Eid-e-Fetr",
+    "description": "Eid al-Fitr is a holiday to mark the end of the Islamic month of Ramadan, during which Muslims fast during the hours of daylight.",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/eid-al-fitr",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-03-21",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 21
+      }
+    }
+  },
+  {
+    "name": "Norooz",
+    "description": "Norooz is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/norooz",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-03-21",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 21
+      }
+    }
+  },
+  {
+    "name": "Eid-e-Fetr Holiday",
+    "description": "Eid-e-Fetr Holiday is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/eid-al-fitr-holiday",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-03-22",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 22
+      }
+    }
+  },
+  {
+    "name": "Norooz Holiday",
+    "description": "Norooz Holiday is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/norooz-holiday-1",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-03-22",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 22
+      }
+    }
+  },
+  {
+    "name": "Norooz Holiday",
+    "description": "Norooz Holiday is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/norooz-holiday-2",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-03-23",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 23
+      }
+    }
+  },
+  {
+    "name": "Norooz Holiday",
+    "description": "Norooz Holiday is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/norooz-holiday-3",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-03-24",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 24
+      }
+    }
+  },
+  {
+    "name": "Islamic Republic Day",
+    "description": "Islamic Republic Day is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/islamic-republic-day",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-04-01",
+      "datetime": {
+        "year": 2026,
+        "month": 4,
+        "day": 1
+      }
+    }
+  },
+  {
+    "name": "Nature Day",
+    "description": "Nature Day is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/nature-day",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-04-02",
+      "datetime": {
+        "year": 2026,
+        "month": 4,
+        "day": 2
+      }
+    }
+  },
+  {
+    "name": "Martyrdom of Imam Sadeq",
+    "description": "Martyrdom of Imam Sadeq is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/martyrdom-of-imam-sadeq",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-04-14",
+      "datetime": {
+        "year": 2026,
+        "month": 4,
+        "day": 14
+      }
+    }
+  },
+  {
+    "name": "Eid-e-Ghorban",
+    "description": "Eid al-Adha (Id ul-Adha) is an Islamic festival falling on the 10th day of the month of Dhul Hijja (Thou al-Hijja) to commemorate the willingness of Ibrahim (Abraham) to sacrifice his son.",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/eid-al-adha",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-05-27",
+      "datetime": {
+        "year": 2026,
+        "month": 5,
+        "day": 27
+      }
+    }
+  },
+  {
+    "name": "Eid-e-Ghadir",
+    "description": "Eid-e-Ghadir is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/eid-al-ghadir",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-06-04",
+      "datetime": {
+        "year": 2026,
+        "month": 6,
+        "day": 4
+      }
+    }
+  },
+  {
+    "name": "Anniversary of Khomeini's Death",
+    "description": "Anniversary of Khomeini's Death is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/khomeini-death",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-06-04",
+      "datetime": {
+        "year": 2026,
+        "month": 6,
+        "day": 4
+      }
+    }
+  },
+  {
+    "name": "Revolt of Khordad 15",
+    "description": "Revolt of Khordad 15 is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/revolt-of-khordad-15",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-06-05",
+      "datetime": {
+        "year": 2026,
+        "month": 6,
+        "day": 5
+      }
+    }
+  },
+  {
+    "name": "June Solstice",
+    "description": "June Solstice in Iran (Tehran)",
+    "type": [
+      "Season"
+    ],
+    "primary_type": "Season",
+    "canonical_url": "https://calendarific.com/holiday/seasons/june-solstice",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-06-21",
+      "datetime": {
+        "year": 2026,
+        "month": 6,
+        "day": 21,
+        "hour": 11,
+        "minute": 54,
+        "second": 30
+      }
+    }
+  },
+  {
+    "name": "Tassoua",
+    "description": "Tassoua is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/tassoua",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-06-24",
+      "datetime": {
+        "year": 2026,
+        "month": 6,
+        "day": 24
+      }
+    }
+  },
+  {
+    "name": "Ashura",
+    "description": "Ashura is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/ashura",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-06-25",
+      "datetime": {
+        "year": 2026,
+        "month": 6,
+        "day": 25
+      }
+    }
+  },
+  {
+    "name": "Arbaeen",
+    "description": "Arbaeen is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/arbaeen",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-08-04",
+      "datetime": {
+        "year": 2026,
+        "month": 8,
+        "day": 4
+      }
+    }
+  },
+  {
+    "name": "Demise of Prophet Muhammad and Martyrdom of Imam Hassan",
+    "description": "Demise of Prophet Muhammad and Martyrdom of Imam Hassan is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/demise-of-prophet-muhammad-and-martyrdom-of-imam-hassan",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-08-12",
+      "datetime": {
+        "year": 2026,
+        "month": 8,
+        "day": 12
+      }
+    }
+  },
+  {
+    "name": "Martyrdom of Imam Reza",
+    "description": "Martyrdom of Imam Reza is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/martyrdom-of-imam-reza",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-08-13",
+      "datetime": {
+        "year": 2026,
+        "month": 8,
+        "day": 13
+      }
+    }
+  },
+  {
+    "name": "Martyrdom of Imam Hasan al-Askari",
+    "description": "Martyrdom of Imam Hasan al-Askari is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/martyrdom-of-imam-hasan-al-askari",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-08-21",
+      "datetime": {
+        "year": 2026,
+        "month": 8,
+        "day": 21
+      }
+    }
+  },
+  {
+    "name": "Birthday of Prophet Muhammad and Imam Sadeq",
+    "description": "Birthday of Prophet Muhammad and Imam Sadeq is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/birthday-of-muhammad-and-imam-sadeq",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-08-30",
+      "datetime": {
+        "year": 2026,
+        "month": 8,
+        "day": 30
+      }
+    }
+  },
+  {
+    "name": "September Equinox",
+    "description": "September Equinox in Iran (Tehran)",
+    "type": [
+      "Season"
+    ],
+    "primary_type": "Season",
+    "canonical_url": "https://calendarific.com/holiday/seasons/autumnal-equinox",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-09-23",
+      "datetime": {
+        "year": 2026,
+        "month": 9,
+        "day": 23,
+        "hour": 3,
+        "minute": 35,
+        "second": 13
+      }
+    }
+  },
+  {
+    "name": "Martyrdom of Hazrat Fatima",
+    "description": "Martyrdom of Hazrat Fatima is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/martyrdom-of-fatima",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-11-13",
+      "datetime": {
+        "year": 2026,
+        "month": 11,
+        "day": 13
+      }
+    }
+  },
+  {
+    "name": "December Solstice",
+    "description": "December Solstice in Iran (Tehran)",
+    "type": [
+      "Season"
+    ],
+    "primary_type": "Season",
+    "canonical_url": "https://calendarific.com/holiday/seasons/december-solstice",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-12-22",
+      "datetime": {
+        "year": 2026,
+        "month": 12,
+        "day": 22,
+        "hour": 0,
+        "minute": 20,
+        "second": 14
+      }
+    }
+  },
+  {
+    "name": "Birthday of Imam Ali and Father's Day",
+    "description": "Birthday of Imam Ali and Father's Day is a national holiday in Iran",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/iran/birthday-of-imam-ali",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-12-23",
+      "datetime": {
+        "year": 2026,
+        "month": 12,
+        "day": 23
+      }
+    }
+  }
+]

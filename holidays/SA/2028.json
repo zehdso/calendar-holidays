@@ -1,0 +1,337 @@
+[
+  {
+    "name": "Ramadan begins",
+    "description": "Ramadan is a period of prayer, reflection and fasting for many Muslims worldwide. It is the ninth month in the Islamic calendar.",
+    "type": [
+      "Observance"
+    ],
+    "primary_type": "Observance",
+    "canonical_url": "https://calendarific.com/holiday/saudi-arabia/ramadan-begins",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2028-01-28",
+      "datetime": {
+        "year": 2028,
+        "month": 1,
+        "day": 28
+      }
+    }
+  },
+  {
+    "name": "Founding Day",
+    "description": "Founding Day is a national holiday in Saudi Arabia",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/saudi-arabia/founding-day",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2028-02-22",
+      "datetime": {
+        "year": 2028,
+        "month": 2,
+        "day": 22
+      }
+    }
+  },
+  {
+    "name": "Eid al-Fitr",
+    "description": "Eid al-Fitr is a holiday to mark the end of the Islamic month of Ramadan, during which Muslims fast during the hours of daylight.",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/saudi-arabia/eid-al-fitr",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2028-02-27",
+      "datetime": {
+        "year": 2028,
+        "month": 2,
+        "day": 27
+      }
+    }
+  },
+  {
+    "name": "Eid al-Fitr Holiday",
+    "description": "Eid al-Fitr Holiday is a national holiday in Saudi Arabia",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/saudi-arabia/eid-al-fitr-holiday-2",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2028-02-28",
+      "datetime": {
+        "year": 2028,
+        "month": 2,
+        "day": 28
+      }
+    }
+  },
+  {
+    "name": "Eid al-Fitr Holiday",
+    "description": "Eid al-Fitr Holiday is a national holiday in Saudi Arabia",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/saudi-arabia/eid-al-fitr-holiday-3",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2028-02-29",
+      "datetime": {
+        "year": 2028,
+        "month": 2,
+        "day": 29
+      }
+    }
+  },
+  {
+    "name": "Flag Day",
+    "description": "Flag Day is an observance in Saudi Arabia",
+    "type": [
+      "Observance"
+    ],
+    "primary_type": "Observance",
+    "canonical_url": "https://calendarific.com/holiday/saudi-arabia/flag-day",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2028-03-11",
+      "datetime": {
+        "year": 2028,
+        "month": 3,
+        "day": 11
+      }
+    }
+  },
+  {
+    "name": "March Equinox",
+    "description": "March Equinox in Saudi Arabia (Riyadh)",
+    "type": [
+      "Season"
+    ],
+    "primary_type": "Season",
+    "canonical_url": "https://calendarific.com/holiday/seasons/vernal-equinox",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2028-03-20",
+      "datetime": {
+        "year": 2028,
+        "month": 3,
+        "day": 20,
+        "hour": 5,
+        "minute": 17,
+        "second": 6
+      }
+    }
+  },
+  {
+    "name": "Arafat Day",
+    "description": "Arafat Day is a national holiday in Saudi Arabia",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/saudi-arabia/arafat-day",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2028-05-04",
+      "datetime": {
+        "year": 2028,
+        "month": 5,
+        "day": 4
+      }
+    }
+  },
+  {
+    "name": "Eid al-Adha",
+    "description": "Eid al-Adha (Id ul-Adha) is an Islamic festival falling on the 10th day of the month of Dhul Hijja (Thou al-Hijja) to commemorate the willingness of Ibrahim (Abraham) to sacrifice his son.",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/saudi-arabia/eid-al-adha",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2028-05-05",
+      "datetime": {
+        "year": 2028,
+        "month": 5,
+        "day": 5
+      }
+    }
+  },
+  {
+    "name": "Eid al-Adha Holiday",
+    "description": "Eid al-Adha Holiday is a national holiday in Saudi Arabia",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/saudi-arabia/eid-al-adha-holiday",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2028-05-06",
+      "datetime": {
+        "year": 2028,
+        "month": 5,
+        "day": 6
+      }
+    }
+  },
+  {
+    "name": "Eid al-Adha Holiday",
+    "description": "Eid al-Adha Holiday is a national holiday in Saudi Arabia",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/saudi-arabia/eid-al-adha-holiday-1",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2028-05-07",
+      "datetime": {
+        "year": 2028,
+        "month": 5,
+        "day": 7
+      }
+    }
+  },
+  {
+    "name": "Muharram (Muslim New Year)",
+    "description": "Muharram is the first month of the Islamic calendar and a time of remembrance or mourning.",
+    "type": [
+      "Observance"
+    ],
+    "primary_type": "Observance",
+    "canonical_url": "https://calendarific.com/holiday/saudi-arabia/islamic-new-year",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2028-05-25",
+      "datetime": {
+        "year": 2028,
+        "month": 5,
+        "day": 25
+      }
+    }
+  },
+  {
+    "name": "June Solstice",
+    "description": "June Solstice in Saudi Arabia (Riyadh)",
+    "type": [
+      "Season"
+    ],
+    "primary_type": "Season",
+    "canonical_url": "https://calendarific.com/holiday/seasons/june-solstice",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2028-06-20",
+      "datetime": {
+        "year": 2028,
+        "month": 6,
+        "day": 20,
+        "hour": 23,
+        "minute": 2,
+        "second": 0
+      }
+    }
+  },
+  {
+    "name": "September Equinox",
+    "description": "September Equinox in Saudi Arabia (Riyadh)",
+    "type": [
+      "Season"
+    ],
+    "primary_type": "Season",
+    "canonical_url": "https://calendarific.com/holiday/seasons/autumnal-equinox",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2028-09-22",
+      "datetime": {
+        "year": 2028,
+        "month": 9,
+        "day": 22,
+        "hour": 14,
+        "minute": 45,
+        "second": 21
+      }
+    }
+  },
+  {
+    "name": "Saudi National Day",
+    "description": "Saudi National Day is a national holiday in Saudi Arabia",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/saudi-arabia/national-day",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2028-09-23",
+      "datetime": {
+        "year": 2028,
+        "month": 9,
+        "day": 23
+      }
+    }
+  },
+  {
+    "name": "Day off for Saudi National Day",
+    "description": "Saudi National Day is a national holiday in Saudi Arabia",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "National holiday",
+    "canonical_url": "https://calendarific.com/holiday/saudi-arabia/national-day",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2028-09-24",
+      "datetime": {
+        "year": 2028,
+        "month": 9,
+        "day": 24
+      }
+    }
+  },
+  {
+    "name": "December Solstice",
+    "description": "December Solstice in Saudi Arabia (Riyadh)",
+    "type": [
+      "Season"
+    ],
+    "primary_type": "Season",
+    "canonical_url": "https://calendarific.com/holiday/seasons/december-solstice",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2028-12-21",
+      "datetime": {
+        "year": 2028,
+        "month": 12,
+        "day": 21,
+        "hour": 11,
+        "minute": 19,
+        "second": 38
+      }
+    }
+  }
+]
