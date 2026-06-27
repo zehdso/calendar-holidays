@@ -3,6 +3,13 @@ name: Holiday Sync
 on:
   workflow_dispatch:
 
+  schedule:
+    # 1st day of every month at 02:00 UTC
+    - cron: "0 2 1 * *"
+
+    # 15th day of every month at 02:00 UTC
+    - cron: "0 2 15 * *"
+
 permissions:
   contents: write
 
