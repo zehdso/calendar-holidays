@@ -1,4 +1,4 @@
-name: Holiday Sync v2
+name: Holiday Sync v3
 
 on:
   workflow_dispatch:
@@ -32,10 +32,10 @@ jobs:
           CALENDARIFIC_API_KEY: ${{ secrets.CALENDARIFIC_API_KEY }}
         run: |
 
-          set -e
+          set -eo pipefail
 
           if [ -z "$CALENDARIFIC_API_KEY" ]; then
-            echo "::error::CALENDARIFIC_API_KEY is missing."
+            echo "::error::Missing Calendarific API Key"
             exit 1
           fi
 
@@ -68,13 +68,14 @@ jobs:
                 --retry 3 \
                 --retry-delay 5 \
                 --connect-timeout 20 \
+                --max-time 60 \
                 -s \
                 -w "%{http_code}" \
                 -o response.json \
                 "$URL")
 
               if [ "$HTTP" != "200" ]; then
-                echo "HTTP Error $HTTP"
+                echo "HTTP $HTTP"
                 YEAR=$((YEAR+1))
                 continue
               fi
@@ -85,31 +86,74 @@ jobs:
                 continue
               fi
 
-              META=$(jq -r '.meta.code // empty' response.json)
+              META=$(jq -r '.meta.code // 0' response.json)
 
               if [ "$META" != "200" ]; then
-                echo "Calendarific returned error."
+                echo "Calendarific error"
+
+                jq .
+
                 YEAR=$((YEAR+1))
+
                 continue
               fi
 
-              COUNT=$(jq '.response.holidays | length' response.json)
+              if ! jq -e '.response' response.json >/dev/null; then
+                echo "Missing response object"
+
+                YEAR=$((YEAR+1))
+
+                continue
+              fi
+
+              if ! jq -e '.response.holidays' response.json >/dev/null 2>&1; then
+                echo "Holiday array missing"
+
+                YEAR=$((YEAR+1))
+
+                continue
+              fi
+
+              TYPE=$(jq -r '.response.holidays|type' response.json)
+
+              if [ "$TYPE" != "array" ]; then
+                echo "Holiday data isn't array"
+
+                YEAR=$((YEAR+1))
+
+                continue
+              fi
+
+              COUNT=$(jq '.response.holidays|length' response.json)
 
               if [ "$COUNT" -eq 0 ]; then
-                echo "No holidays."
+
+                echo "No holidays"
+
                 YEAR=$((YEAR+1))
+
                 continue
               fi
 
-              jq '[.response.holidays[] |
-              {
-                name,
-                description,
-                type,
-                date:{
-                  iso:.date.iso
+              jq '
+              [
+                .response.holidays[]
+                |
+                {
+                  name,
+                  description,
+                  type,
+                  primary_type,
+                  canonical_url,
+                  locations,
+                  states,
+                  date:{
+                    iso:.date.iso,
+                    datetime:.date.datetime
+                  }
                 }
-              }]' response.json > temp.json
+              ]
+              ' response.json > temp.json
 
               TARGET="holidays/$COUNTRY/$YEAR.json"
 
@@ -119,7 +163,7 @@ jobs:
 
                   echo "$COUNTRY $YEAR unchanged."
 
-                  rm -f temp.json
+                  rm temp.json
 
                 else
 
@@ -138,24 +182,20 @@ jobs:
               fi
 
               jq \
-              --arg c "$COUNTRY" \
-              --arg y "$YEAR" \
-              --arg u "$UPDATED" \
-              --argjson count "$COUNT" \
-              '
+                --arg c "$COUNTRY" \
+                --arg y "$YEAR" \
+                --arg updated "$UPDATED" \
+                --argjson count "$COUNT" \
+                '
+                .[$c]|=(.//{})
+                |
+                .[$c][$y]={
+                  holidayCount:$count,
+                  lastUpdated:$updated
+                }
+                ' metadata_tmp.json > metadata_new.json
 
-              .[$c] |= (. // {})
-
-              |
-
-              .[$c][$y]={
-                lastUpdated:$u,
-                holidayCount:$count
-              }
-
-              ' metadata_tmp.json > metadata_next.json
-
-              mv metadata_next.json metadata_tmp.json
+              mv metadata_new.json metadata_tmp.json
 
               rm -f response.json
 
@@ -165,18 +205,19 @@ jobs:
 
           done
 
-          jq -n \
+
+                    jq -n \
             --arg updated "$UPDATED" \
             --slurpfile countries metadata_tmp.json \
             '{
-              version:2,
+              version:3,
               updated:$updated,
               countries:$countries[0]
             }' > holidays/metadata.json
 
           rm -f metadata_tmp.json
 
-          echo "Cleaning old files..."
+          echo "Cleaning old years..."
 
           for COUNTRY in $COUNTRIES
           do
@@ -192,7 +233,7 @@ jobs:
 
               if [ "$FILE_YEAR" -lt "$CURRENT_YEAR" ] || [ "$FILE_YEAR" -gt "$LAST_YEAR" ]; then
 
-                echo "Deleting $FILE"
+                echo "Removing $FILE"
 
                 rm -f "$FILE"
 
@@ -202,19 +243,47 @@ jobs:
 
           done
 
+          echo "Verifying generated files..."
+
+          for COUNTRY in $COUNTRIES
+          do
+
+            YEAR=$CURRENT_YEAR
+
+            while [ $YEAR -le $LAST_YEAR ]
+            do
+
+              FILE="holidays/$COUNTRY/$YEAR.json"
+
+              if [ ! -f "$FILE" ]; then
+
+                echo "::warning::$COUNTRY $YEAR missing."
+
+              fi
+
+              YEAR=$((YEAR+1))
+
+            done
+
+          done
+
           find holidays -type f -name "*.json" -exec chmod 644 {} \;
 
       - name: Commit Changes
+
         run: |
 
+          set -e
+
           git config user.name "github-actions[bot]"
+
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add holidays/
 
           if git diff --cached --quiet; then
 
-            echo "No changes."
+            echo "Nothing changed."
 
             exit 0
 
@@ -223,3 +292,19 @@ jobs:
           git commit -m "Automatic holiday sync [skip ci]"
 
           git push origin HEAD
+
+      - name: Summary
+
+        run: |
+
+          echo "========================"
+
+          echo "Holiday Sync Finished"
+
+          echo "Countries : $COUNTRIES"
+
+          echo "Current Year : $(date -u +%Y)"
+
+          echo "Future Years : $FUTURE_YEARS"
+
+          echo "========================"
