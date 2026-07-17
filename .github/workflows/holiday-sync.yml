@@ -289,7 +289,7 @@ jobs:
 
           fi
 
-          git commit -m "Automatic holiday sync [skip ci]"
+          git commit -m "Automatic holiday sync"
 
           git push origin HEAD
 
