@@ -2605,8 +2605,8 @@
     }
   },
   {
-    "name": "Ramadan Starts",
-    "description": "Many Muslims in the United States fast in the hours of daylight during Ramadan, the ninth month in the Islamic calendar.",
+    "name": "Ramadan Starts (Provisional)",
+    "description": "Many Muslims in the United States fast in the hours of daylight during Ramadan, the ninth month in the Islamic calendar. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "Muslim"
     ],
@@ -3252,8 +3252,8 @@
     }
   },
   {
-    "name": "Eid al-Fitr",
-    "description": "Eid al-Fitr is a holiday to mark the end of the Islamic month of Ramadan, during which Muslims fast during the hours of daylight.",
+    "name": "Eid al-Fitr (Provisional)",
+    "description": "Eid al-Fitr is a holiday to mark the end of the Islamic month of Ramadan, during which Muslims fast during the hours of daylight. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "Muslim"
     ],
@@ -6779,8 +6779,8 @@
     }
   },
   {
-    "name": "Eid al-Adha",
-    "description": "For more than 3 millions Muslims in the US, Eid al-Adha, the Festival of Sacrifice, is one of the most important dates in the calendar.",
+    "name": "Eid al-Adha (Provisional)",
+    "description": "For more than 3 millions Muslims in the US, Eid al-Adha, the Festival of Sacrifice, is one of the most important dates in the calendar. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "Muslim"
     ],
@@ -7423,8 +7423,8 @@
     }
   },
   {
-    "name": "Muharram",
-    "description": "The first day of Muharram, which is the first month in the Islamic calendar, marks the start of the Islamic New Year.",
+    "name": "Muharram (Provisional)",
+    "description": "The first day of Muharram, which is the first month in the Islamic calendar, marks the start of the Islamic New Year. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "Muslim"
     ],
@@ -8963,8 +8963,8 @@
     }
   },
   {
-    "name": "Ashura",
-    "description": "Ashura is a Muslim in the USA",
+    "name": "Ashura (Provisional)",
+    "description": "Ashura is a Muslim in the USA Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "Muslim"
     ],
@@ -10124,8 +10124,8 @@
     }
   },
   {
-    "name": "The Prophet's Birthday",
-    "description": "Eid Milad ul-Nabi (Mawlid or Milad-un-Nabi) commemorates the Prophet Muhammed's birthday.",
+    "name": "The Prophet's Birthday (Provisional)",
+    "description": "Eid Milad ul-Nabi (Mawlid or Milad-un-Nabi) commemorates the Prophet Muhammed's birthday. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "Muslim"
     ],
@@ -12734,8 +12734,8 @@
     }
   },
   {
-    "name": "Indigenous People's Day",
-    "description": "Indigenous People's Day is a state observance in the USA",
+    "name": "Indigenous People's Day (Provisional)",
+    "description": "Indigenous People's Day is a state observance in the USA Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "Local observance"
     ],

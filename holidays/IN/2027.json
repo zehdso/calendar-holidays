@@ -97,8 +97,8 @@
     }
   },
   {
-    "name": "Ramadan Start",
-    "description": "Ramadan is a period of prayer, reflection and fasting for many Muslims worldwide. It is the ninth month in the Islamic calendar.",
+    "name": "Ramadan Start (Provisional)",
+    "description": "Ramadan is a period of prayer, reflection and fasting for many Muslims worldwide. It is the ninth month in the Islamic calendar. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "Observance"
     ],
@@ -194,8 +194,8 @@
     }
   },
   {
-    "name": "Ramzan Id",
-    "description": "One day of Eid-ul-Fitar, which marks the end of Ramadan, is a gazetted holiday in India.",
+    "name": "Ramzan Id (Provisional)",
+    "description": "One day of Eid-ul-Fitar, which marks the end of Ramadan, is a gazetted holiday in India. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -449,8 +449,8 @@
     }
   },
   {
-    "name": "Bakrid",
-    "description": "For India's more than 200 million Muslims, Bakrid, the Festival of Sacrifice, is one of the holiest days of the year.",
+    "name": "Bakrid (Provisional)",
+    "description": "For India's more than 200 million Muslims, Bakrid, the Festival of Sacrifice, is one of the holiest days of the year. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -468,8 +468,8 @@
     }
   },
   {
-    "name": "Muharram/Ashura",
-    "description": "Muharram, or the Islamic New Year, is a public holiday in India.",
+    "name": "Muharram/Ashura (Provisional)",
+    "description": "Muharram, or the Islamic New Year, is a public holiday in India. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -1018,6 +1018,82 @@
         "year": 2027,
         "month": 12,
         "day": 31
+      }
+    }
+  },
+  {
+    "name": "Mahavir Jayanti (provisional forecast)",
+    "description": "Provisional forecast of a recurring central-government gazetted holiday, calculated using holidays 0.104. The DoPT annual holiday order and any local moon-sighting confirmation for this year have not been verified. State and private-sector entitlements vary.",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "Gazetted Holiday",
+    "canonical_url": "https://calendarific.com/holiday/india/mahavir-jayanti",
+    "locations": "Central government offices; regional and private-sector calendars vary",
+    "states": "All",
+    "date": {
+      "iso": "2027-04-18",
+      "datetime": {
+        "year": 2027,
+        "month": 4,
+        "day": 18
+      }
+    }
+  },
+  {
+    "name": "Buddha Purnima (provisional forecast)",
+    "description": "Provisional forecast of a recurring central-government gazetted holiday, calculated using holidays 0.104. The DoPT annual holiday order and any local moon-sighting confirmation for this year have not been verified. State and private-sector entitlements vary.",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "Gazetted Holiday",
+    "canonical_url": "https://calendarific.com/holiday/india/buddha-purnima",
+    "locations": "Central government offices; regional and private-sector calendars vary",
+    "states": "All",
+    "date": {
+      "iso": "2027-05-20",
+      "datetime": {
+        "year": 2027,
+        "month": 5,
+        "day": 20
+      }
+    }
+  },
+  {
+    "name": "Guru Nanak Jayanti (provisional forecast)",
+    "description": "Provisional forecast of a recurring central-government gazetted holiday, calculated using holidays 0.104. The DoPT annual holiday order and any local moon-sighting confirmation for this year have not been verified. State and private-sector entitlements vary.",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "Gazetted Holiday",
+    "canonical_url": "https://calendarific.com/holiday/india/guru-nanak-jayanti",
+    "locations": "Central government offices; regional and private-sector calendars vary",
+    "states": "All",
+    "date": {
+      "iso": "2027-11-14",
+      "datetime": {
+        "year": 2027,
+        "month": 11,
+        "day": 14
+      }
+    }
+  },
+  {
+    "name": "Milad un-Nabi (provisional forecast)",
+    "description": "Provisional forecast of a recurring central-government gazetted holiday, calculated using holidays 0.104. The DoPT annual holiday order and any local moon-sighting confirmation for this year have not been verified. State and private-sector entitlements vary.",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "Gazetted Holiday",
+    "canonical_url": "https://calendarific.com/holiday/india/milad-un-nabi",
+    "locations": "Central government offices; regional and private-sector calendars vary",
+    "states": "All",
+    "date": {
+      "iso": "2027-08-15",
+      "datetime": {
+        "year": 2027,
+        "month": 8,
+        "day": 15
       }
     }
   }

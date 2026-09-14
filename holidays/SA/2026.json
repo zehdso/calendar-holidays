@@ -1,7 +1,7 @@
 [
   {
-    "name": "Ramadan begins",
-    "description": "Ramadan is a period of prayer, reflection and fasting for many Muslims worldwide. It is the ninth month in the Islamic calendar.",
+    "name": "Ramadan begins (Provisional)",
+    "description": "Ramadan is a period of prayer, reflection and fasting for many Muslims worldwide. It is the ninth month in the Islamic calendar. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "Observance"
     ],
@@ -58,13 +58,13 @@
   },
   {
     "name": "Eid al-Fitr Holiday",
-    "description": "Eid al-Fitr Holiday is a national holiday in Saudi Arabia",
+    "description": "HRSD specifies four days of Eid al-Fitr leave starting the day after 29 Ramadan under Umm al-Qura. The Supreme Court's 18 March 2026 statement identifies that day as 29 Ramadan, so the leave starts 19 March despite Eid itself beginning 20 March. This entry describes Labor Law worker leave; government and bank schedules may differ.",
     "type": [
       "National holiday"
     ],
-    "primary_type": "National holiday",
+    "primary_type": "Public Holiday",
     "canonical_url": "https://calendarific.com/holiday/saudi-arabia/eid-al-fitr-holiday-1",
-    "locations": "All",
+    "locations": "Workers covered by the Labor Law",
     "states": "All",
     "date": {
       "iso": "2026-03-19",
@@ -76,8 +76,8 @@
     }
   },
   {
-    "name": "Eid al-Fitr",
-    "description": "Eid al-Fitr is a holiday to mark the end of the Islamic month of Ramadan, during which Muslims fast during the hours of daylight.",
+    "name": "Eid al-Fitr (Provisional)",
+    "description": "Eid al-Fitr is a holiday to mark the end of the Islamic month of Ramadan, during which Muslims fast during the hours of daylight. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -117,8 +117,8 @@
     }
   },
   {
-    "name": "Eid al-Fitr Holiday",
-    "description": "Eid al-Fitr Holiday is a national holiday in Saudi Arabia",
+    "name": "Eid al-Fitr Holiday (Provisional)",
+    "description": "Eid al-Fitr Holiday is a national holiday in Saudi Arabia Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -136,8 +136,8 @@
     }
   },
   {
-    "name": "Eid al-Fitr Holiday",
-    "description": "Eid al-Fitr Holiday is a national holiday in Saudi Arabia",
+    "name": "Eid al-Fitr Holiday (Provisional)",
+    "description": "Eid al-Fitr Holiday is a national holiday in Saudi Arabia Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -155,8 +155,8 @@
     }
   },
   {
-    "name": "Arafat Day",
-    "description": "Arafat Day is a national holiday in Saudi Arabia",
+    "name": "Arafat Day (Provisional)",
+    "description": "Arafat Day is a national holiday in Saudi Arabia Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -174,8 +174,8 @@
     }
   },
   {
-    "name": "Eid al-Adha",
-    "description": "Eid al-Adha (Id ul-Adha) is an Islamic festival falling on the 10th day of the month of Dhul Hijja (Thou al-Hijja) to commemorate the willingness of Ibrahim (Abraham) to sacrifice his son.",
+    "name": "Eid al-Adha (Provisional)",
+    "description": "Eid al-Adha (Id ul-Adha) is an Islamic festival falling on the 10th day of the month of Dhul Hijja (Thou al-Hijja) to commemorate the willingness of Ibrahim (Abraham) to sacrifice his son. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -193,8 +193,8 @@
     }
   },
   {
-    "name": "Eid al-Adha Holiday",
-    "description": "Eid al-Adha Holiday is a national holiday in Saudi Arabia",
+    "name": "Eid al-Adha Holiday (Provisional)",
+    "description": "Eid al-Adha Holiday is a national holiday in Saudi Arabia Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -212,8 +212,8 @@
     }
   },
   {
-    "name": "Eid al-Adha Holiday",
-    "description": "Eid al-Adha Holiday is a national holiday in Saudi Arabia",
+    "name": "Eid al-Adha Holiday (Provisional)",
+    "description": "Eid al-Adha Holiday is a national holiday in Saudi Arabia Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -231,8 +231,8 @@
     }
   },
   {
-    "name": "Muharram (Muslim New Year)",
-    "description": "Muharram is the first month of the Islamic calendar and a time of remembrance or mourning.",
+    "name": "Muharram (Muslim New Year) (Provisional)",
+    "description": "Muharram is the first month of the Islamic calendar and a time of remembrance or mourning. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "Observance"
     ],

@@ -1,7 +1,7 @@
 [
   {
     "name": "Birthday of Imam Ali and Father's Day",
-    "description": "Birthday of Imam Ali and Father's Day is a national holiday in Iran",
+    "description": "The official 1404 calendar identifies13Rajab1447, ImamAli's birthday, as Saturday3January2026. The separate December2026 occurrence is preserved.",
     "type": [
       "National holiday"
     ],
@@ -10,17 +10,17 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-01-02",
+      "iso": "2026-01-03",
       "datetime": {
         "year": 2026,
         "month": 1,
-        "day": 2
+        "day": 3
       }
     }
   },
   {
-    "name": "Prophet's Ascension",
-    "description": "Prophet's Ascension is a national holiday in Iran",
+    "name": "Prophet Muhammad's First Revelation (Mab'ath)",
+    "description": "Iran's official calendar identifies this27Rajab holiday as Mab'ath, the commencement of ProphetMuhammad's prophetic mission. It is distinct from the name used for IsraandMiraj elsewhere. The2026 date is17January in the official1404 calendar.",
     "type": [
       "National holiday"
     ],
@@ -39,7 +39,7 @@
   },
   {
     "name": "Imam Mahdi's birthday",
-    "description": "Imam Mahdi's birthday is a national holiday in Iran",
+    "description": "The official1404 calendar places15Shaban1447, ImamMahdi's birthday, on Wednesday4February2026; JICA's Iran office independently lists that date.",
     "type": [
       "National holiday"
     ],
@@ -48,11 +48,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-02-03",
+      "iso": "2026-02-04",
       "datetime": {
         "year": 2026,
         "month": 2,
-        "day": 3
+        "day": 4
       }
     }
   },
@@ -228,8 +228,8 @@
     }
   },
   {
-    "name": "Martyrdom of Imam Ali",
-    "description": "Martyrdom of Imam Ali is a national holiday in Iran",
+    "name": "Martyrdom of Imam Ali (Provisional)",
+    "description": "Martyrdom of Imam Ali is a national holiday in Iran Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -248,7 +248,7 @@
   },
   {
     "name": "Oil Nationalization Day",
-    "description": "Oil Nationalization Day is a national holiday in Iran",
+    "description": "The official 1404 calendar places Oil Nationalization Day, 29 Esfand 1404, on Friday20March2026. This corrects the one-day Gregorian conversion error.",
     "type": [
       "National holiday"
     ],
@@ -257,11 +257,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-03-19",
+      "iso": "2026-03-20",
       "datetime": {
         "year": 2026,
         "month": 3,
-        "day": 19
+        "day": 20
       }
     }
   },
@@ -459,8 +459,8 @@
     }
   },
   {
-    "name": "Eid-e-Ghorban",
-    "description": "Eid al-Adha (Id ul-Adha) is an Islamic festival falling on the 10th day of the month of Dhul Hijja (Thou al-Hijja) to commemorate the willingness of Ibrahim (Abraham) to sacrifice his son.",
+    "name": "Eid-e-Ghorban (Provisional)",
+    "description": "Eid al-Adha (Id ul-Adha) is an Islamic festival falling on the 10th day of the month of Dhul Hijja (Thou al-Hijja) to commemorate the willingness of Ibrahim (Abraham) to sacrifice his son. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -478,8 +478,8 @@
     }
   },
   {
-    "name": "Eid-e-Ghadir",
-    "description": "Eid-e-Ghadir is a national holiday in Iran",
+    "name": "Eid-e-Ghadir (Provisional)",
+    "description": "Eid-e-Ghadir is a national holiday in Iran Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -557,8 +557,8 @@
     }
   },
   {
-    "name": "Tassoua",
-    "description": "Tassoua is a national holiday in Iran",
+    "name": "Tassoua (Provisional)",
+    "description": "Tassoua is a national holiday in Iran Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -576,8 +576,8 @@
     }
   },
   {
-    "name": "Ashura",
-    "description": "Ashura is a national holiday in Iran",
+    "name": "Ashura (Provisional)",
+    "description": "Ashura is a national holiday in Iran Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -595,8 +595,8 @@
     }
   },
   {
-    "name": "Arbaeen",
-    "description": "Arbaeen is a national holiday in Iran",
+    "name": "Arbaeen (Provisional)",
+    "description": "Arbaeen is a national holiday in Iran Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -614,8 +614,8 @@
     }
   },
   {
-    "name": "Demise of Prophet Muhammad and Martyrdom of Imam Hassan",
-    "description": "Demise of Prophet Muhammad and Martyrdom of Imam Hassan is a national holiday in Iran",
+    "name": "Demise of Prophet Muhammad and Martyrdom of Imam Hassan (Provisional)",
+    "description": "Demise of Prophet Muhammad and Martyrdom of Imam Hassan is a national holiday in Iran Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -652,8 +652,8 @@
     }
   },
   {
-    "name": "Martyrdom of Imam Hasan al-Askari",
-    "description": "Martyrdom of Imam Hasan al-Askari is a national holiday in Iran",
+    "name": "Martyrdom of Imam Hasan al-Askari (Provisional)",
+    "description": "Martyrdom of Imam Hasan al-Askari is a national holiday in Iran Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -671,8 +671,8 @@
     }
   },
   {
-    "name": "Birthday of Prophet Muhammad and Imam Sadeq",
-    "description": "Birthday of Prophet Muhammad and Imam Sadeq is a national holiday in Iran",
+    "name": "Birthday of Prophet Muhammad and Imam Sadeq (Provisional)",
+    "description": "Birthday of Prophet Muhammad and Imam Sadeq is a national holiday in Iran Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],
@@ -712,8 +712,8 @@
     }
   },
   {
-    "name": "Martyrdom of Hazrat Fatima",
-    "description": "Martyrdom of Hazrat Fatima is a national holiday in Iran",
+    "name": "Martyrdom of Hazrat Fatima (Provisional)",
+    "description": "Martyrdom of Hazrat Fatima is a national holiday in Iran Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "National holiday"
     ],

@@ -155,8 +155,8 @@
     }
   },
   {
-    "name": "Hajj season begins",
-    "description": "Hajj season begins is a observance in United Arab Emirates",
+    "name": "Hajj season begins (Provisional)",
+    "description": "Hajj season begins is a observance in United Arab Emirates Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
     "type": [
       "Observance"
     ],
@@ -175,11 +175,11 @@
   },
   {
     "name": "Arafat (Hajj) Day",
-    "description": "Arafat (Hajj) Day is a national holiday in United Arab Emirates",
+    "description": "Confirmed Eid al-Adha public holiday. Paid private-sector leave runs from 26 to 29 May 2026; federal ministries and entities have additional leave on 25 May.",
     "type": [
       "National holiday"
     ],
-    "primary_type": "National holiday",
+    "primary_type": "Public Holiday",
     "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/arafat-haj-day",
     "locations": "All",
     "states": "All",
@@ -194,11 +194,11 @@
   },
   {
     "name": "Eid al-Adha (Feast of Sacrifice)",
-    "description": "Eid al-Adha (Id ul-Adha) is an Islamic festival falling on the 10th day of the month of Dhul Hijja (Thou al-Hijja) to commemorate the willingness of Ibrahim (Abraham) to sacrifice his son.",
+    "description": "Confirmed Eid al-Adha public holiday. Paid private-sector leave runs from 26 to 29 May 2026; federal ministries and entities have additional leave on 25 May.",
     "type": [
       "National holiday"
     ],
-    "primary_type": "National holiday",
+    "primary_type": "Public Holiday",
     "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/eid-al-adha",
     "locations": "All",
     "states": "All",
@@ -213,30 +213,30 @@
   },
   {
     "name": "Eid al-Adha Holiday",
-    "description": "Eid al-Adha Holiday is a national holiday in United Arab Emirates",
+    "description": "Confirmed Eid al-Adha public holiday. Paid private-sector leave runs from 26 to 29 May 2026; federal ministries and entities have additional leave on 25 May.",
     "type": [
       "National holiday"
     ],
-    "primary_type": "National holiday",
+    "primary_type": "Public Holiday",
     "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/eid-al-adha-2",
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-05-27",
+      "iso": "2026-05-29",
       "datetime": {
         "year": 2026,
         "month": 5,
-        "day": 27
+        "day": 29
       }
     }
   },
   {
     "name": "Eid al-Adha Holiday",
-    "description": "Eid al-Adha Holiday is a national holiday in United Arab Emirates",
+    "description": "Confirmed Eid al-Adha public holiday. Paid private-sector leave runs from 26 to 29 May 2026; federal ministries and entities have additional leave on 25 May.",
     "type": [
       "National holiday"
     ],
-    "primary_type": "National holiday",
+    "primary_type": "Public Holiday",
     "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/eid-al-adha-1",
     "locations": "All",
     "states": "All",
@@ -250,21 +250,21 @@
     }
   },
   {
-    "name": "Al-Hijra (Islamic New Year)",
-    "description": "Muharram is the first month of the Islamic calendar and a time of remembrance or mourning.",
+    "name": "Al-Hijra (Islamic New Year) (Observed Holiday)",
+    "description": "The observed Hijri New Year public holiday is 15 June 2026 for federal-government and private-sector employees, as announced by MoHRE and WAM. This is the paid-leave date, distinct from the religious anniversary.",
     "type": [
       "National holiday"
     ],
-    "primary_type": "National holiday",
+    "primary_type": "Public Holiday",
     "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/islamic-new-year",
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-06-17",
+      "iso": "2026-06-15",
       "datetime": {
         "year": 2026,
         "month": 6,
-        "day": 17
+        "day": 15
       }
     }
   },
@@ -291,21 +291,21 @@
     }
   },
   {
-    "name": "Mouloud",
-    "description": "Mawlid, or Milad, marks the birth of the Islamic prophet Muhammed, or Mohamed, in the year 570 of the Gregorian calendar.",
+    "name": "Prophet's Birthday (Observed Holiday)",
+    "description": "The observed public holiday for the Prophet's Birthday is 28 August 2026 for federal government and private-sector employees. FAHR Circular 11 of 2026 confirms the federal date. The observed leave date is distinct from the religious anniversary.",
     "type": [
       "National holiday"
     ],
-    "primary_type": "National holiday",
+    "primary_type": "Public Holiday",
     "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/mouloud",
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-08-26",
+      "iso": "2026-08-28",
       "datetime": {
         "year": 2026,
         "month": 8,
-        "day": 26
+        "day": 28
       }
     }
   },
@@ -426,6 +426,25 @@
         "year": 2026,
         "month": 12,
         "day": 31
+      }
+    }
+  },
+  {
+    "name": "Eid al-Adha Holiday (Federal Government Only)",
+    "description": "Additional Eid al-Adha leave on 25 May 2026 for federal ministries and entities under the FAHR announcement. The private-sector holiday begins on 26 May; this additional day is not private-sector leave.",
+    "type": [
+      "National holiday"
+    ],
+    "primary_type": "Government Holiday",
+    "canonical_url": "https://calendarific.com/holiday/united-arab-emirates/eid-al-adha-federal-government-holiday",
+    "locations": "Federal ministries and entities only",
+    "states": "All",
+    "date": {
+      "iso": "2026-05-25",
+      "datetime": {
+        "year": 2026,
+        "month": 5,
+        "day": 25
       }
     }
   }
