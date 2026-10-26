@@ -1,115 +1,115 @@
 {
   "version": 3,
-  "updated": "2026-10-19T07:23:18Z",
+  "updated": "2026-10-26T07:28:46Z",
   "countries": {
     "IN": {
       "2026": {
         "holidayCount": 71,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2027": {
         "holidayCount": 56,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2028": {
         "holidayCount": 58,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2029": {
         "holidayCount": 53,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2030": {
         "holidayCount": 54,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       }
     },
     "SA": {
       "2026": {
         "holidayCount": 17,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2027": {
         "holidayCount": 16,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2028": {
         "holidayCount": 17,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2029": {
         "holidayCount": 16,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2030": {
         "holidayCount": 17,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       }
     },
     "US": {
       "2026": {
         "holidayCount": 635,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2027": {
         "holidayCount": 640,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2028": {
         "holidayCount": 636,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2029": {
         "holidayCount": 628,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2030": {
         "holidayCount": 626,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       }
     },
     "AE": {
       "2026": {
         "holidayCount": 23,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2027": {
         "holidayCount": 22,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2028": {
         "holidayCount": 22,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2029": {
         "holidayCount": 12,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2030": {
         "holidayCount": 12,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       }
     },
     "IR": {
       "2026": {
         "holidayCount": 40,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2027": {
         "holidayCount": 33,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2028": {
         "holidayCount": 32,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2029": {
         "holidayCount": 27,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       },
       "2030": {
         "holidayCount": 27,
-        "lastUpdated": "2026-10-19T07:23:18Z"
+        "lastUpdated": "2026-10-26T07:28:46Z"
       }
     }
   }
