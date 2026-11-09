@@ -457,13 +457,13 @@
   },
   {
     "name": "New Year Holiday",
-    "description": "New Year Holiday is a state holiday in the USA",
+    "description": "New Year Holiday is an extra state holiday in Florida and Tennessee in 2026.",
     "type": [
       "Local holiday"
     ],
     "primary_type": "State Holiday",
     "canonical_url": "https://calendarific.com/holiday/us/new-year-extra-holiday",
-    "locations": "FL",
+    "locations": "FL, TN",
     "states": [
       {
         "id": 12,
@@ -471,6 +471,13 @@
         "name": "Florida",
         "exception": null,
         "iso": "us-fl"
+      },
+      {
+        "id": 47,
+        "abbrev": "TN",
+        "name": "Tennessee",
+        "exception": null,
+        "iso": "us-tn"
       }
     ],
     "date": {
@@ -560,7 +567,7 @@
   },
   {
     "name": "Estelle Reel Day",
-    "description": "Estelle Reel Day is a state observance in the USA",
+    "description": "Estelle Reel Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -587,7 +594,7 @@
   },
   {
     "name": "Battle of New Orleans",
-    "description": "Battle of New Orleans is a state legal holiday in the USA",
+    "description": "Battle of New Orleans is a state legal holiday in the USA.",
     "type": [
       "Local observance"
     ],
@@ -1275,7 +1282,7 @@
   },
   {
     "name": "International Day of Education",
-    "description": "International Day of Education is a United Nations observance in the USA",
+    "description": "International Day of Education is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -1377,6 +1384,33 @@
     }
   },
   {
+    "name": "Franklin D. Roosevelt Day",
+    "description": "Franklin D. Roosevelt Day is a state observance in the USA.",
+    "type": [
+      "Local observance"
+    ],
+    "primary_type": "State Observance",
+    "canonical_url": "https://calendarific.com/holiday/us/franklin-d-roosevelt-day",
+    "locations": "KY",
+    "states": [
+      {
+        "id": 20,
+        "abbrev": "KY",
+        "name": "Kentucky",
+        "exception": null,
+        "iso": "us-ky"
+      }
+    ],
+    "date": {
+      "iso": "2026-01-29",
+      "datetime": {
+        "year": 2026,
+        "month": 1,
+        "day": 29
+      }
+    }
+  },
+  {
     "name": "National Freedom Day",
     "description": "National Freedom Day in the United States is observed on February 1 each year.",
     "type": [
@@ -1397,7 +1431,7 @@
   },
   {
     "name": "First Day of Black History Month",
-    "description": "First Day of Black History Month is a annual monthly observance in the USA",
+    "description": "First Day of Black History Month is an annual monthly observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -1473,7 +1507,7 @@
   },
   {
     "name": "International Day of Human Fraternity",
-    "description": "International Day of Human Fraternity is a United Nations observance in the USA",
+    "description": "International Day of Human Fraternity is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -1552,7 +1586,7 @@
   },
   {
     "name": "National Girls and Women in Sports Day",
-    "description": "National Girls and Women in Sports Day is a observance in the USA",
+    "description": "National Girls and Women in Sports Day is an observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -1590,7 +1624,7 @@
   },
   {
     "name": "Ronald Reagan Day",
-    "description": "Ronald Reagan Day is a state observance in the USA",
+    "description": "Ronald Reagan Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -1655,7 +1689,7 @@
   },
   {
     "name": "World Pulses Day",
-    "description": "World Pulses Day is a United Nations observance in the USA",
+    "description": "World Pulses Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -1787,7 +1821,7 @@
   },
   {
     "name": "Georgia Day",
-    "description": "Georgia Day is a state observance in the USA",
+    "description": "Georgia Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -1871,7 +1905,7 @@
   },
   {
     "name": "Statehood Day",
-    "description": "Statehood Day is a local observance in the USA",
+    "description": "Statehood Day is a local observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -1898,7 +1932,7 @@
   },
   {
     "name": "Maha Shivaratri",
-    "description": "Maha Shivratri is an annual festival dedicated to Shiva, the Hindu God of destruction. For devotees, is a day of reflection and meditation.",
+    "description": "Maha Shivratri is an annual festival dedicated to Shiva, the Hindu God of destruction. For devotees, it is a day of reflection and meditation.",
     "type": [
       "Hinduism"
     ],
@@ -1917,7 +1951,7 @@
   },
   {
     "name": "Susan B. Anthony's Birthday",
-    "description": "Susan B Anthony Day is an national American observance that is legally recognized in some states.",
+    "description": "Susan B. Anthony Day is an observance recognized in some states.",
     "type": [
       "Local observance"
     ],
@@ -1951,7 +1985,7 @@
   },
   {
     "name": "Susan B. Anthony Day",
-    "description": "Susan B Anthony Day is an national American observance that is legally recognized in some states.",
+    "description": "Susan B. Anthony Day is an observance recognized in some states.",
     "type": [
       "Local observance"
     ],
@@ -2004,13 +2038,13 @@
   },
   {
     "name": "Presidents' Day",
-    "description": "Presidents' Day is a state holiday in the USA",
+    "description": "Presidents' Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
     "primary_type": "State Holiday",
     "canonical_url": "https://calendarific.com/holiday/us/washington-birthday",
-    "locations": "All except DE, FL, GA, IA, IN, KS, KY, LA, NC, RI, WI",
+    "locations": "All except DE, FL, GA, IA, IN, KS, KY, LA, NC, NM, RI, WI",
     "states": [
       {
         "id": 1,
@@ -2167,13 +2201,6 @@
         "iso": "us-nj"
       },
       {
-        "id": 35,
-        "abbrev": "NM",
-        "name": "New Mexico",
-        "exception": null,
-        "iso": "us-nm"
-      },
-      {
         "id": 36,
         "abbrev": "NY",
         "name": "New York",
@@ -2304,7 +2331,7 @@
   },
   {
     "name": "Presidents' Day",
-    "description": "Presidents' Day is a state legal holiday in the USA",
+    "description": "Presidents' Day is a state legal holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -2345,7 +2372,7 @@
   },
   {
     "name": "Washington's Day",
-    "description": "Washington's Day is a state legal holiday in the USA",
+    "description": "Washington's Day is a state legal holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -2605,8 +2632,8 @@
     }
   },
   {
-    "name": "Ramadan Starts (Provisional)",
-    "description": "Many Muslims in the United States fast in the hours of daylight during Ramadan, the ninth month in the Islamic calendar. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
+    "name": "Ramadan Starts",
+    "description": "Many Muslims in the United States fast in the hours of daylight during Ramadan, the ninth month in the Islamic calendar.",
     "type": [
       "Muslim"
     ],
@@ -2663,7 +2690,7 @@
   },
   {
     "name": "African-American Scientist and Inventor Day",
-    "description": "African-American Scientist and Inventor Day is a state observance in the USA",
+    "description": "African-American Scientist and Inventor Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -2690,7 +2717,7 @@
   },
   {
     "name": "George Rogers Clark Day",
-    "description": "George Rogers Clark Day is a state observance in the USA",
+    "description": "George Rogers Clark Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -2717,7 +2744,7 @@
   },
   {
     "name": "Linus Pauling Day",
-    "description": "Linus Pauling Day is a state holiday on February 28 in Oregon, USA.",
+    "description": "Linus Pauling Day is a state observance on February 28 in Oregon, USA.",
     "type": [
       "Local observance"
     ],
@@ -2744,7 +2771,7 @@
   },
   {
     "name": "Zero Discrimination Day",
-    "description": "Discrimination Day highlights the negative impacts of discrimination and promotes tolerance, compassion and peace.",
+    "description": "Zero Discrimination Day highlights the negative impacts of discrimination and promotes tolerance, compassion and peace.",
     "type": [
       "United Nations observance"
     ],
@@ -2763,7 +2790,7 @@
   },
   {
     "name": "Self-Injury Awareness Day",
-    "description": "",
+    "description": "Self-Injury Awareness Day, on March 1, raises awareness of self-harm and encourages people to seek and offer support.",
     "type": [
       "Worldwide observance"
     ],
@@ -2802,7 +2829,7 @@
   },
   {
     "name": "First Day of Women's History Month",
-    "description": "First Day of Women's History Month is a annual monthly observance in the USA",
+    "description": "First Day of Women's History Month is an annual monthly observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -2821,7 +2848,7 @@
   },
   {
     "name": "First Day of Irish American Heritage Month",
-    "description": "First Day of Irish American Heritage Month is a annual monthly observance in the USA",
+    "description": "First Day of Irish American Heritage Month is an annual monthly observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -3024,7 +3051,7 @@
   },
   {
     "name": "Casimir Pulaski Day",
-    "description": "Casimir Pulaski Day is a day off for some schools and offices in Illinois, USA, on the first Monday of March each year.",
+    "description": "Casimir Pulaski Day honors the Polish-born Revolutionary War hero General Casimir Pulaski. It is a state observance in Wisconsin on March 4.",
     "type": [
       "Local observance"
     ],
@@ -3089,7 +3116,7 @@
   },
   {
     "name": "Daylight Saving Time starts",
-    "description": "Daylight Saving Time starts in the USA",
+    "description": "Daylight Saving Time starts in the USA.",
     "type": [
       "Clock change/Daylight Saving Time"
     ],
@@ -3111,7 +3138,7 @@
   },
   {
     "name": "International Day of Women Judges",
-    "description": "International Day of Women Judges is a United Nations observance in the USA",
+    "description": "International Day of Women Judges is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -3187,7 +3214,7 @@
   },
   {
     "name": "Long Covid Awareness Day",
-    "description": "Long Covid Awareness Day is a worldwide observance in the USA",
+    "description": "Long Covid Awareness Day is a worldwide observance in the USA.",
     "type": [
       "Worldwide observance"
     ],
@@ -3195,6 +3222,33 @@
     "canonical_url": "https://calendarific.com/holiday/world/long-covid-awareness-day",
     "locations": "All",
     "states": "All",
+    "date": {
+      "iso": "2026-03-15",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 15
+      }
+    }
+  },
+  {
+    "name": "Statehood Day",
+    "description": "Maine Statehood Day marks Maine's admission to the Union on March 15, 1820. It is a state observance in Maine.",
+    "type": [
+      "Local observance"
+    ],
+    "primary_type": "Local observance",
+    "canonical_url": "https://calendarific.com/holiday/us/maine-statehood-day",
+    "locations": "ME",
+    "states": [
+      {
+        "id": 22,
+        "abbrev": "ME",
+        "name": "Maine",
+        "exception": null,
+        "iso": "us-me"
+      }
+    ],
     "date": {
       "iso": "2026-03-15",
       "datetime": {
@@ -3252,8 +3306,8 @@
     }
   },
   {
-    "name": "Eid al-Fitr (Provisional)",
-    "description": "Eid al-Fitr is a holiday to mark the end of the Islamic month of Ramadan, during which Muslims fast during the hours of daylight. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
+    "name": "Eid al-Fitr",
+    "description": "Eid al-Fitr is a holiday to mark the end of the Islamic month of Ramadan, during which Muslims fast during the hours of daylight.",
     "type": [
       "Muslim"
     ],
@@ -3272,7 +3326,7 @@
   },
   {
     "name": "French Language Day",
-    "description": "French Language Day is a United Nations observance in the USA",
+    "description": "French Language Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -3327,6 +3381,33 @@
         "hour": 10,
         "minute": 46,
         "second": 0
+      }
+    }
+  },
+  {
+    "name": "Nowruz Day",
+    "description": "Nowruz Day is a state observance in the USA.",
+    "type": [
+      "Local observance"
+    ],
+    "primary_type": "State Observance",
+    "canonical_url": "https://calendarific.com/holiday/us/nowruz-day",
+    "locations": "CA",
+    "states": [
+      {
+        "id": 7,
+        "abbrev": "CA",
+        "name": "California",
+        "exception": null,
+        "iso": "us-ca"
+      }
+    ],
+    "date": {
+      "iso": "2026-03-20",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 20
       }
     }
   },
@@ -3484,7 +3565,7 @@
   },
   {
     "name": "International Day for the Right to the Truth concerning Gross Human Rights Violations and for the Dignity of Victims",
-    "description": "March 24 is the UN's International Day for the Right to the Truth concerning Gross Human Rights Violations and for the Dignity of Victims",
+    "description": "March 24 is the UN's International Day for the Right to the Truth concerning Gross Human Rights Violations and for the Dignity of Victims.",
     "type": [
       "United Nations observance"
     ],
@@ -3502,7 +3583,7 @@
     }
   },
   {
-    "name": "International Day of Remembrance of Slavery Victims and the Transatlantic Slave Trade",
+    "name": "International Day of Remembrance of the Victims of Slavery and the Transatlantic Slave Trade",
     "description": "The International Day of Remembrance of the Victims of Slavery and the Transatlantic Slave Trade remembers the lives of Africans who were forced into slavery in North, Central and South America.",
     "type": [
       "United Nations observance"
@@ -3652,7 +3733,7 @@
   },
   {
     "name": "Wyoming Veterans Welcome Home Day",
-    "description": "Wyoming Veterans Welcome Home Day is a state observance in the USA",
+    "description": "Wyoming Veterans Welcome Home Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -3679,7 +3760,7 @@
   },
   {
     "name": "Doctors' Day",
-    "description": "Doctors' Day is a observance in the USA",
+    "description": "Doctors' Day is an observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -3725,7 +3806,7 @@
   },
   {
     "name": "Vietnam Veterans Day",
-    "description": "Vietnam Veterans Day is a state observance in the USA",
+    "description": "Vietnam Veterans Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -3752,7 +3833,7 @@
   },
   {
     "name": "Vietnam Veteran Recognition Day",
-    "description": "Vietnam Veteran Recognition Day is a state observance in the USA",
+    "description": "Vietnam Veteran Recognition Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -3779,7 +3860,7 @@
   },
   {
     "name": "International Transgender Day of Visibility",
-    "description": "International Transgender Day of Visibility is a worldwide observance in the USA",
+    "description": "International Transgender Day of Visibility is a worldwide observance in the USA.",
     "type": [
       "Worldwide observance"
     ],
@@ -3831,49 +3912,68 @@
     ],
     "primary_type": "State Holiday",
     "canonical_url": "https://calendarific.com/holiday/us/cesar-chavez-day",
-    "locations": "AZ (partly), MI (partly), NV (partly), NM (partly), UT (partly), WI (partly)",
+    "locations": "NM (partly)",
+    "states": [
+      {
+        "id": 35,
+        "abbrev": "NM",
+        "name": "New Mexico",
+        "exception": null,
+        "iso": "us-nm"
+      }
+    ],
+    "date": {
+      "iso": "2026-03-31",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 31
+      }
+    }
+  },
+  {
+    "name": "César Chávez Day",
+    "description": "César Chávez Day celebrates the birthday of César Estrada Chávez.",
+    "type": [
+      "Local observance"
+    ],
+    "primary_type": "State Observance",
+    "canonical_url": "https://calendarific.com/holiday/us/cesar-chavez-day",
+    "locations": "AZ (partly)",
     "states": [
       {
         "id": 4,
         "abbrev": "AZ",
         "name": "Arizona",
-        "exception": "partly",
+        "exception": null,
         "iso": "us-az"
-      },
+      }
+    ],
+    "date": {
+      "iso": "2026-03-31",
+      "datetime": {
+        "year": 2026,
+        "month": 3,
+        "day": 31
+      }
+    }
+  },
+  {
+    "name": "César Chávez Day",
+    "description": "César Chávez Day celebrates the birthday of César Estrada Chávez.",
+    "type": [
+      "Local observance"
+    ],
+    "primary_type": "State Observance",
+    "canonical_url": "https://calendarific.com/holiday/us/cesar-chavez-day",
+    "locations": "MI",
+    "states": [
       {
         "id": 26,
         "abbrev": "MI",
         "name": "Michigan",
-        "exception": "partly",
+        "exception": null,
         "iso": "us-mi"
-      },
-      {
-        "id": 32,
-        "abbrev": "NV",
-        "name": "Nevada",
-        "exception": "partly",
-        "iso": "us-nv"
-      },
-      {
-        "id": 35,
-        "abbrev": "NM",
-        "name": "New Mexico",
-        "exception": "partly",
-        "iso": "us-nm"
-      },
-      {
-        "id": 49,
-        "abbrev": "UT",
-        "name": "Utah",
-        "exception": "partly",
-        "iso": "us-ut"
-      },
-      {
-        "id": 55,
-        "abbrev": "WI",
-        "name": "Wisconsin",
-        "exception": "partly",
-        "iso": "us-wi"
       }
     ],
     "date": {
@@ -3968,7 +4068,7 @@
   },
   {
     "name": "Passover Eve",
-    "description": "Passover Eve is a Jewish holiday in the USA",
+    "description": "Passover Eve is a Jewish holiday in the USA.",
     "type": [
       "Hebrew"
     ],
@@ -4097,7 +4197,7 @@
     ],
     "primary_type": "State Holiday",
     "canonical_url": "https://calendarific.com/holiday/us/good-friday",
-    "locations": "CT, HI, DE, IN, KY, LA, NJ, NC, ND, TN, TX (optional)",
+    "locations": "CT, HI, DE, IN, LA, NJ, NC, ND, TN, TX (optional)",
     "states": [
       {
         "id": 9,
@@ -4126,13 +4226,6 @@
         "name": "Indiana",
         "exception": null,
         "iso": "us-in"
-      },
-      {
-        "id": 20,
-        "abbrev": "KY",
-        "name": "Kentucky",
-        "exception": null,
-        "iso": "us-ky"
       },
       {
         "id": 21,
@@ -4187,8 +4280,35 @@
     }
   },
   {
+    "name": "Good Friday (half day)",
+    "description": "Kentucky state offices observe Good Friday as a half-day holiday.",
+    "type": [
+      "Local holiday"
+    ],
+    "primary_type": "State Holiday (half day)",
+    "canonical_url": "https://calendarific.com/holiday/us/good-friday",
+    "locations": "KY",
+    "states": [
+      {
+        "id": 20,
+        "abbrev": "KY",
+        "name": "Kentucky",
+        "exception": null,
+        "iso": "us-ky"
+      }
+    ],
+    "date": {
+      "iso": "2026-04-03",
+      "datetime": {
+        "year": 2026,
+        "month": 4,
+        "day": 3
+      }
+    }
+  },
+  {
     "name": "State Holiday",
-    "description": "State Holiday is a state holiday in the USA",
+    "description": "State Holiday is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -4233,7 +4353,7 @@
     }
   },
   {
-    "name": "United Nations' Mine Awareness Day",
+    "name": "International Day for Mine Awareness and Assistance in Mine Action",
     "description": "The United Nations' International Day for Mine Awareness and Assistance in Mine Action is annually observed on April 4.",
     "type": [
       "United Nations observance"
@@ -4253,7 +4373,7 @@
   },
   {
     "name": "International Day of Conscience",
-    "description": "International Day of Conscience is a United Nations observance in the USA",
+    "description": "International Day of Conscience is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -4349,8 +4469,8 @@
     }
   },
   {
-    "name": "United Nations' World Health Day",
-    "description": "The World Health Organization, the United Nations' the directing and coordinating authority for health, annually highlights one of its priorities for global health on World Health Day.",
+    "name": "World Health Day",
+    "description": "The World Health Organization, the United Nations' directing and coordinating authority for health, annually highlights one of its priorities for global health on World Health Day.",
     "type": [
       "United Nations observance"
     ],
@@ -4368,8 +4488,8 @@
     }
   },
   {
-    "name": "Day of Remembrance of the Victims of the Rwanda Genocide",
-    "description": "The UN's Day of Remembrance of the Victims of the Rwanda Genocide is observed on April 7 each year.",
+    "name": "International Day of Reflection on the 1994 Genocide against the Tutsi in Rwanda",
+    "description": "The UN's International Day of Reflection on the 1994 Genocide against the Tutsi in Rwanda is observed on April 7 each year.",
     "type": [
       "United Nations observance"
     ],
@@ -4406,6 +4526,25 @@
     }
   },
   {
+    "name": "National Former Prisoner of War Recognition Day",
+    "description": "National Former Prisoner of War Recognition Day honors American former prisoners of war. It is an observance in the USA.",
+    "type": [
+      "Observance"
+    ],
+    "primary_type": "Observance",
+    "canonical_url": "https://calendarific.com/holiday/us/national-former-pow-recognition-day",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-04-09",
+      "datetime": {
+        "year": 2026,
+        "month": 4,
+        "day": 9
+      }
+    }
+  },
+  {
     "name": "Orthodox Good Friday",
     "description": "Many Orthodox Christians in the United States remember the events leading up to Jesus Christ's crucifixion on Great Friday.",
     "type": [
@@ -4415,6 +4554,87 @@
     "canonical_url": "https://calendarific.com/holiday/us/orthodox-good-friday",
     "locations": "All",
     "states": "All",
+    "date": {
+      "iso": "2026-04-10",
+      "datetime": {
+        "year": 2026,
+        "month": 4,
+        "day": 10
+      }
+    }
+  },
+  {
+    "name": "Dolores Huerta Day",
+    "description": "Dolores Huerta Day is a state observance in the USA.",
+    "type": [
+      "Local observance"
+    ],
+    "primary_type": "State Observance",
+    "canonical_url": "https://calendarific.com/holiday/us/dolores-huerta-day",
+    "locations": "CA",
+    "states": [
+      {
+        "id": 7,
+        "abbrev": "CA",
+        "name": "California",
+        "exception": null,
+        "iso": "us-ca"
+      }
+    ],
+    "date": {
+      "iso": "2026-04-10",
+      "datetime": {
+        "year": 2026,
+        "month": 4,
+        "day": 10
+      }
+    }
+  },
+  {
+    "name": "Dolores Huerta Day",
+    "description": "Dolores Huerta Day is a state observance in the USA.",
+    "type": [
+      "Local observance"
+    ],
+    "primary_type": "State Observance",
+    "canonical_url": "https://calendarific.com/holiday/us/dolores-huerta-day",
+    "locations": "NM",
+    "states": [
+      {
+        "id": 35,
+        "abbrev": "NM",
+        "name": "New Mexico",
+        "exception": null,
+        "iso": "us-nm"
+      }
+    ],
+    "date": {
+      "iso": "2026-04-10",
+      "datetime": {
+        "year": 2026,
+        "month": 4,
+        "day": 10
+      }
+    }
+  },
+  {
+    "name": "Dolores Huerta Day",
+    "description": "Dolores Huerta Day is a state observance in the USA.",
+    "type": [
+      "Local observance"
+    ],
+    "primary_type": "State Observance",
+    "canonical_url": "https://calendarific.com/holiday/us/dolores-huerta-day",
+    "locations": "WA",
+    "states": [
+      {
+        "id": 53,
+        "abbrev": "WA",
+        "name": "Washington",
+        "exception": null,
+        "iso": "us-wa"
+      }
+    ],
     "date": {
       "iso": "2026-04-10",
       "datetime": {
@@ -4540,7 +4760,7 @@
   },
   {
     "name": "World Chagas Disease Day",
-    "description": "World Chagas Disease Day is a United Nations observance in the USA",
+    "description": "World Chagas Disease Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -4558,27 +4778,8 @@
     }
   },
   {
-    "name": "National Library Workers' Day",
-    "description": "National Library Workers' Day recognizes the efforts and achievements that librarians make to give Americans access to information via books, computers and other media.",
-    "type": [
-      "Observance"
-    ],
-    "primary_type": "Observance",
-    "canonical_url": "https://calendarific.com/holiday/us/national-library-workers-day",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-04-14",
-      "datetime": {
-        "year": 2026,
-        "month": 4,
-        "day": 14
-      }
-    }
-  },
-  {
     "name": "World Art Day",
-    "description": "World Art Day is a worldwide observance in the USA",
+    "description": "World Art Day is a worldwide observance in the USA.",
     "type": [
       "Worldwide observance"
     ],
@@ -4670,7 +4871,7 @@
   },
   {
     "name": "Arbor Day",
-    "description": "Arbor Day is a state observance in the USA",
+    "description": "Arbor Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -4769,7 +4970,7 @@
   },
   {
     "name": "Boston Marathon",
-    "description": "Boston Marathon is one of the world's oldest yearly marathon. It is held annually on Patriot's Day in the month of April.",
+    "description": "The Boston Marathon is one of the world's oldest yearly marathons. It is held annually on Patriots' Day in April.",
     "type": [
       "Sporting event"
     ],
@@ -4787,8 +4988,27 @@
     }
   },
   {
+    "name": "National Library Workers' Day",
+    "description": "National Library Workers' Day recognizes the efforts and achievements that librarians make to give Americans access to information via books, computers and other media.",
+    "type": [
+      "Observance"
+    ],
+    "primary_type": "Observance",
+    "canonical_url": "https://calendarific.com/holiday/us/national-library-workers-day",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-04-21",
+      "datetime": {
+        "year": 2026,
+        "month": 4,
+        "day": 21
+      }
+    }
+  },
+  {
     "name": "World Creativity and Innovation Day",
-    "description": "World Creativity and Innovation Day is a United Nations observance in the USA",
+    "description": "World Creativity and Innovation Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -4937,7 +5157,7 @@
   },
   {
     "name": "International Girls in ICT Day",
-    "description": "International Girls in ICT Day is a United Nations observance in the USA",
+    "description": "International Girls in ICT Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -4956,7 +5176,7 @@
   },
   {
     "name": "World Spanish Language Day",
-    "description": "World Spanish Language Day is a United Nations observance in the USA",
+    "description": "World Spanish Language Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -4994,7 +5214,7 @@
   },
   {
     "name": "Take our Daughters and Sons to Work Day",
-    "description": "Take our Daughters and Sons to Work Day is a observance in the USA",
+    "description": "Take our Daughters and Sons to Work Day is an observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -5013,7 +5233,7 @@
   },
   {
     "name": "International Day of Multilateralism and Diplomacy for Peace",
-    "description": "International Day of Multilateralism and Diplomacy for Peace is a United Nations observance in the USA",
+    "description": "International Day of Multilateralism and Diplomacy for Peace is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -5059,7 +5279,7 @@
   },
   {
     "name": "Arbor Day",
-    "description": "Arbor Day is a state observance in the USA",
+    "description": "Arbor Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -5086,7 +5306,7 @@
   },
   {
     "name": "Arbor Day",
-    "description": "Arbor Day is a state observance in the USA",
+    "description": "Arbor Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -5113,7 +5333,7 @@
   },
   {
     "name": "International Delegates' Day",
-    "description": "International Delegates' Day is a United Nations observance in the USA",
+    "description": "International Delegates' Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -5216,7 +5436,7 @@
   },
   {
     "name": "Arbor Day",
-    "description": "Arbor Day is a state observance in the USA",
+    "description": "Arbor Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -5362,7 +5582,7 @@
   },
   {
     "name": "Kentucky Oaks",
-    "description": "The Kentucky Oaks is a rade 1 Stakes horse race held annually on the Friday before the Kentucky Derby in May.",
+    "description": "The Kentucky Oaks is a Grade 1 stakes horse race held annually on the Friday before the Kentucky Derby in May.",
     "type": [
       "Sporting event"
     ],
@@ -5446,7 +5666,7 @@
   },
   {
     "name": "First Day of Military Appreciation Month",
-    "description": "First Day of Military Appreciation Month is a annual monthly observance in the USA",
+    "description": "First Day of Military Appreciation Month is an annual monthly observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -5465,7 +5685,7 @@
   },
   {
     "name": "First Day of Asian Pacific American Heritage Month",
-    "description": "First Day of Asian Pacific American Heritage Month is a annual monthly observance in the USA",
+    "description": "First Day of Asian Pacific American Heritage Month is an annual monthly observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -5484,12 +5704,31 @@
   },
   {
     "name": "First Day of Jewish American Heritage Month",
-    "description": "First Day of Jewish American Heritage Month is a annual monthly observance in the USA",
+    "description": "First Day of Jewish American Heritage Month is an annual monthly observance in the USA.",
     "type": [
       "Observance"
     ],
     "primary_type": "Annual Monthly Observance",
     "canonical_url": "https://calendarific.com/holiday/us/first-day-of-jewish-american-heritage-month",
+    "locations": "All",
+    "states": "All",
+    "date": {
+      "iso": "2026-05-01",
+      "datetime": {
+        "year": 2026,
+        "month": 5,
+        "day": 1
+      }
+    }
+  },
+  {
+    "name": "Day of Vesak",
+    "description": "Vesak Day is a Buddhist holiday that celebrates the birth of its founder. It is usually observed on the day of the full moon in May.",
+    "type": [
+      "United Nations observance"
+    ],
+    "primary_type": "United Nations observance",
+    "canonical_url": "https://calendarific.com/holiday/un/vesak-day",
     "locations": "All",
     "states": "All",
     "date": {
@@ -5579,7 +5818,7 @@
   },
   {
     "name": "International Family Equality Day",
-    "description": "International Family Equality Day is a worldwide observance in the USA",
+    "description": "International Family Equality Day is a worldwide observance in the USA.",
     "type": [
       "Worldwide observance"
     ],
@@ -5671,7 +5910,7 @@
   },
   {
     "name": "World Portuguese Language Day",
-    "description": "World Portuguese Language Day is a United Nations observance in the USA",
+    "description": "World Portuguese Language Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -5709,7 +5948,7 @@
   },
   {
     "name": "National Teacher Appreciation Day",
-    "description": "National Teacher Appreciation Day is a observance in the USA",
+    "description": "National Teacher Appreciation Day is an observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -5793,7 +6032,7 @@
   },
   {
     "name": "West Virginia Day of Prayer",
-    "description": "West Virginia Day of Prayer is a state observance in the USA",
+    "description": "West Virginia Day of Prayer is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -5858,7 +6097,7 @@
   },
   {
     "name": "World Red Cross and Red Crescent Day",
-    "description": "World Red Cross and Red Crescent Day is a worldwide observance in the USA",
+    "description": "World Red Cross and Red Crescent Day is a worldwide observance in the USA.",
     "type": [
       "Worldwide observance"
     ],
@@ -5904,7 +6143,7 @@
   },
   {
     "name": "Victory in Europe Day",
-    "description": "VE Day commemorates the German army&rsquo;s surrender on May 8, 1945, ending World War II in Europe.",
+    "description": "VE Day commemorates the German army's surrender on May 8, 1945, ending World War II in Europe.",
     "type": [
       "Observance"
     ],
@@ -5923,7 +6162,7 @@
   },
   {
     "name": "Native American Day",
-    "description": "Native Americans' Day, on the second Monday of October, is celebrated some parts of the United States in lieu of Columbus Day.",
+    "description": "Native American Day honors the heritage and culture of Native Americans. It is a state observance in Wyoming.",
     "type": [
       "Local observance"
     ],
@@ -6015,7 +6254,7 @@
   },
   {
     "name": "International Day of Argania",
-    "description": "International Day of Argania is a United Nations observance in the USA",
+    "description": "International Day of Argania is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -6080,7 +6319,7 @@
   },
   {
     "name": "Confederate Memorial Day",
-    "description": "On Confederate Memorial Day remembers the soldiers who died fighting for the Confederate States of America during the American Civil War (1861-1865). It is a state holiday in some parts of the United States.",
+    "description": "Confederate Memorial Day remembers the soldiers who died fighting for the Confederate States of America during the American Civil War (1861-1865). It is a state legal holiday in North Carolina.",
     "type": [
       "Local observance"
     ],
@@ -6283,7 +6522,7 @@
   },
   {
     "name": "International Day of Living Together in Peace",
-    "description": "International Day of Living Together in Peace is a United Nations observance in the USA",
+    "description": "International Day of Living Together in Peace is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -6302,7 +6541,7 @@
   },
   {
     "name": "International Day of Light",
-    "description": "International Day of Light is a United Nations observance in the USA",
+    "description": "International Day of Light is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -6321,7 +6560,7 @@
   },
   {
     "name": "Public Lands Day",
-    "description": "Public Lands Day is a state observance in the USA",
+    "description": "Public Lands Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -6405,7 +6644,7 @@
   },
   {
     "name": "World Bee Day",
-    "description": "World Bee Day is a United Nations observance in the USA",
+    "description": "World Bee Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -6424,7 +6663,7 @@
   },
   {
     "name": "World Autoimmune / Autoinflammatory Arthritis Day",
-    "description": "World Autoimmune / Autoinflammatory Arthritis Day is a worldwide observance in the USA",
+    "description": "World Autoimmune / Autoinflammatory Arthritis Day is a worldwide observance in the USA.",
     "type": [
       "Worldwide observance"
     ],
@@ -6443,7 +6682,7 @@
   },
   {
     "name": "Emergency Medical Services for Children Day",
-    "description": "Emergency Medical Services for Children (EMSC) Day is observed on the Wednesday of Emergency Medical Services (EMS) Week, May 19–25, in the United States.",
+    "description": "Emergency Medical Services for Children (EMSC) Day is observed on the Wednesday of Emergency Medical Services (EMS) Week in the United States.",
     "type": [
       "Observance"
     ],
@@ -6481,7 +6720,7 @@
   },
   {
     "name": "International Tea Day",
-    "description": "International Tea Day is a United Nations observance in the USA",
+    "description": "International Tea Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -6734,7 +6973,7 @@
   },
   {
     "name": "Jefferson Davis' Birthday",
-    "description": "Jefferson Davis' Birthday, also known as Jefferson Davis Day, is a state holiday in Alabama in the United States.",
+    "description": "Jefferson Davis' Birthday is a state observance in Mississippi, held together with Memorial Day.",
     "type": [
       "Local observance"
     ],
@@ -6779,8 +7018,8 @@
     }
   },
   {
-    "name": "Eid al-Adha (Provisional)",
-    "description": "For more than 3 millions Muslims in the US, Eid al-Adha, the Festival of Sacrifice, is one of the most important dates in the calendar. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
+    "name": "Eid al-Adha",
+    "description": "For more than 3 million Muslims in the US, Eid al-Adha, the Festival of Sacrifice, is one of the most important dates in the calendar.",
     "type": [
       "Muslim"
     ],
@@ -6875,7 +7114,7 @@
   },
   {
     "name": "First Day of Pride Month",
-    "description": "First Day of Pride Month is a annual monthly observance in the USA",
+    "description": "First Day of Pride Month is an annual monthly observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -6894,7 +7133,7 @@
   },
   {
     "name": "First Day of Caribbean-American Heritage Month",
-    "description": "First Day of Caribbean-American Heritage Month is a annual monthly observance in the USA",
+    "description": "First Day of Caribbean-American Heritage Month is an annual monthly observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -6974,7 +7213,7 @@
   },
   {
     "name": "World Bicycle Day",
-    "description": "World Bicycle Day is a United Nations observance in the USA",
+    "description": "World Bicycle Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -6993,7 +7232,7 @@
   },
   {
     "name": "Jefferson Davis' Birthday",
-    "description": "Jefferson Davis' Birthday, also known as Jefferson Davis Day, is a state holiday in Alabama in the United States.",
+    "description": "Jefferson Davis' Birthday is a state legal holiday in Florida on June 3.",
     "type": [
       "Local observance"
     ],
@@ -7077,7 +7316,7 @@
   },
   {
     "name": "International Day for the Fight against Illegal, Unreported and Unregulated Fishing",
-    "description": "International Day for the Fight against Illegal, Unreported and Unregulated Fishing is a United Nations observance in the USA",
+    "description": "International Day for the Fight against Illegal, Unreported and Unregulated Fishing is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -7096,7 +7335,7 @@
   },
   {
     "name": "Day of the Russian Language",
-    "description": "Day of the Russian Language is a United Nations observance in the USA",
+    "description": "Day of the Russian Language is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -7153,7 +7392,7 @@
   },
   {
     "name": "World Food Safety Day",
-    "description": "World Food Safety Day is a United Nations observance in the USA",
+    "description": "World Food Safety Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -7245,7 +7484,7 @@
   },
   {
     "name": "World Day Against Child Labour",
-    "description": "Poverty and injustice against widows is a world-wide problem addressed by International Widows' Day.",
+    "description": "The World Day Against Child Labour, led by the International Labour Organization, raises awareness of child labour and efforts to end it. It is observed on June 12 each year.",
     "type": [
       "United Nations observance"
     ],
@@ -7264,7 +7503,7 @@
   },
   {
     "name": "Loving Day",
-    "description": "Loving Day is a observance in the USA",
+    "description": "Loving Day is an observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -7321,7 +7560,7 @@
   },
   {
     "name": "Army Birthday",
-    "description": "Army Birthday is a observance in the USA",
+    "description": "Army Birthday is an observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -7378,7 +7617,7 @@
   },
   {
     "name": "Juneteenth Freedom Day (substitute)",
-    "description": "Juneteenth Freedom Day is a state holiday in the USA",
+    "description": "Juneteenth Freedom Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -7423,8 +7662,8 @@
     }
   },
   {
-    "name": "Muharram (Provisional)",
-    "description": "The first day of Muharram, which is the first month in the Islamic calendar, marks the start of the Islamic New Year. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
+    "name": "Muharram",
+    "description": "The first day of Muharram, which is the first month in the Islamic calendar, marks the start of the Islamic New Year.",
     "type": [
       "Muslim"
     ],
@@ -7433,11 +7672,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-06-17",
+      "iso": "2026-06-16",
       "datetime": {
         "year": 2026,
         "month": 6,
-        "day": 17
+        "day": 16
       }
     }
   },
@@ -7489,7 +7728,7 @@
   },
   {
     "name": "Sustainable Gastronomy Day",
-    "description": "Sustainable Gastronomy Day is a United Nations observance in the USA",
+    "description": "Sustainable Gastronomy Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -7546,7 +7785,7 @@
   },
   {
     "name": "Juneteenth Day",
-    "description": "Juneteenth Day is a state holiday in the USA",
+    "description": "Juneteenth Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -7573,7 +7812,7 @@
   },
   {
     "name": "Juneteenth",
-    "description": "Juneteenth is a state holiday in the USA",
+    "description": "Juneteenth is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -7600,7 +7839,7 @@
   },
   {
     "name": "Juneteenth Day",
-    "description": "Juneteenth Day is a state observance in the USA",
+    "description": "Juneteenth Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -7648,11 +7887,11 @@
   },
   {
     "name": "Juneteenth Day",
-    "description": "Juneteenth Day is a state observance in the USA",
+    "description": "Juneteenth Day is a state holiday in Georgia.",
     "type": [
-      "Local observance"
+      "Local holiday"
     ],
-    "primary_type": "State Observance",
+    "primary_type": "State Holiday",
     "canonical_url": "https://calendarific.com/holiday/us/juneteenth",
     "locations": "GA",
     "states": [
@@ -7675,7 +7914,7 @@
   },
   {
     "name": "Juneteenth National Freedom Day",
-    "description": "Juneteenth National Freedom Day is a state holiday in the USA",
+    "description": "Juneteenth National Freedom Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -7702,7 +7941,7 @@
   },
   {
     "name": "Juneteenth",
-    "description": "Juneteenth is a state holiday in the USA",
+    "description": "Juneteenth is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -7729,7 +7968,7 @@
   },
   {
     "name": "Juneteenth Independence Day",
-    "description": "Juneteenth Independence Day is a state holiday in the USA",
+    "description": "Juneteenth Independence Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -7756,7 +7995,7 @@
   },
   {
     "name": "Juneteenth National Freedom Day",
-    "description": "Juneteenth National Freedom Day is a state holiday in the USA",
+    "description": "Juneteenth National Freedom Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -7783,7 +8022,7 @@
   },
   {
     "name": "Juneteenth National Freedom Day",
-    "description": "Juneteenth National Freedom Day is a state holiday in the USA",
+    "description": "Juneteenth National Freedom Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -7810,7 +8049,7 @@
   },
   {
     "name": "Juneteenth",
-    "description": "Juneteenth is a state holiday in the USA",
+    "description": "Juneteenth is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -7836,12 +8075,39 @@
     }
   },
   {
-    "name": "National Juneteenth Freedom Day",
-    "description": "National Juneteenth Freedom Day is a state observance in the USA",
+    "name": "Juneteenth Day",
+    "description": "Juneteenth Day is a state holiday in Alaska.",
     "type": [
-      "Local observance"
+      "Local holiday"
     ],
-    "primary_type": "State Observance",
+    "primary_type": "State Holiday",
+    "canonical_url": "https://calendarific.com/holiday/us/juneteenth",
+    "locations": "AK",
+    "states": [
+      {
+        "id": 2,
+        "abbrev": "AK",
+        "name": "Alaska",
+        "exception": null,
+        "iso": "us-ak"
+      }
+    ],
+    "date": {
+      "iso": "2026-06-19",
+      "datetime": {
+        "year": 2026,
+        "month": 6,
+        "day": 19
+      }
+    }
+  },
+  {
+    "name": "National Juneteenth Freedom Day",
+    "description": "National Juneteenth Freedom Day is a state holiday in Kentucky.",
+    "type": [
+      "Local holiday"
+    ],
+    "primary_type": "State Holiday",
     "canonical_url": "https://calendarific.com/holiday/us/juneteenth",
     "locations": "KY",
     "states": [
@@ -7864,7 +8130,7 @@
   },
   {
     "name": "Juneteenth",
-    "description": "Juneteenth is a state holiday in the USA",
+    "description": "Juneteenth is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -7891,11 +8157,11 @@
   },
   {
     "name": "Juneteenth National Independence Day",
-    "description": "Juneteenth National Independence Day is a state observance in the USA",
+    "description": "Juneteenth National Independence Day is a state holiday in Maryland and the District of Columbia.",
     "type": [
-      "Local observance"
+      "Local holiday"
     ],
-    "primary_type": "State Observance",
+    "primary_type": "State Holiday",
     "canonical_url": "https://calendarific.com/holiday/us/juneteenth",
     "locations": "DC, MD",
     "states": [
@@ -7925,7 +8191,7 @@
   },
   {
     "name": "Juneteenth Independence Day",
-    "description": "Juneteenth Independence Day is a state holiday in the USA",
+    "description": "Juneteenth Independence Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -7952,7 +8218,7 @@
   },
   {
     "name": "Juneteenth",
-    "description": "Juneteenth is a state holiday in the USA",
+    "description": "Juneteenth is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -7979,7 +8245,7 @@
   },
   {
     "name": "Juneteenth Freedom Day",
-    "description": "Juneteenth Freedom Day is a state observance in the USA",
+    "description": "Juneteenth Freedom Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -8006,7 +8272,7 @@
   },
   {
     "name": "Juneteenth",
-    "description": "Juneteenth is a state holiday in the USA",
+    "description": "Juneteenth is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -8033,7 +8299,7 @@
   },
   {
     "name": "Juneteenth",
-    "description": "Juneteenth is a state observance in the USA",
+    "description": "Juneteenth is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -8060,7 +8326,7 @@
   },
   {
     "name": "Juneteenth Day",
-    "description": "Juneteenth Day is a state holiday in the USA",
+    "description": "Juneteenth Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -8087,7 +8353,7 @@
   },
   {
     "name": "Juneteenth",
-    "description": "Juneteenth is a state observance in the USA",
+    "description": "Juneteenth is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -8114,7 +8380,7 @@
   },
   {
     "name": "Juneteenth",
-    "description": "Juneteenth is a state holiday in the USA",
+    "description": "Juneteenth is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -8155,7 +8421,7 @@
   },
   {
     "name": "Juneteenth Day",
-    "description": "Juneteenth Day is a state holiday in the USA",
+    "description": "Juneteenth Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -8182,7 +8448,7 @@
   },
   {
     "name": "Juneteenth Freedom Day",
-    "description": "Juneteenth Freedom Day is a state holiday in the USA",
+    "description": "Juneteenth Freedom Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -8209,7 +8475,7 @@
   },
   {
     "name": "Juneteenth",
-    "description": "Juneteenth is a state observance in the USA",
+    "description": "Juneteenth is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -8236,7 +8502,7 @@
   },
   {
     "name": "Juneteenth",
-    "description": "Juneteenth is a state observance in the USA",
+    "description": "Juneteenth is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -8263,7 +8529,7 @@
   },
   {
     "name": "Juneteenth",
-    "description": "Juneteenth is a state observance in the USA",
+    "description": "Juneteenth is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -8290,7 +8556,7 @@
   },
   {
     "name": "Juneteenth",
-    "description": "Juneteenth is a state holiday in the USA",
+    "description": "Juneteenth is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -8317,7 +8583,7 @@
   },
   {
     "name": "Juneteenth National Freedom Day",
-    "description": "Juneteenth National Freedom Day is a state holiday in the USA",
+    "description": "Juneteenth National Freedom Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -8344,7 +8610,7 @@
   },
   {
     "name": "Juneteenth National Freedom Day",
-    "description": "Juneteenth National Freedom Day is a state holiday in the USA",
+    "description": "Juneteenth National Freedom Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -8371,7 +8637,7 @@
   },
   {
     "name": "Juneteenth Celebration of Freedom Day",
-    "description": "Juneteenth Celebration of Freedom Day is a state observance in the USA",
+    "description": "Juneteenth Celebration of Freedom Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -8398,7 +8664,7 @@
   },
   {
     "name": "Juneteenth",
-    "description": "Juneteenth is a state holiday in the USA",
+    "description": "Juneteenth is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -8424,35 +8690,8 @@
     }
   },
   {
-    "name": "Juneteenth Freedom Day",
-    "description": "Juneteenth Freedom Day is a state holiday in the USA",
-    "type": [
-      "Local holiday"
-    ],
-    "primary_type": "State Holiday",
-    "canonical_url": "https://calendarific.com/holiday/us/juneteenth",
-    "locations": "UT",
-    "states": [
-      {
-        "id": 49,
-        "abbrev": "UT",
-        "name": "Utah",
-        "exception": null,
-        "iso": "us-ut"
-      }
-    ],
-    "date": {
-      "iso": "2026-06-19",
-      "datetime": {
-        "year": 2026,
-        "month": 6,
-        "day": 19
-      }
-    }
-  },
-  {
     "name": "Juneteenth",
-    "description": "Juneteenth is a state observance in the USA",
+    "description": "Juneteenth is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -8479,7 +8718,7 @@
   },
   {
     "name": "Emancipation Day",
-    "description": "Emancipation Day is a state holiday in the USA",
+    "description": "Emancipation Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -8493,6 +8732,114 @@
         "name": "Texas",
         "exception": null,
         "iso": "us-tx"
+      }
+    ],
+    "date": {
+      "iso": "2026-06-19",
+      "datetime": {
+        "year": 2026,
+        "month": 6,
+        "day": 19
+      }
+    }
+  },
+  {
+    "name": "Juneteenth",
+    "description": "Juneteenth is a state holiday in Louisiana.",
+    "type": [
+      "Local holiday"
+    ],
+    "primary_type": "State Holiday",
+    "canonical_url": "https://calendarific.com/holiday/us/juneteenth",
+    "locations": "LA",
+    "states": [
+      {
+        "id": 21,
+        "abbrev": "LA",
+        "name": "Louisiana",
+        "exception": null,
+        "iso": "us-la"
+      }
+    ],
+    "date": {
+      "iso": "2026-06-19",
+      "datetime": {
+        "year": 2026,
+        "month": 6,
+        "day": 19
+      }
+    }
+  },
+  {
+    "name": "Juneteenth National Freedom Day",
+    "description": "Juneteenth National Freedom Day is a state holiday in Michigan.",
+    "type": [
+      "Local holiday"
+    ],
+    "primary_type": "State Holiday",
+    "canonical_url": "https://calendarific.com/holiday/us/juneteenth",
+    "locations": "MI",
+    "states": [
+      {
+        "id": 26,
+        "abbrev": "MI",
+        "name": "Michigan",
+        "exception": null,
+        "iso": "us-mi"
+      }
+    ],
+    "date": {
+      "iso": "2026-06-19",
+      "datetime": {
+        "year": 2026,
+        "month": 6,
+        "day": 19
+      }
+    }
+  },
+  {
+    "name": "Juneteenth National Freedom Day",
+    "description": "Juneteenth National Freedom Day is a legal holiday in Vermont.",
+    "type": [
+      "Local observance"
+    ],
+    "primary_type": "State Observance",
+    "canonical_url": "https://calendarific.com/holiday/us/juneteenth",
+    "locations": "VT",
+    "states": [
+      {
+        "id": 50,
+        "abbrev": "VT",
+        "name": "Vermont",
+        "exception": null,
+        "iso": "us-vt"
+      }
+    ],
+    "date": {
+      "iso": "2026-06-19",
+      "datetime": {
+        "year": 2026,
+        "month": 6,
+        "day": 19
+      }
+    }
+  },
+  {
+    "name": "West Virginia Day (observed)",
+    "description": "West Virginia Day falls on a Saturday in 2026, so it is observed as a state holiday on Friday, June 19.",
+    "type": [
+      "Local holiday"
+    ],
+    "primary_type": "State Holiday",
+    "canonical_url": "https://calendarific.com/holiday/us/west-virginia-day",
+    "locations": "WV",
+    "states": [
+      {
+        "id": 54,
+        "abbrev": "WV",
+        "name": "West Virginia",
+        "exception": null,
+        "iso": "us-wv"
       }
     ],
     "date": {
@@ -8525,7 +8872,7 @@
   },
   {
     "name": "Juneteenth National Freedom Day",
-    "description": "Juneteenth National Freedom Day is a state observance in the USA",
+    "description": "Juneteenth National Freedom Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -8552,7 +8899,7 @@
   },
   {
     "name": "Juneteenth",
-    "description": "Juneteenth is a state observance in the USA",
+    "description": "Juneteenth is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -8579,21 +8926,14 @@
   },
   {
     "name": "Juneteenth Day",
-    "description": "Juneteenth Day is a state observance in the USA",
+    "description": "Juneteenth Day is a state observance in Arkansas.",
     "type": [
       "Local observance"
     ],
     "primary_type": "State Observance",
     "canonical_url": "https://calendarific.com/holiday/us/juneteenth",
-    "locations": "AK, AR",
+    "locations": "AR",
     "states": [
-      {
-        "id": 2,
-        "abbrev": "AK",
-        "name": "Alaska",
-        "exception": null,
-        "iso": "us-ak"
-      },
       {
         "id": 5,
         "abbrev": "AR",
@@ -8613,7 +8953,7 @@
   },
   {
     "name": "Juneteenth National Freedom Day",
-    "description": "Juneteenth National Freedom Day is a state observance in the USA",
+    "description": "Juneteenth National Freedom Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -8639,62 +8979,8 @@
     }
   },
   {
-    "name": "Juneteenth",
-    "description": "Juneteenth is a state observance in the USA",
-    "type": [
-      "Local observance"
-    ],
-    "primary_type": "State Observance",
-    "canonical_url": "https://calendarific.com/holiday/us/juneteenth",
-    "locations": "LA",
-    "states": [
-      {
-        "id": 21,
-        "abbrev": "LA",
-        "name": "Louisiana",
-        "exception": null,
-        "iso": "us-la"
-      }
-    ],
-    "date": {
-      "iso": "2026-06-20",
-      "datetime": {
-        "year": 2026,
-        "month": 6,
-        "day": 20
-      }
-    }
-  },
-  {
     "name": "Juneteenth National Freedom Day",
-    "description": "Juneteenth National Freedom Day is a state observance in the USA",
-    "type": [
-      "Local observance"
-    ],
-    "primary_type": "State Observance",
-    "canonical_url": "https://calendarific.com/holiday/us/juneteenth",
-    "locations": "MI",
-    "states": [
-      {
-        "id": 26,
-        "abbrev": "MI",
-        "name": "Michigan",
-        "exception": null,
-        "iso": "us-mi"
-      }
-    ],
-    "date": {
-      "iso": "2026-06-20",
-      "datetime": {
-        "year": 2026,
-        "month": 6,
-        "day": 20
-      }
-    }
-  },
-  {
-    "name": "Juneteenth National Freedom Day",
-    "description": "Juneteenth National Freedom Day is a state observance in the USA",
+    "description": "Juneteenth National Freedom Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -8715,33 +9001,6 @@
         "name": "Oklahoma",
         "exception": null,
         "iso": "us-ok"
-      }
-    ],
-    "date": {
-      "iso": "2026-06-20",
-      "datetime": {
-        "year": 2026,
-        "month": 6,
-        "day": 20
-      }
-    }
-  },
-  {
-    "name": "Juneteenth National Freedom Day",
-    "description": "Juneteenth National Freedom Day is a state observance in the USA",
-    "type": [
-      "Local observance"
-    ],
-    "primary_type": "State Observance",
-    "canonical_url": "https://calendarific.com/holiday/us/juneteenth",
-    "locations": "VT",
-    "states": [
-      {
-        "id": 50,
-        "abbrev": "VT",
-        "name": "Vermont",
-        "exception": null,
-        "iso": "us-vt"
       }
     ],
     "date": {
@@ -8820,7 +9079,7 @@
   },
   {
     "name": "International Day of the Celebration of the Solstice",
-    "description": "International Day of the Celebration of the Solstice is a United Nations observance in the USA",
+    "description": "International Day of the Celebration of the Solstice is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -8963,8 +9222,8 @@
     }
   },
   {
-    "name": "Ashura (Provisional)",
-    "description": "Ashura is a Muslim in the USA Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
+    "name": "Ashura",
+    "description": "Ashura, on the tenth day of Muharram, is a Muslim observance in the USA.",
     "type": [
       "Muslim"
     ],
@@ -8973,17 +9232,17 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-06-26",
+      "iso": "2026-06-25",
       "datetime": {
         "year": 2026,
         "month": 6,
-        "day": 26
+        "day": 25
       }
     }
   },
   {
     "name": "International Day Against Drug Abuse and Illicit Trafficking",
-    "description": "The United Nations' (UN) International Day Against Drug Abuse and Illicit Trafficking raise awareness about the dangers of illicit drugs.",
+    "description": "The United Nations' (UN) International Day Against Drug Abuse and Illicit Trafficking raises awareness about the dangers of illicit drugs.",
     "type": [
       "United Nations observance"
     ],
@@ -9021,7 +9280,7 @@
   },
   {
     "name": "Micro-, Small and Medium-sized Enterprises Day",
-    "description": "Micro-, Small and Medium-sized Enterprises Day is a United Nations observance in the USA",
+    "description": "Micro-, Small and Medium-sized Enterprises Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -9040,7 +9299,7 @@
   },
   {
     "name": "Carolina Day",
-    "description": "Carolina Day is a state observance in the USA",
+    "description": "Carolina Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -9067,7 +9326,7 @@
   },
   {
     "name": "International Day of the Tropics",
-    "description": "International Day of the Tropics is a United Nations observance in the USA",
+    "description": "International Day of the Tropics is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -9105,7 +9364,7 @@
   },
   {
     "name": "International Day of Parliamentarism",
-    "description": "International Day of Parliamentarism is a United Nations observance in the USA",
+    "description": "International Day of Parliamentarism is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -9337,7 +9596,7 @@
   },
   {
     "name": "Nathan Bedford Forrest Day",
-    "description": "Nathan Bedford Forrest Day is a local observance in the USA",
+    "description": "Nathan Bedford Forrest Day is a local observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -9364,7 +9623,7 @@
   },
   {
     "name": "Bastille Day",
-    "description": "Bastille Day is a observance in the USA",
+    "description": "Bastille Day is an observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -9402,7 +9661,7 @@
   },
   {
     "name": "Rural Transit Day",
-    "description": "Rural Transit Day is a observance in the USA",
+    "description": "Rural Transit Day is an observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -9420,7 +9679,7 @@
     }
   },
   {
-    "name": "Nelson Mandela Day",
+    "name": "Nelson Mandela International Day",
     "description": "Nelson Mandela International Day is annually observed on July 18 to recognize the former South African president's contribution to peace and freedom.",
     "type": [
       "United Nations observance"
@@ -9440,7 +9699,7 @@
   },
   {
     "name": "International Chess Day",
-    "description": "International Chess Day is a United Nations observance in the USA",
+    "description": "International Chess Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -9505,7 +9764,7 @@
   },
   {
     "name": "World Drowning Prevention Day",
-    "description": "World Drowning Prevention Day is a United Nations observance in the USA",
+    "description": "World Drowning Prevention Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -9543,7 +9802,7 @@
   },
   {
     "name": "Korean War Veteran Recognition Day",
-    "description": "Korean War Veteran Recognition Day is a state observance in the USA",
+    "description": "Korean War Veteran Recognition Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -9570,7 +9829,7 @@
   },
   {
     "name": "National Korean War Veterans Armistice Day",
-    "description": "National Korean War Veterans Armistice Day is a observance in the USA",
+    "description": "National Korean War Veterans Armistice Day is an observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -9627,7 +9886,7 @@
   },
   {
     "name": "World Day Against Trafficking in Persons",
-    "description": "July 30 is the UN World Day Against Trafficking in Persons",
+    "description": "July 30 is the UN World Day Against Trafficking in Persons.",
     "type": [
       "United Nations observance"
     ],
@@ -9673,7 +9932,7 @@
   },
   {
     "name": "American Family Day",
-    "description": "American Family Day is a state holiday in the USA",
+    "description": "American Family Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -9700,7 +9959,7 @@
   },
   {
     "name": "Coast Guard Birthday",
-    "description": "Coast Guard Birthday is a observance in the USA",
+    "description": "Coast Guard Birthday is an observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -9719,7 +9978,7 @@
   },
   {
     "name": "Barack Obama Day",
-    "description": "Barack Obama Day is a observance in the USA",
+    "description": "Barack Obama Day is an observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -9818,8 +10077,8 @@
     }
   },
   {
-    "name": "International Day of the World's Indigenous People",
-    "description": "The United Nations' (UN) International Day of the World's Indigenous People is observed on August 9 each year to promote and protect the rights of the world's indigenous peoples.",
+    "name": "International Day of the World's Indigenous Peoples",
+    "description": "The United Nations' (UN) International Day of the World's Indigenous Peoples is observed on August 9 each year to promote and protect the rights of the world's indigenous peoples.",
     "type": [
       "United Nations observance"
     ],
@@ -9903,7 +10162,7 @@
   },
   {
     "name": "National Navajo Code Talkers Day",
-    "description": "National Navajo Code Talkers Day is a state holiday in the USA",
+    "description": "National Navajo Code Talkers Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -10041,7 +10300,7 @@
   },
   {
     "name": "International Day of Remembrance and Tribute to the Victims of Terrorism",
-    "description": "International Day of Remembrance and Tribute to the Victims of Terrorism is a United Nations observance in the USA",
+    "description": "International Day of Remembrance and Tribute to the Victims of Terrorism is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -10087,7 +10346,7 @@
   },
   {
     "name": "International Day Commemorating the Victims of Acts of Violence Based on Religion or Belief",
-    "description": "International Day Commemorating the Victims of Acts of Violence Based on Religion or Belief is a United Nations observance in the USA",
+    "description": "International Day Commemorating the Victims of Acts of Violence Based on Religion or Belief is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -10124,8 +10383,8 @@
     }
   },
   {
-    "name": "The Prophet's Birthday (Provisional)",
-    "description": "Eid Milad ul-Nabi (Mawlid or Milad-un-Nabi) commemorates the Prophet Muhammed's birthday. Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
+    "name": "The Prophet's Birthday",
+    "description": "Eid Milad ul-Nabi (Mawlid or Milad-un-Nabi) commemorates the Prophet Muhammed's birthday.",
     "type": [
       "Muslim"
     ],
@@ -10134,17 +10393,17 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-08-26",
+      "iso": "2026-08-25",
       "datetime": {
         "year": 2026,
         "month": 8,
-        "day": 26
+        "day": 25
       }
     }
   },
   {
     "name": "Susan B. Anthony Day",
-    "description": "Susan B Anthony Day is an national American observance that is legally recognized in some states.",
+    "description": "Susan B. Anthony Day is an observance recognized in some states.",
     "type": [
       "Local observance"
     ],
@@ -10274,7 +10533,7 @@
   },
   {
     "name": "International Day for People of African Descent",
-    "description": "International Day for People of African Descent is a United Nations observance in the USA",
+    "description": "International Day for People of African Descent is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -10293,7 +10552,7 @@
   },
   {
     "name": "International Overdose Awareness Day",
-    "description": " International Overdose Awareness Day is an annual observation which aims to raise global awareness of about the impact of drug overdose on families and communities. The campaign also attempts to remove the stigma associated with overdose.",
+    "description": "International Overdose Awareness Day is an annual observation which aims to raise global awareness of about the impact of drug overdose on families and communities. The campaign also attempts to remove the stigma associated with overdose.",
     "type": [
       "Worldwide observance"
     ],
@@ -10331,7 +10590,7 @@
   },
   {
     "name": "World Sexual Health Day",
-    "description": " World Sexual Health Day is an annual awareness day that attempts to break down social and cultural taboos associated with sexuality and to promote sexual health around the world.",
+    "description": "World Sexual Health Day is an annual awareness day that attempts to break down social and cultural taboos associated with sexuality and to promote sexual health around the world.",
     "type": [
       "Worldwide observance"
     ],
@@ -10369,7 +10628,7 @@
   },
   {
     "name": "International Day of Clean Air for Blue Skies",
-    "description": "International Day of Clean Air for Blue Skies is a United Nations observance in the USA",
+    "description": "International Day of Clean Air for Blue Skies is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -10388,7 +10647,7 @@
   },
   {
     "name": "Still's Disease Awareness Day",
-    "description": "Still's Disease Awareness Day is a worldwide observance in the USA",
+    "description": "Still's Disease Awareness Day is a worldwide observance in the USA.",
     "type": [
       "Worldwide observance"
     ],
@@ -10822,7 +11081,7 @@
   },
   {
     "name": "International Day to Protect Education from Attack",
-    "description": "International Day to Protect Education from Attack is a United Nations observance in the USA",
+    "description": "International Day to Protect Education from Attack is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -10887,7 +11146,7 @@
   },
   {
     "name": "First Responders Day",
-    "description": "First Responders Day is a state legal holiday in the USA",
+    "description": "First Responders Day is a state legal holiday in the USA.",
     "type": [
       "Local observance"
     ],
@@ -11017,7 +11276,7 @@
   },
   {
     "name": "Native American Day",
-    "description": "Native Americans' Day, on the second Monday of October, is celebrated some parts of the United States in lieu of Columbus Day.",
+    "description": "Native American Day honors the heritage and culture of Native Americans. It is a state observance in Delaware.",
     "type": [
       "Local observance"
     ],
@@ -11174,7 +11433,7 @@
   },
   {
     "name": "First Day of National Hispanic Heritage Month",
-    "description": "First Day of National Hispanic Heritage Month is a annual monthly observance in the USA",
+    "description": "First Day of National Hispanic Heritage Month is an annual monthly observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -11212,7 +11471,7 @@
   },
   {
     "name": "World Patient Safety Day",
-    "description": "World Patient Safety Day is a United Nations observance in the USA",
+    "description": "World Patient Safety Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -11250,7 +11509,7 @@
   },
   {
     "name": "International Equal Pay Day",
-    "description": "International Equal Pay Day is a United Nations observance in the USA",
+    "description": "International Equal Pay Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -11269,7 +11528,7 @@
   },
   {
     "name": "Air Force Birthday",
-    "description": "Air Force Birthday is a observance in the USA",
+    "description": "Air Force Birthday is an observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -11421,7 +11680,7 @@
   },
   {
     "name": "International Day of Sign Languages",
-    "description": "International Day of Sign Languages is a United Nations observance in the USA",
+    "description": "International Day of Sign Languages is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -11478,7 +11737,7 @@
   },
   {
     "name": "Native American Day",
-    "description": "Native Americans' Day, on the second Monday of October, is celebrated some parts of the United States in lieu of Columbus Day.",
+    "description": "Native American Day, on the fourth Friday of September, honors the heritage and culture of Native Americans. It is a state observance in California.",
     "type": [
       "Local observance"
     ],
@@ -11505,7 +11764,7 @@
   },
   {
     "name": "Native American Day",
-    "description": "Native Americans' Day, on the second Monday of October, is celebrated some parts of the United States in lieu of Columbus Day.",
+    "description": "Native American Day, on the fourth Friday of September, honors the heritage and culture of Native Americans. It is a state observance in Nevada.",
     "type": [
       "Local observance"
     ],
@@ -11532,7 +11791,7 @@
   },
   {
     "name": "American Indian Heritage Day",
-    "description": "American Indian Heritage Day is often observed on the Friday after Thanksgiving Day in the United States.",
+    "description": "American Indian Heritage Day, on the fourth Friday of September, honors the heritage of American Indians. It is a state observance in Montana.",
     "type": [
       "Local observance"
     ],
@@ -11559,7 +11818,7 @@
   },
   {
     "name": "American Indian Heritage Day",
-    "description": "American Indian Heritage Day is often observed on the Friday after Thanksgiving Day in the United States.",
+    "description": "American Indian Heritage Day, on the last Friday of September, honors the heritage of American Indians. It is a state observance in Texas.",
     "type": [
       "Local observance"
     ],
@@ -11586,7 +11845,7 @@
   },
   {
     "name": "Michigan Indian Day",
-    "description": "Michigan Indian Day is a state observance in the USA",
+    "description": "Michigan Indian Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -11600,6 +11859,74 @@
         "name": "Michigan",
         "exception": null,
         "iso": "us-mi"
+      }
+    ],
+    "date": {
+      "iso": "2026-09-25",
+      "datetime": {
+        "year": 2026,
+        "month": 9,
+        "day": 25
+      }
+    }
+  },
+  {
+    "name": "Dolly Parton Day",
+    "description": "Dolly Parton Day is a state observance in the USA.",
+    "type": [
+      "Local observance"
+    ],
+    "primary_type": "State Observance",
+    "canonical_url": "https://calendarific.com/holiday/us/dolly-parton-day",
+    "locations": "CA, OH, MT",
+    "states": [
+      {
+        "id": 7,
+        "abbrev": "CA",
+        "name": "California",
+        "exception": null,
+        "iso": "us-ca"
+      },
+      {
+        "id": 40,
+        "abbrev": "OH",
+        "name": "Ohio",
+        "exception": null,
+        "iso": "us-oh"
+      },
+      {
+        "id": 30,
+        "abbrev": "MT",
+        "name": "Montana",
+        "exception": null,
+        "iso": "us-mt"
+      }
+    ],
+    "date": {
+      "iso": "2026-09-25",
+      "datetime": {
+        "year": 2026,
+        "month": 9,
+        "day": 25
+      }
+    }
+  },
+  {
+    "name": "Dolly Parton's The Imagination Library Day Of Reading",
+    "description": "This day celebrates Dolly Parton's Imagination Library and reading. It is a state observance in North Carolina.",
+    "type": [
+      "Local observance"
+    ],
+    "primary_type": "State Observance",
+    "canonical_url": "https://calendarific.com/holiday/us/dolly-parton-day",
+    "locations": "NC",
+    "states": [
+      {
+        "id": 37,
+        "abbrev": "NC",
+        "name": "North Carolina",
+        "exception": null,
+        "iso": "us-nc"
       }
     ],
     "date": {
@@ -11651,7 +11978,7 @@
   },
   {
     "name": "Public Lands Day",
-    "description": "Public Lands Day is a state observance in the USA",
+    "description": "Public Lands Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -11678,7 +12005,7 @@
   },
   {
     "name": "National Public Lands Day",
-    "description": "National Public Lands Day is a observance in the USA",
+    "description": "National Public Lands Day is an observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -11686,6 +12013,33 @@
     "canonical_url": "https://calendarific.com/holiday/us/national-public-lands-day",
     "locations": "All",
     "states": "All",
+    "date": {
+      "iso": "2026-09-26",
+      "datetime": {
+        "year": 2026,
+        "month": 9,
+        "day": 26
+      }
+    }
+  },
+  {
+    "name": "Indian Day",
+    "description": "Indian Day is a state observance in the USA.",
+    "type": [
+      "Local observance"
+    ],
+    "primary_type": "State Observance",
+    "canonical_url": "https://calendarific.com/holiday/us/indian-day",
+    "locations": "OK",
+    "states": [
+      {
+        "id": 41,
+        "abbrev": "OK",
+        "name": "Oklahoma",
+        "exception": null,
+        "iso": "us-ok"
+      }
+    ],
     "date": {
       "iso": "2026-09-26",
       "datetime": {
@@ -11735,7 +12089,7 @@
   },
   {
     "name": "International Day for Universal Access to Information",
-    "description": "International Day for Universal Access to Information is a United Nations observance in the USA",
+    "description": "International Day for Universal Access to Information is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -11773,7 +12127,7 @@
   },
   {
     "name": "American Indian Day",
-    "description": "American Indian Day is a state observance in the USA",
+    "description": "American Indian Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -11800,7 +12154,7 @@
   },
   {
     "name": "International Day of Awareness of Food Loss and Waste",
-    "description": "International Day of Awareness of Food Loss and Waste is a United Nations observance in the USA",
+    "description": "International Day of Awareness of Food Loss and Waste is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -11838,7 +12192,7 @@
   },
   {
     "name": "International Translation Day",
-    "description": "International Translation Day is a United Nations observance in the USA",
+    "description": "International Translation Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -11914,7 +12268,7 @@
   },
   {
     "name": "International Day of Non-Violence",
-    "description": "The United Nations' (UN) International Day of Non-Violence is a globally observed on October 2 each year to promote non-violence.",
+    "description": "The United Nations' (UN) International Day of Non-Violence is observed globally on October 2 each year to promote non-violence.",
     "type": [
       "United Nations observance"
     ],
@@ -12028,7 +12382,7 @@
   },
   {
     "name": "Frances Xavier Cabrini Day",
-    "description": "Frances Xavier Cabrini Day is a state holiday in the USA",
+    "description": "Frances Xavier Cabrini Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -12093,7 +12447,7 @@
   },
   {
     "name": "German American Day",
-    "description": "German American Day is a observance in the USA",
+    "description": "German American Day is an observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -12215,7 +12569,7 @@
   },
   {
     "name": "World Migratory Bird Day",
-    "description": "World Migratory Bird Day is observed the second weekend of May every year.",
+    "description": "World Migratory Bird Day is observed on the second Saturday of May and the second Saturday of October each year.",
     "type": [
       "United Nations observance"
     ],
@@ -12261,7 +12615,7 @@
   },
   {
     "name": "Navratri",
-    "description": "Navratri is a Hindu holiday in the USA",
+    "description": "Navratri is a Hindu holiday in the USA.",
     "type": [
       "Hinduism"
     ],
@@ -12299,7 +12653,7 @@
   },
   {
     "name": "Casimir Pulaski Day",
-    "description": "Casimir Pulaski Day is a day off for some schools and offices in Illinois, USA, on the first Monday of March each year.",
+    "description": "Casimir Pulaski Day remembers General Casimir Pulaski, who died after the Siege of Savannah in October 1779. It is a state observance in Rhode Island.",
     "type": [
       "Local observance"
     ],
@@ -12326,7 +12680,7 @@
   },
   {
     "name": "Casimir Pulaski Day",
-    "description": "Casimir Pulaski Day is a day off for some schools and offices in Illinois, USA, on the first Monday of March each year.",
+    "description": "Casimir Pulaski Day remembers General Casimir Pulaski, who died after the Siege of Savannah in October 1779. It is a state observance in Michigan.",
     "type": [
       "Local observance"
     ],
@@ -12353,7 +12707,7 @@
   },
   {
     "name": "Anniversary of Death of General Pulaski",
-    "description": "Casimir Pulaski Day is a day off for some schools and offices in Illinois, USA, on the first Monday of March each year.",
+    "description": "This day marks the anniversary of the death of General Casimir Pulaski in October 1779. It is a state observance in Massachusetts.",
     "type": [
       "Local observance"
     ],
@@ -12369,6 +12723,25 @@
         "iso": "us-ma"
       }
     ],
+    "date": {
+      "iso": "2026-10-11",
+      "datetime": {
+        "year": 2026,
+        "month": 10,
+        "day": 11
+      }
+    }
+  },
+  {
+    "name": "Chicago Marathon",
+    "description": "The Chicago Marathon is one of the six World Marathon Majors and is held annually in October.",
+    "type": [
+      "Sporting event"
+    ],
+    "primary_type": "Sporting event",
+    "canonical_url": "https://calendarific.com/holiday/us/chicago-marathon",
+    "locations": "All",
+    "states": "All",
     "date": {
       "iso": "2026-10-11",
       "datetime": {
@@ -12432,7 +12805,7 @@
     ],
     "primary_type": "State Holiday",
     "canonical_url": "https://calendarific.com/holiday/us/columbus-day",
-    "locations": "22 states",
+    "locations": "20 states",
     "states": [
       {
         "id": 1,
@@ -12484,13 +12857,6 @@
         "iso": "us-in"
       },
       {
-        "id": 19,
-        "abbrev": "KS",
-        "name": "Kansas",
-        "exception": null,
-        "iso": "us-ks"
-      },
-      {
         "id": 25,
         "abbrev": "MA",
         "name": "Massachusetts",
@@ -12503,13 +12869,6 @@
         "name": "Maryland",
         "exception": null,
         "iso": "us-md"
-      },
-      {
-        "id": 27,
-        "abbrev": "MN",
-        "name": "Minnesota",
-        "exception": null,
-        "iso": "us-mn"
       },
       {
         "id": 29,
@@ -12600,7 +12959,7 @@
   },
   {
     "name": "Fraternal Day",
-    "description": "Fraternal Day is a state holiday in the USA",
+    "description": "Fraternal Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -12627,7 +12986,7 @@
   },
   {
     "name": "Yorktown Victory Day",
-    "description": "Yorktown Victory Day is a state holiday in the USA",
+    "description": "Yorktown Victory Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -12654,7 +13013,7 @@
   },
   {
     "name": "Discoverers' Day",
-    "description": "Discoverers' Day is a state observance in the USA",
+    "description": "Discoverers' Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -12734,8 +13093,8 @@
     }
   },
   {
-    "name": "Indigenous People's Day (Provisional)",
-    "description": "Indigenous People's Day is a state observance in the USA Provisional date: official confirmation has not been recorded for this occurrence. The date or holiday arrangements may change.",
+    "name": "Indigenous People's Day",
+    "description": "Indigenous People's Day is a state observance in Michigan and Minnesota.",
     "type": [
       "Local observance"
     ],
@@ -12769,7 +13128,7 @@
   },
   {
     "name": "Indigenous People's Day",
-    "description": "Indigenous People's Day is a state holiday in the USA",
+    "description": "Indigenous People's Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -12817,7 +13176,7 @@
   },
   {
     "name": "Indigenous People's Day",
-    "description": "Indigenous People's Day is a state observance in the USA",
+    "description": "Indigenous People's Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -13078,8 +13437,8 @@
     }
   },
   {
-    "name": "International Day for Natural Disaster Reduction",
-    "description": "The United Nations' (UN) International Day for Natural Disaster Reduction is annually observed on the second Wednesday of October to promote a global culture of natural disaster risk reduction.",
+    "name": "International Day for Disaster Risk Reduction",
+    "description": "The United Nations' International Day for Disaster Risk Reduction is observed on October 13 each year to promote a global culture of disaster risk reduction.",
     "type": [
       "United Nations observance"
     ],
@@ -13088,11 +13447,11 @@
     "locations": "All",
     "states": "All",
     "date": {
-      "iso": "2026-10-14",
+      "iso": "2026-10-13",
       "datetime": {
         "year": 2026,
         "month": 10,
-        "day": 14
+        "day": 13
       }
     }
   },
@@ -13193,7 +13552,7 @@
   },
   {
     "name": "Sweetest Day",
-    "description": "Sweetest Day is a observance in the USA",
+    "description": "Sweetest Day is an observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -13358,7 +13717,7 @@
   },
   {
     "name": "Dussehra",
-    "description": "Dussehra is a Hindu holiday in the USA",
+    "description": "Dussehra is a Hindu holiday in the USA.",
     "type": [
       "Hinduism"
     ],
@@ -13480,7 +13839,7 @@
   },
   {
     "name": "World Cities Day",
-    "description": "World Cities Day is a UN observance that aims to recognize the role of cities as  a foundation for social and economic development.",
+    "description": "World Cities Day is a UN observance that aims to recognize the role of cities as a foundation for social and economic development.",
     "type": [
       "United Nations observance"
     ],
@@ -13556,7 +13915,7 @@
   },
   {
     "name": "First Day of Native American Heritage Month",
-    "description": "First Day of Native American Heritage Month is a annual monthly observance in the USA",
+    "description": "First Day of Native American Heritage Month is an annual monthly observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -13594,7 +13953,7 @@
   },
   {
     "name": "Daylight Saving Time ends",
-    "description": "Daylight Saving Time ends in the USA",
+    "description": "Daylight Saving Time ends in the USA.",
     "type": [
       "Clock change/Daylight Saving Time"
     ],
@@ -13831,7 +14190,7 @@
   },
   {
     "name": "Susan B. Anthony Day",
-    "description": "Susan B Anthony Day is an national American observance that is legally recognized in some states.",
+    "description": "Susan B. Anthony Day is an observance recognized in some states.",
     "type": [
       "Local observance"
     ],
@@ -13858,7 +14217,7 @@
   },
   {
     "name": "World Tsunami Awareness Day",
-    "description": "World Tsunami Awareness Day is a United Nations observance in the USA",
+    "description": "World Tsunami Awareness Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -14009,27 +14368,8 @@
     }
   },
   {
-    "name": "Diwali/Deepavali",
-    "description": "Diwali, also known as the Festival of Lights, is one of the most popular Hindu festivals.",
-    "type": [
-      "Local observance"
-    ],
-    "primary_type": "State Legal Holiday",
-    "canonical_url": "https://calendarific.com/holiday/us/diwali",
-    "locations": "All",
-    "states": "All",
-    "date": {
-      "iso": "2026-11-08",
-      "datetime": {
-        "year": 2026,
-        "month": 11,
-        "day": 8
-      }
-    }
-  },
-  {
     "name": "Barack Obama Day",
-    "description": "Barack Obama Day is a local observance in the USA",
+    "description": "Barack Obama Day is a local observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -14094,7 +14434,7 @@
   },
   {
     "name": "Singles' Day",
-    "description": "",
+    "description": "Singles' Day, on November 11, celebrates people who are single and has become one of the world's biggest shopping days.",
     "type": [
       "Worldwide observance"
     ],
@@ -14179,7 +14519,7 @@
     ],
     "primary_type": "State Holiday",
     "canonical_url": "https://calendarific.com/holiday/us/veterans-day",
-    "locations": "All except MA, MS, NY, RI, TX, WI, WY",
+    "locations": "All except MS, NY, RI, TX, WI",
     "states": [
       {
         "id": 1,
@@ -14231,13 +14571,6 @@
         "iso": "us-ct"
       },
       {
-        "id": 12,
-        "abbrev": "FL",
-        "name": "Florida",
-        "exception": null,
-        "iso": "us-fl"
-      },
-      {
         "id": 10,
         "abbrev": "DE",
         "name": "Delaware",
@@ -14250,6 +14583,13 @@
         "name": "District of Columbia",
         "exception": null,
         "iso": "us-dc"
+      },
+      {
+        "id": 12,
+        "abbrev": "FL",
+        "name": "Florida",
+        "exception": null,
+        "iso": "us-fl"
       },
       {
         "id": 13,
@@ -14315,6 +14655,13 @@
         "iso": "us-la"
       },
       {
+        "id": 22,
+        "abbrev": "ME",
+        "name": "Maine",
+        "exception": null,
+        "iso": "us-me"
+      },
+      {
         "id": 24,
         "abbrev": "MD",
         "name": "Maryland",
@@ -14322,11 +14669,11 @@
         "iso": "us-md"
       },
       {
-        "id": 22,
-        "abbrev": "ME",
-        "name": "Maine",
+        "id": 25,
+        "abbrev": "MA",
+        "name": "Massachusetts",
         "exception": null,
-        "iso": "us-me"
+        "iso": "us-ma"
       },
       {
         "id": 26,
@@ -14371,18 +14718,18 @@
         "iso": "us-nv"
       },
       {
-        "id": 34,
-        "abbrev": "NJ",
-        "name": "New Jersey",
-        "exception": null,
-        "iso": "us-nj"
-      },
-      {
         "id": 33,
         "abbrev": "NH",
         "name": "New Hampshire",
         "exception": null,
         "iso": "us-nh"
+      },
+      {
+        "id": 34,
+        "abbrev": "NJ",
+        "name": "New Jersey",
+        "exception": null,
+        "iso": "us-nj"
       },
       {
         "id": 35,
@@ -14488,6 +14835,13 @@
         "name": "West Virginia",
         "exception": null,
         "iso": "us-wv"
+      },
+      {
+        "id": 56,
+        "abbrev": "WY",
+        "name": "Wyoming",
+        "exception": null,
+        "iso": "us-wy"
       }
     ],
     "date": {
@@ -14677,7 +15031,7 @@
   },
   {
     "name": "World Prematurity Day",
-    "description": " World Prematurity Day is an annual observance that is dedicated to raising awareness about the health and emotional issues surrounding preterm birth.",
+    "description": "World Prematurity Day is an annual observance that is dedicated to raising awareness about the health and emotional issues surrounding preterm birth.",
     "type": [
       "Worldwide observance"
     ],
@@ -14753,7 +15107,7 @@
   },
   {
     "name": "George Rogers Clark Day",
-    "description": "George Rogers Clark Day is a state observance in the USA",
+    "description": "George Rogers Clark Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -14779,8 +15133,8 @@
     }
   },
   {
-    "name": "Universal Children's Day",
-    "description": "The United Nations' (UN) Universal Children's Day is an occasion to promote the welfare of children and an understanding between children all over the world. It is held on November 20 each year",
+    "name": "World Children's Day",
+    "description": "The United Nations' (UN) World Children's Day is an occasion to promote the welfare of children and an understanding between children all over the world. It is held on November 20 each year.",
     "type": [
       "United Nations observance"
     ],
@@ -14818,7 +15172,7 @@
   },
   {
     "name": "Transgender Day of Remembrance",
-    "description": "Transgender Day of Remembrance is a worldwide observance in the USA",
+    "description": "Transgender Day of Remembrance is a worldwide observance in the USA.",
     "type": [
       "Worldwide observance"
     ],
@@ -15290,7 +15644,7 @@
   },
   {
     "name": "State Holiday",
-    "description": "State Holiday is a state holiday in the USA",
+    "description": "State Holiday is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -15317,7 +15671,7 @@
   },
   {
     "name": "Presidents' Day (Observed)",
-    "description": "Presidents' Day (Observed) is a state holiday in the USA",
+    "description": "Presidents' Day (Observed) is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -15651,7 +16005,7 @@
   },
   {
     "name": "Native American Heritage Day",
-    "description": "Native American Heritage Day is a state holiday in the USA",
+    "description": "Native American Heritage Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -15678,7 +16032,7 @@
   },
   {
     "name": "Native American Heritage Day",
-    "description": "Native American Heritage Day is a observance in the USA",
+    "description": "Native American Heritage Day is an observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -15735,7 +16089,7 @@
   },
   {
     "name": "Nellie Tayloe Ross' Birthday",
-    "description": "Nellie Tayloe Ross' Birthday is a state observance in the USA",
+    "description": "Nellie Tayloe Ross' Birthday is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -15762,7 +16116,7 @@
   },
   {
     "name": "Day of Remembrance for all Victims of Chemical Warfare",
-    "description": "The UN's Day of Remembrance for all Victims of Chemical Warfare is annually observed on April 29.",
+    "description": "The UN's Day of Remembrance for all Victims of Chemical Warfare is annually observed on November 30.",
     "type": [
       "United Nations observance"
     ],
@@ -15819,7 +16173,7 @@
   },
   {
     "name": "GivingTuesday",
-    "description": "",
+    "description": "GivingTuesday, the Tuesday after Thanksgiving, is a global day of giving that encourages people to support charities and their communities.",
     "type": [
       "Worldwide observance"
     ],
@@ -15929,7 +16283,7 @@
   },
   {
     "name": "International Day of Banks",
-    "description": "International Day of Banks is a United Nations observance in the USA",
+    "description": "International Day of Banks is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -16116,7 +16470,7 @@
   },
   {
     "name": "Delaware Day",
-    "description": "Delaware Day is a state observance in the USA",
+    "description": "Delaware Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -16180,8 +16534,8 @@
     }
   },
   {
-    "name": "World Genocide Commemoration Day",
-    "description": "World Genocide Commemoration Day is a UN holiday dedicated to the victims of genocide.",
+    "name": "International Day of Commemoration and Dignity of the Victims of the Crime of Genocide and of the Prevention of this Crime",
+    "description": "International Day of Commemoration and Dignity of the Victims of the Crime of Genocide and of the Prevention of this Crime is a UN holiday dedicated to the victims of genocide.",
     "type": [
       "United Nations observance"
     ],
@@ -16219,7 +16573,7 @@
   },
   {
     "name": "Wyoming Day",
-    "description": "Wyoming Day is a state observance in the USA",
+    "description": "Wyoming Day is a state observance in the USA.",
     "type": [
       "Local observance"
     ],
@@ -16284,7 +16638,7 @@
   },
   {
     "name": "International Day of Neutrality",
-    "description": "International Day of Neutrality is a United Nations observance in the USA",
+    "description": "International Day of Neutrality is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -16303,7 +16657,7 @@
   },
   {
     "name": "Universal Health Coverage Day",
-    "description": "Universal Health Coverage Day is a United Nations observance in the USA",
+    "description": "Universal Health Coverage Day is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -16322,7 +16676,7 @@
   },
   {
     "name": "Feast of Our Lady of Guadalupe",
-    "description": "The Feast of Our Lady Guadalupe, in honor of Jesus' mother Mary, is a Catholic observance in the United States.",
+    "description": "The Feast of Our Lady of Guadalupe, in honor of Jesus' mother Mary, is a Catholic observance in the United States.",
     "type": [
       "Christian"
     ],
@@ -16341,7 +16695,7 @@
   },
   {
     "name": "National Guard Birthday",
-    "description": "National Guard Birthday is a observance in the USA",
+    "description": "National Guard Birthday is an observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -16379,7 +16733,7 @@
   },
   {
     "name": "Bill of Rights Day",
-    "description": "Bill of Rights Day is a observance in the USA",
+    "description": "Bill of Rights Day is an observance in the USA.",
     "type": [
       "Observance"
     ],
@@ -16493,7 +16847,7 @@
   },
   {
     "name": "Asarah B'Tevet",
-    "description": "Asarah B'Tevet is a Jewish holiday in the USA",
+    "description": "Asarah B'Tevet is a Jewish holiday in the USA.",
     "type": [
       "Hebrew"
     ],
@@ -16606,21 +16960,28 @@
     ],
     "primary_type": "State Holiday",
     "canonical_url": "https://calendarific.com/holiday/us/christmas-eve",
-    "locations": "MI, KS (partly), NC, ND, OK, SC, TX, WI, VA (partly), KY",
+    "locations": "MI, KS (partly), NC, ND, OK, SC, TX, WI, VA (partly), KY, TN",
     "states": [
-      {
-        "id": 26,
-        "abbrev": "MI",
-        "name": "Michigan",
-        "exception": null,
-        "iso": "us-mi"
-      },
       {
         "id": 19,
         "abbrev": "KS",
         "name": "Kansas",
         "exception": "partly",
         "iso": "us-ks"
+      },
+      {
+        "id": 20,
+        "abbrev": "KY",
+        "name": "Kentucky",
+        "exception": null,
+        "iso": "us-ky"
+      },
+      {
+        "id": 26,
+        "abbrev": "MI",
+        "name": "Michigan",
+        "exception": null,
+        "iso": "us-mi"
       },
       {
         "id": 37,
@@ -16651,18 +17012,18 @@
         "iso": "us-sc"
       },
       {
+        "id": 47,
+        "abbrev": "TN",
+        "name": "Tennessee",
+        "exception": null,
+        "iso": "us-tn"
+      },
+      {
         "id": 48,
         "abbrev": "TX",
         "name": "Texas",
         "exception": null,
         "iso": "us-tx"
-      },
-      {
-        "id": 55,
-        "abbrev": "WI",
-        "name": "Wisconsin",
-        "exception": null,
-        "iso": "us-wi"
       },
       {
         "id": 52,
@@ -16672,11 +17033,38 @@
         "iso": "us-va"
       },
       {
-        "id": 20,
-        "abbrev": "KY",
-        "name": "Kentucky",
+        "id": 55,
+        "abbrev": "WI",
+        "name": "Wisconsin",
         "exception": null,
-        "iso": "us-ky"
+        "iso": "us-wi"
+      }
+    ],
+    "date": {
+      "iso": "2026-12-24",
+      "datetime": {
+        "year": 2026,
+        "month": 12,
+        "day": 24
+      }
+    }
+  },
+  {
+    "name": "Christmas Eve (half day)",
+    "description": "West Virginia observes Christmas Eve as a half-day state holiday.",
+    "type": [
+      "Local holiday"
+    ],
+    "primary_type": "State Holiday (half day)",
+    "canonical_url": "https://calendarific.com/holiday/us/christmas-eve",
+    "locations": "WV",
+    "states": [
+      {
+        "id": 54,
+        "abbrev": "WV",
+        "name": "West Virginia",
+        "exception": null,
+        "iso": "us-wv"
       }
     ],
     "date": {
@@ -17204,34 +17592,7 @@
   },
   {
     "name": "Day After Christmas Day",
-    "description": "Some states in the United States observe the Day after Christmas Day as a public holiday.",
-    "type": [
-      "Local holiday"
-    ],
-    "primary_type": "State Holiday",
-    "canonical_url": "https://calendarific.com/holiday/us/day-after-christmas",
-    "locations": "SC",
-    "states": [
-      {
-        "id": 45,
-        "abbrev": "SC",
-        "name": "South Carolina",
-        "exception": null,
-        "iso": "us-sc"
-      }
-    ],
-    "date": {
-      "iso": "2026-12-26",
-      "datetime": {
-        "year": 2026,
-        "month": 12,
-        "day": 26
-      }
-    }
-  },
-  {
-    "name": "Day After Christmas Day",
-    "description": "Day After Christmas Day is a state holiday in the USA",
+    "description": "Day After Christmas Day is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -17258,7 +17619,7 @@
   },
   {
     "name": "International Day of Epidemic Preparedness",
-    "description": "International Day of Epidemic Preparedness is a United Nations observance in the USA",
+    "description": "International Day of Epidemic Preparedness is a United Nations observance in the USA.",
     "type": [
       "United Nations observance"
     ],
@@ -17276,8 +17637,35 @@
     }
   },
   {
+    "name": "Day After Christmas Day",
+    "description": "South Carolina observes the Day after Christmas as a state holiday. In 2026 it falls on a Saturday, so it is observed on Monday, December 28.",
+    "type": [
+      "Local holiday"
+    ],
+    "primary_type": "State Holiday",
+    "canonical_url": "https://calendarific.com/holiday/us/day-after-christmas",
+    "locations": "SC",
+    "states": [
+      {
+        "id": 45,
+        "abbrev": "SC",
+        "name": "South Carolina",
+        "exception": null,
+        "iso": "us-sc"
+      }
+    ],
+    "date": {
+      "iso": "2026-12-28",
+      "datetime": {
+        "year": 2026,
+        "month": 12,
+        "day": 28
+      }
+    }
+  },
+  {
     "name": "Christmas Holiday",
-    "description": "Christmas Holiday is a state holiday in the USA",
+    "description": "Christmas Holiday is a state holiday in the USA.",
     "type": [
       "Local holiday"
     ],
@@ -17304,20 +17692,20 @@
   },
   {
     "name": "New Year's Eve",
-    "description": "New Year's Eve is the last day of the year in the Gregorian calendar. Many parties to welcome the New Year are held in in the United States on New Year's Eve.",
+    "description": "New Year's Eve is a state holiday in Kentucky, Michigan, Tennessee and Wisconsin.",
     "type": [
       "Local holiday"
     ],
     "primary_type": "State Holiday",
     "canonical_url": "https://calendarific.com/holiday/us/new-year-eve",
-    "locations": "WI, MI, KY",
+    "locations": "WI, MI, KY, TN",
     "states": [
       {
-        "id": 55,
-        "abbrev": "WI",
-        "name": "Wisconsin",
+        "id": 20,
+        "abbrev": "KY",
+        "name": "Kentucky",
         "exception": null,
-        "iso": "us-wi"
+        "iso": "us-ky"
       },
       {
         "id": 26,
@@ -17327,11 +17715,45 @@
         "iso": "us-mi"
       },
       {
-        "id": 20,
-        "abbrev": "KY",
-        "name": "Kentucky",
+        "id": 47,
+        "abbrev": "TN",
+        "name": "Tennessee",
         "exception": null,
-        "iso": "us-ky"
+        "iso": "us-tn"
+      },
+      {
+        "id": 55,
+        "abbrev": "WI",
+        "name": "Wisconsin",
+        "exception": null,
+        "iso": "us-wi"
+      }
+    ],
+    "date": {
+      "iso": "2026-12-31",
+      "datetime": {
+        "year": 2026,
+        "month": 12,
+        "day": 31
+      }
+    }
+  },
+  {
+    "name": "New Year's Eve (half day)",
+    "description": "West Virginia observes New Year's Eve as a half-day state holiday.",
+    "type": [
+      "Local holiday"
+    ],
+    "primary_type": "State Holiday (half day)",
+    "canonical_url": "https://calendarific.com/holiday/us/new-year-eve",
+    "locations": "WV",
+    "states": [
+      {
+        "id": 54,
+        "abbrev": "WV",
+        "name": "West Virginia",
+        "exception": null,
+        "iso": "us-wv"
       }
     ],
     "date": {
@@ -17345,7 +17767,7 @@
   },
   {
     "name": "New Year's Eve",
-    "description": "New Year's Eve is the last day of the year in the Gregorian calendar. Many parties to welcome the New Year are held in in the United States on New Year's Eve.",
+    "description": "New Year's Eve is the last day of the year in the Gregorian calendar. Many parties to welcome the New Year are held in the United States on New Year's Eve.",
     "type": [
       "Observance"
     ],
